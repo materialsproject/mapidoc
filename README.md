@@ -62,6 +62,8 @@ pymatgen already provides useful high-level functions for them.
 
 You can use Github's built-in search box at the top to search this repository for text that matches your query. For example, you can try searching for the word "spacegroup" to see the that the "spacegroup" root key exists with sub-keys such as "number" and "symbol".
 
+Beause this repository's folder structure mirrors a material document's structure, you can also use the [quick finder](https://github.com/materialsproject/MaterialsAPIDoc/find/master) to interactively explore the structure.
+
 # Contributing
 
 The initial version of this documentation is brought to you by the Materials
