@@ -63,7 +63,7 @@ pymatgen already provides useful high-level functions for them.
 The initial version of this documentation is brought to you by the Materials
 Project development team. But it is our hope that others can contribute as well,
 either by cloning and editing this documentation (and sending pull requests)
-or just by informing us of any errors in the doc.
+or just by informing us of any errors or omissions in the doc (e.g., by using the "Issues" tab).
 
 # Citing the Materials API
 
