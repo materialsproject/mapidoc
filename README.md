@@ -46,11 +46,23 @@ pymatgen already provides useful high-level functions for them.
    You can identify the appropriate key by going to docs/spacegroup/symbol
    subfolder. This means that the desired information is in spacegroup.symbol
    (concantenate all subfolders with "." and drop the initial "docs" prefix).
+5. One more very complicated example. Let's say you would like to query for the
+   tags and icsd_ids of all materials containing Fe and O, and perhaps other
+   elements.
+
+    ```python
+    m.query(criteria={"elements": {"$all": ["Fe", "O"]}}, properties=["exp.tags", "icsd_id"])
+    ```
+   
+   Note that the criteria follows the format of MongoDB queries. You can refer
+   to the [MongoDB documentation](http://docs.mongodb.org/manual/) for more
+   information on how to customize queries.
+
 
 # Citing the Materials API
 
 If you use the Materials API extensively, you may wish to cite the following 
-[publication](http://dx.doi.prg/10.1016/j.commatsci.2014.10.037).
+[publication](http://dx.doi.org/10.1016/j.commatsci.2014.10.037).
 
 	Ong, S. P.; Cholia, S.; Jain, A.; Brafman, M.; Gunter, D.; Ceder, G.; 
 	Persson, K. a. The Materials Application Programming Interface (API): A 
