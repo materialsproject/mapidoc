@@ -25,7 +25,7 @@ pymatgen already provides useful high-level functions for them.
    *final_energy* key refers final calculated energy of the material.
    Similarly, the docs/task_id informs you that the *task_id* key is in fact the
    materials id for the Materials Project.
-3. To use this in MPRester, one may use the following code::
+3. To use this in MPRester, one may use the following code:
 
 	```python
 	from pymatgen import MPRester
@@ -36,7 +36,7 @@ pymatgen already provides useful high-level functions for them.
 
    The data obtained is then [{u'final_energy': -26.94736193}]. Note that the
    data returned is always a list of dicts.
-4. For a more complicated example, you can try::
+4. For a more complicated example, you can try:
 
 	```python
 	m.query(criteria={"pretty_formula": "Li2O"}, properties=["spacegroup.symbol"])
@@ -49,7 +49,7 @@ pymatgen already provides useful high-level functions for them.
 # Citing the Materials API
 
 If you use the Materials API extensively, you may wish to cite the following 
-[publication](http://dx.doi.prg/10.1016/j.commatsci.2014.10.037)::
+[publication](http://dx.doi.prg/10.1016/j.commatsci.2014.10.037).
 
 	Ong, S. P.; Cholia, S.; Jain, A.; Brafman, M.; Gunter, D.; Ceder, G.; 
 	Persson, K. a. The Materials Application Programming Interface (API): A 
