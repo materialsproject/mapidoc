@@ -1,1 +1,1 @@
-The full explicit formula for the unit cell 
+A dict of the full (unnormalized) formula of the unit cell. E.g., {"Li": 4, "O": 2}. 

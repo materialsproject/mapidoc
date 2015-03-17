@@ -1,1 +1,1 @@
-A dict of the full (unnormalized) formula of the unit cell. E.g., {"Li": 4, "O": 2}. 
+A string of the full explicit formula for the unit cell, e.g., "Lu2Al4"
