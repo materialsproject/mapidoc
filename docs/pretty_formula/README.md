@@ -1,0 +1,1 @@
+A nice formula where the element amounts are normalized.

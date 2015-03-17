@@ -1,0 +1,1 @@
+Calculated vasp energy for structure 
