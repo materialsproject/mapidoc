@@ -58,6 +58,10 @@ pymatgen already provides useful high-level functions for them.
    to the [MongoDB documentation](http://docs.mongodb.org/manual/) for more
    information on how to customize queries.
 
+# Searching for properties
+
+You can use Github's built-in search box at the top to search this repository for text that matches your query. For example, you can try searching for the word "spacegroup" to see the that the "spacegroup" root key exists with sub-keys such as "number" and "symbol".
+
 # Contributing
 
 The initial version of this documentation is brought to you by the Materials
