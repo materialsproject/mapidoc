@@ -18,8 +18,9 @@ and use that info for much more powerful queries with the
 method. For more standard queries, the Materials API already has a wiki and
 pymatgen already provides useful high-level functions for them.
 
-1. Start from the docs directory. The nested directory structure follows the
-   json document schema for the Materials Project's materials collection.
+1. Start from the docs directory by clicking the docs folder above.
+   The nested directory structure follows the MongoDB json-like document schema
+   for the Materials Project's materials collection.
 2. In each folder, there is a README.md that describes what that key is. For
    example, in docs/final_energy, the README.md informs you that the 
    *final_energy* key refers final calculated energy of the material.
