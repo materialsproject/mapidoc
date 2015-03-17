@@ -1,0 +1,1 @@
+An associative array containing basic space group information. 
