@@ -56,4 +56,4 @@ publication::
 	simple, flexible and efficient API for materials data based on
 	REpresentational State Transfer (REST) principles, Comput. Mater. Sci.,
 	2015, 97, 209–215.
-	[doi:10.1016/j.commatsci.2014.10.037] (http://dx.doi.prg/10.1016/j.commatsci.2014.10.037).
+	[doi:10.1016/j.commatsci.2014.10.037](http://dx.doi.prg/10.1016/j.commatsci.2014.10.037).
