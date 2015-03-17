@@ -20,15 +20,26 @@ functions for them.
 1. Start from the docs directory. The nested directory structure follows the
    json document schema for the Materials Project's materials collection.
 2. In each folder, there is a README.md that describes what that key is. For
-   example, in docs/final_energy, the README.md informs you that this key refers
-   final calculated energy of the material.
+   example, in docs/final_energy, the README.md informs you that the 
+   *final_energy* key refers final calculated energy of the material.
+   Similarly, the docs/task_id informs you that the *task_id* key is in fact the
+   materials id for the Materials Project.
 3. To use this in MPRester, one may use the following code::
-
-```python
-from pymatgen import MPRester
-m = MPRester()
-m.query(criteria={"task_id": "mp-1234"}, properties=["final_energy"])
-```
+	```python
+	from pymatgen import MPRester
+	m = MPRester()
+	data = m.query(criteria={"task_id": "mp-1234"}, properties=["final_energy"])
+	print data
+	```
+   The data obtained is then [{u'final_energy': -26.94736193}]. Note that the
+   data returned is always a list of dicts.
+4. For a more complicated example, you can try::
+	```python
+	m.query(criteria={"pretty_formula": "Li2O"}, properties=["spacegroup.symbol"])
+	```
+   You can identify the appropriate key by going to docs/spacegroup/symbol
+   subfolder. This means that the desired information is in spacegroup.symbol
+   (concantenate all subfolders with "." and drop the initial "docs" prefix).
 
 # Citing
 
