@@ -1,1 +1,1 @@
-The task_id for the material. It is also the materials id used.
+The task_id for the material. It is also the materials id used in the Materials Project.

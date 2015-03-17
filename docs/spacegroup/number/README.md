@@ -1,0 +1,1 @@
+International number for the spacegroup.
