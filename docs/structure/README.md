@@ -1,0 +1,1 @@
+The final relaxed structure in a dict format. This dict follows pymatgen's as_dict() protocol and can be deserialized to a pymatgen Structure object using Structure.from_dict.
