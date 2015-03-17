@@ -11,11 +11,11 @@ analyses.
 
 # Using this repo
 
-The usage of this repo is very simple and in fact, follows as REST format. The
+The usage of this repo is very simple and in fact, follows a REST format. The
 primary use of this repo is to explore the Materials Project's document format
 and use that info for much more powerful queries with the 
 [pymatgen](http://www.pymatgen.org) (Python Materials Genomics) MPRester.query()
-method. For more standard queries, the Materials API already has a wiki and
+method. For more standard queries, the Materials API already has a [wiki page] (https://materialsproject.org/wiki/index.php/The_Materials_API) and
 pymatgen already provides useful high-level functions for them.
 
 1. Start from the docs directory by clicking the docs folder above.
@@ -43,7 +43,7 @@ pymatgen already provides useful high-level functions for them.
 	m.query(criteria={"pretty_formula": "Li2O"}, properties=["spacegroup.symbol"])
 	```
 
-   You can identify the appropriate key by going to docs/spacegroup/symbol
+   You can identify the appropriate key by going to the docs/spacegroup/symbol
    subfolder. This means that the desired information is in spacegroup.symbol
    (concantenate all subfolders with "." and drop the initial "docs" prefix).
 5. One more very complicated example. Let's say you would like to query for the
