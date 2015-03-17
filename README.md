@@ -58,6 +58,12 @@ pymatgen already provides useful high-level functions for them.
    to the [MongoDB documentation](http://docs.mongodb.org/manual/) for more
    information on how to customize queries.
 
+# Contributing
+
+The initial version of this documentation is brought to you by the Materials
+Project development team. But it is our hope that others can contribute as well,
+either by cloning and editing this documentation (and sending pull requests)
+or just by informing us of any errors in the doc.
 
 # Citing the Materials API
 
@@ -69,3 +75,4 @@ If you use the Materials API extensively, you may wish to cite the following
 	simple, flexible and efficient API for materials data based on
 	REpresentational State Transfer (REST) principles, Comput. Mater. Sci.,
 	2015, 97, 209–215. doi:10.1016/j.commatsci.2014.10.037.
+
