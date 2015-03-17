@@ -46,14 +46,13 @@ pymatgen already provides useful high-level functions for them.
    subfolder. This means that the desired information is in spacegroup.symbol
    (concantenate all subfolders with "." and drop the initial "docs" prefix).
 
-# Citing
+# Citing the Materials API
 
 If you use the Materials API extensively, you may wish to cite the following 
-publication::
+[publication](http://dx.doi.prg/10.1016/j.commatsci.2014.10.037)::
 
 	Ong, S. P.; Cholia, S.; Jain, A.; Brafman, M.; Gunter, D.; Ceder, G.; 
 	Persson, K. a. The Materials Application Programming Interface (API): A 
 	simple, flexible and efficient API for materials data based on
 	REpresentational State Transfer (REST) principles, Comput. Mater. Sci.,
-	2015, 97, 209–215.
-	[doi:10.1016/j.commatsci.2014.10.037](http://dx.doi.prg/10.1016/j.commatsci.2014.10.037).
+	2015, 97, 209–215. doi:10.1016/j.commatsci.2014.10.037.
