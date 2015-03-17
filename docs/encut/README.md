@@ -1,0 +1,1 @@
+Energy cutoff used for VASP calculations.
