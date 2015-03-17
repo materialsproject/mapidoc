@@ -1,0 +1,1 @@
+Number of sites in the structure.
