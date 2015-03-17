@@ -1,0 +1,1 @@
+The experimental lattice of the material (which is obtained from the starting input structure).

@@ -1,0 +1,1 @@
+A dict of Crystallographic Information File (CIF) format strings for the material. This includes the conventional, primitive and refined cells.

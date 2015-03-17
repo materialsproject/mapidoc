@@ -1,0 +1,1 @@
+A string in the Crystallographic Information File format for the material.
