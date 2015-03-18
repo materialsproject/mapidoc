@@ -30,20 +30,20 @@ pymatgen already provides useful high-level functions for them.
    materials id for the Materials Project.
 3. To use this in MPRester, one may use the following code:
 
-	```python
-	from pymatgen import MPRester
-	m = MPRester()
-	data = m.query(criteria={"task_id": "mp-1234"}, properties=["final_energy"])
-	print data
-	```
+    ```python
+    from pymatgen import MPRester
+    m = MPRester()
+    data = m.query(criteria={"task_id": "mp-1234"}, properties=["final_energy"])
+    print data
+    ```
 
    The data obtained is then `[{u'final_energy': -26.94736193}]`. Note that the
    data returned is always a list of dicts.
 4. For a more complicated example, you can try:
 
-	```python
-	data = m.query(criteria={"pretty_formula": "Li2O"}, properties=["spacegroup.symbol"])
-	```
+    ```python
+    data = m.query(criteria={"pretty_formula": "Li2O"}, properties=["spacegroup.symbol"])
+    ```
 
    You can identify the appropriate key by going to the docs/spacegroup/symbol
    subfolder. This means that the desired information is in spacegroup.symbol
@@ -92,9 +92,8 @@ the "Issues" tab).
 If you use the Materials API extensively, you may wish to cite the following 
 [publication](http://dx.doi.org/10.1016/j.commatsci.2014.10.037).
 
-	Ong, S. P.; Cholia, S.; Jain, A.; Brafman, M.; Gunter, D.; Ceder, G.; 
-	Persson, K. a. The Materials Application Programming Interface (API): A 
-	simple, flexible and efficient API for materials data based on
-	REpresentational State Transfer (REST) principles, Comput. Mater. Sci.,
-	2015, 97, 209–215. doi:10.1016/j.commatsci.2014.10.037.
-
+    Ong, S. P.; Cholia, S.; Jain, A.; Brafman, M.; Gunter, D.; Ceder, G.; 
+    Persson, K. a. The Materials Application Programming Interface (API): A 
+    simple, flexible and efficient API for materials data based on
+    REpresentational State Transfer (REST) principles, Comput. Mater. Sci.,
+    2015, 97, 209–215. doi:10.1016/j.commatsci.2014.10.037.
