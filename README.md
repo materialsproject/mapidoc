@@ -61,7 +61,7 @@ pymatgen already provides useful high-level functions for them.
    [MongoDB documentation](http://docs.mongodb.org/manual/) for more
    information on how to customize queries.
 
-## Tip for efficient querying:
+## Tip for efficient querying
 
 Try to minimize the scope of the properties you are requesting. For example,
 if you are only interested in the XRD pattern for Cu K<sub>&#945;</sub>,
@@ -77,8 +77,7 @@ word "spacegroup" to see the that the "spacegroup" root key exists with
 sub-keys such as "number" and "symbol".
 
 Beause this repository's folder structure mirrors a material document's
-structure, you can also use the [quick finder](https://github.com/materialsproject/MaterialsAPIDoc/find/master)
-to interactively explore the structure.
+structure, you can also use the [quick finder](https://github.com/materialsproject/MaterialsAPIDoc/find/master) to interactively explore the structure.
 
 # Contributing
 
