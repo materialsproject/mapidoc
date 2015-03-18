@@ -15,7 +15,8 @@ The usage of this repo is very simple and in fact, follows a REST format. The
 primary use of this repo is to explore the Materials Project's document format
 and use that info for much more powerful queries with the 
 [pymatgen](http://www.pymatgen.org) (Python Materials Genomics) MPRester.query()
-method. For more standard queries, the Materials API already has a [wiki page] (https://materialsproject.org/wiki/index.php/The_Materials_API) and
+method. For more standard queries, the Materials API already has a 
+[wiki page](https://materialsproject.org/wiki/index.php/The_Materials_API) and
 pymatgen already provides useful high-level functions for them.
 
 1. Start from the docs directory by clicking the docs folder above.
@@ -58,18 +59,32 @@ pymatgen already provides useful high-level functions for them.
    to the [MongoDB documentation](http://docs.mongodb.org/manual/) for more
    information on how to customize queries.
 
+Tip for efficient querying:
+
+	Try to minimize the scope of the properties you are requesting. For example,
+	if you are only interested in the XRD pattern for Cu K<sub>&alpha;</sub>,
+	do not just use `properties=["xrd"]` which will fetch the computed XRD
+	patterns for all radiations. This results in a large data transfer and slow
+	queries. Instead, use `properties=["xrd.Cu"]`. 
+
 # Searching for properties
 
-You can use Github's built-in search box at the top to search this repository for text that matches your query. For example, you can try searching for the word "spacegroup" to see the that the "spacegroup" root key exists with sub-keys such as "number" and "symbol".
+You can use Github's built-in search box at the top to search this repository
+for text that matches your query. For example, you can try searching for the
+word "spacegroup" to see the that the "spacegroup" root key exists with
+sub-keys such as "number" and "symbol".
 
-Beause this repository's folder structure mirrors a material document's structure, you can also use the [quick finder](https://github.com/materialsproject/MaterialsAPIDoc/find/master) to interactively explore the structure.
+Beause this repository's folder structure mirrors a material document's
+structure, you can also use the [quick finder](https://github.com/materialsproject/MaterialsAPIDoc/find/master)
+to interactively explore the structure.
 
 # Contributing
 
 The initial version of this documentation is brought to you by the Materials
 Project development team. But it is our hope that others can contribute as well,
 either by cloning and editing this documentation (and sending pull requests)
-or just by informing us of any errors or omissions in the doc (e.g., by using the "Issues" tab).
+or just by informing us of any errors or omissions in the doc (e.g., by using
+the "Issues" tab).
 
 # Citing the Materials API
 

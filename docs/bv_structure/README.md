@@ -1,0 +1,1 @@
+An oxidation state decorated version of the final structure that is determined using Bond Valence Sum methods.
