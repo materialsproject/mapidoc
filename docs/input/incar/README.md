@@ -1,0 +1,1 @@
+A dict of the INCAR parameters used for the relaxation calculation.

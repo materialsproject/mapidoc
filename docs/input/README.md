@@ -1,0 +1,1 @@
+A dict of the various input (crystal, incar, etc.) to the calculations.
