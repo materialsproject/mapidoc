@@ -1,2 +1,2 @@
-This is the root of the materials doc. Click on any of the subfolders to learn what each key represents.
-
+This is the root of the doc for the materials collection. Click on any of the
+subfolders to learn what each key represents.
