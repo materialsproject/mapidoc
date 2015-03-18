@@ -62,7 +62,7 @@ pymatgen already provides useful high-level functions for them.
 ## Tip for efficient querying:
 
 Try to minimize the scope of the properties you are requesting. For example,
-if you are only interested in the XRD pattern for Cu K<sub>`&#945;`</sub>,
+if you are only interested in the XRD pattern for Cu K<sub>&#945;</sub>,
 do not just use `properties=["xrd"]` which will fetch the computed XRD
 patterns for all radiations. This results in a large data transfer and slow
 queries. Instead, use `properties=["xrd.Cu"]`. 
