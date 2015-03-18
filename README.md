@@ -19,9 +19,10 @@ method. For more standard queries, the Materials API already has a
 [wiki page](https://materialsproject.org/wiki/index.php/The_Materials_API) and
 pymatgen already provides useful high-level functions for them.
 
-1. Start from the docs directory by clicking the docs folder above.
-   The nested directory structure follows the MongoDB json-like document schema
-   for the Materials Project's materials collection.
+1. Start from the [docs](https://github.com/materialsproject/MaterialsAPIDoc/tree/master/docs)
+   directory in this repo. The nested directory structure follows the
+   MongoDB json-like document schema for the Materials Project's *materials*
+   collection.
 2. In each folder, there is a README.md that describes what that key is. For
    example, in docs/final_energy, the README.md informs you that the 
    *final_energy* key refers final calculated energy of the material.
@@ -36,12 +37,12 @@ pymatgen already provides useful high-level functions for them.
 	print data
 	```
 
-   The data obtained is then [{u'final_energy': -26.94736193}]. Note that the
+   The data obtained is then `[{u'final_energy': -26.94736193}]`. Note that the
    data returned is always a list of dicts.
 4. For a more complicated example, you can try:
 
 	```python
-	m.query(criteria={"pretty_formula": "Li2O"}, properties=["spacegroup.symbol"])
+	data = m.query(criteria={"pretty_formula": "Li2O"}, properties=["spacegroup.symbol"])
 	```
 
    You can identify the appropriate key by going to the docs/spacegroup/symbol
@@ -52,11 +53,12 @@ pymatgen already provides useful high-level functions for them.
    elements.
 
     ```python
-    m.query(criteria={"elements": {"$all": ["Fe", "O"]}}, properties=["exp.tags", "icsd_id"])
+    data = m.query(criteria={"elements": {"$all": ["Fe", "O"]}}, properties=["exp.tags", "icsd_id"])
     ```
    
-   Note that the criteria follows the format of MongoDB queries. You can refer
-   to the [MongoDB documentation](http://docs.mongodb.org/manual/) for more
+   Note that the criteria and properties follows the format (and richness) of
+   MongoDB queries. You can refer to the
+   [MongoDB documentation](http://docs.mongodb.org/manual/) for more
    information on how to customize queries.
 
 ## Tip for efficient querying:
