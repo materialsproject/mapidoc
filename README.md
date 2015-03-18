@@ -19,15 +19,15 @@ method. For more standard queries, the Materials API already has a
 [wiki page](https://materialsproject.org/wiki/index.php/The_Materials_API) and
 pymatgen already provides useful high-level functions for them.
 
-1. Start from the [docs](https://github.com/materialsproject/MaterialsAPIDoc/tree/master/docs)
+1. Start from the [materials](https://github.com/materialsproject/MaterialsAPIDoc/tree/master/materials)
    directory in this repo. The nested directory structure follows the
    MongoDB json-like document schema for the Materials Project's *materials*
    collection.
 2. In each folder, there is a README.md that describes what that key is. For
-   example, in docs/final_energy, the README.md informs you that the 
+   example, in materials/final_energy, the README.md informs you that the 
    *final_energy* key refers final calculated energy of the material.
-   Similarly, the docs/task_id informs you that the *task_id* key is in fact the
-   materials id for the Materials Project.
+   Similarly, the materials/task_id informs you that the *task_id* key is in 
+   fact the materials id for the Materials Project.
 3. To use this in MPRester, one may use the following code:
 
 	```python
@@ -45,9 +45,10 @@ pymatgen already provides useful high-level functions for them.
 	data = m.query(criteria={"pretty_formula": "Li2O"}, properties=["spacegroup.symbol"])
 	```
 
-   You can identify the appropriate key by going to the docs/spacegroup/symbol
-   subfolder. This means that the desired information is in spacegroup.symbol
-   (concantenate all subfolders with "." and drop the initial "docs" prefix).
+   You can identify the appropriate key by going to the 
+   materials/spacegroup/symbol subfolder. This means that the desired
+   information is in spacegroup.symbol (concantenate all subfolders with "."
+   and drop the initial "materials" prefix).
 5. One more very complicated example. Let's say you would like to query for the
    tags and icsd_ids of all materials containing Fe and O, and perhaps other
    elements.
@@ -74,10 +75,12 @@ queries. Instead, use `properties=["xrd.Cu"]`.
 You can use Github's built-in search box at the top to search this repository
 for text that matches your query. For example, you can try searching for the
 word "spacegroup" to see the that the "spacegroup" root key exists with
-sub-keys such as "number" and "symbol".
+sub-keys such as "number" and "symbol". 
 
 Beause this repository's folder structure mirrors a material document's
-structure, you can also use the [quick finder](https://github.com/materialsproject/MaterialsAPIDoc/find/master) to interactively explore the structure.
+structure, you can also use the
+[quick finder](https://github.com/materialsproject/MaterialsAPIDoc/find/master)
+to interactively explore the structure.
 
 # Contributing
 
@@ -97,4 +100,3 @@ If you use the Materials API extensively, you may wish to cite the following
 	simple, flexible and efficient API for materials data based on
 	REpresentational State Transfer (REST) principles, Comput. Mater. Sci.,
 	2015, 97, 209–215. doi:10.1016/j.commatsci.2014.10.037.
-
