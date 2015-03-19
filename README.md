@@ -19,7 +19,7 @@ method. For more standard queries, the Materials API already has a
 [wiki page](https://materialsproject.org/wiki/index.php/The_Materials_API) and
 pymatgen already provides useful high-level functions for them.
 
-1. Start from the [materials](https://github.com/materialsproject/MaterialsAPIDoc/tree/master/materials)
+1. Start from the [materials](https://github.com/materialsproject/mapidoc/tree/master/materials)
    directory in this repo. The nested directory structure follows the
    MongoDB json-like document schema for the Materials Project's *materials*
    collection.
@@ -79,7 +79,7 @@ sub-keys such as "number" and "symbol".
 
 Beause this repository's folder structure mirrors a material document's
 structure, you can also use the
-[quick finder](https://github.com/materialsproject/MaterialsAPIDoc/find/master)
+[quick finder](https://github.com/materialsproject/mapidoc/find/master)
 to interactively explore the structure.
 
 # Contributing
