@@ -62,6 +62,12 @@ pymatgen already provides useful high-level functions for them.
    [MongoDB documentation](http://docs.mongodb.org/manual/) for more
    information on how to customize queries.
 
+It should be noted that not all materials documents contains all keys, e.g.,
+some properties may not have been computed for certain materials yet. If you
+request for a key that is not present in a doc, the query will return None. For
+the most part, the documents are relatively consistent, especially for many of
+the common keys like elements, formulas, etc.
+
 ## Tip for efficient querying
 
 Try to minimize the scope of the properties you are requesting. For example,
