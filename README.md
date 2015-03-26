@@ -86,7 +86,7 @@ sub-keys such as "number" and "symbol".
 Beause this repository's folder structure mirrors a material document's
 structure, you can also use the
 [quick finder](https://github.com/materialsproject/mapidoc/find/master)
-to interactively explore the structure.
+(keyboard shortcut: <kbd>t</kbd>) to interactively explore the structure.
 
 # Contributing
 
