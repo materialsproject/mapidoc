@@ -79,11 +79,11 @@ The https://www.materialsproject.org/rest/v2/materials/query API provides
 functionality for advanced query using Mongo-like language for flexible queries
 on the Materials Project database, enabling queries which would otherwise not
 be possible using the other simpler REST forms. For example, a POST to query
-with
+with parameters
 
-```json
-{
-  "criteria": "{'elements':{'$in':['Li', 'Na', 'K'], '$all': ['O']}, 'nelements':2}", "properties": "['formula', 'formation_energy_per_atom']"
+```
+criteria="{'elements':{'$in':['Li', 'Na', 'K'], '$all': ['O']}, 'nelements':2}"
+properties="['formula', 'formation_energy_per_atom']"
 }
 ```
 
