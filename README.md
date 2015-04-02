@@ -72,15 +72,20 @@ the common keys like elements, formulas, etc.
 
 While the easiest way to use the Materials API is to leverage on pymatgen's
 high-level interface to it, you may alternatively also directly submit a http
-POST query to https://www.materialsproject.org/rest/v2/materials/query.
+POST query to https://www.materialsproject.org/rest/v2/materials/query. For
+instance, you may wish to write your own app or queries in another language.
 
-This provides functionality for advanced query using Mongo-like language for
-flexible queries on the Materials Project database, enabling queries which
-would otherwise not be possible using the other simpler REST forms.
+The https://www.materialsproject.org/rest/v2/materials/query API provides
+functionality for advanced query using Mongo-like language for flexible queries
+on the Materials Project database, enabling queries which would otherwise not
+be possible using the other simpler REST forms. For example, a POST to query
+with
 
-For example, a POST to query with
-
-{"criteria": "{'elements':{'$in':['Li', 'Na', 'K'], '$all': ['O']}, 'nelements':2}", "properties": "['formula', 'formation_energy_per_atom']"}
+```json
+{
+  "criteria": "{'elements':{'$in':['Li', 'Na', 'K'], '$all': ['O']}, 'nelements':2}", "properties": "['formula', 'formation_energy_per_atom']"
+}
+```
 
 will return the formula and formation energy per atom of all Li, Na and K
 oxides.
