@@ -68,6 +68,23 @@ request for a key that is not present in a doc, the query will return None. For
 the most part, the documents are relatively consistent, especially for many of
 the common keys like elements, formulas, etc.
 
+## Alternative usage of this documentation
+
+While the easiest way to use the Materials API is to leverage on pymatgen's
+high-level interface to it, you may alternatively also directly submit a http
+POST query to https://www.materialsproject.org/rest/v2/materials/query.
+
+This provides functionality for advanced query using Mongo-like language for
+flexible queries on the Materials Project database, enabling queries which
+would otherwise not be possible using the other simpler REST forms.
+
+For example, a POST to query with
+
+{"criteria": "{'elements':{'$in':['Li', 'Na', 'K'], '$all': ['O']}, 'nelements':2}", "properties": "['formula', 'formation_energy_per_atom']"}
+
+will return the formula and formation energy per atom of all Li, Na and K
+oxides.
+
 ## Tip for efficient querying
 
 Try to minimize the scope of the properties you are requesting. For example,
