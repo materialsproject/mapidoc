@@ -2,8 +2,13 @@
 
 For example, a material with [pretty_formula](../pretty_formula) LiFePO4 would have `nelements` equal to 4.
 
+
+
+
+
 ## Example output in JSON
 
 ```json
 2
 ```
+

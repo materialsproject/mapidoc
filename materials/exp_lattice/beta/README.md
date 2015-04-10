@@ -1,7 +1,12 @@
 Experimental *beta* lattice parameter.
 
+
+
+
+
 ## Example output in JSON
 
 ```json
-90.0
+59.99999999999999
 ```
+

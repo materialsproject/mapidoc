@@ -1,5 +1,8 @@
+
+
 ## Example output in JSON
 
 ```json
-"Al1 Pt3--221"
+"Al2 Lu1--227"
 ```
+

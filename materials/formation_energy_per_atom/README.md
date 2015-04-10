@@ -3,8 +3,13 @@ The energy of this compound with respect to standard states (elements), normaliz
 
 Units are eV/atom
 
+
+
+
+
 ## Example output in JSON
 
 ```json
--0.6856915499999996
+-0.48386232499999987
 ```
+

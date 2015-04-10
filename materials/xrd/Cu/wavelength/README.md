@@ -1,5 +1,11 @@
+
+
 ## Example output in JSON
 
 ```json
-{"in_angstroms": 1.54184, "element": "Cu"}
+{
+    "in_angstroms": 1.54184, 
+    "element": "Cu"
+}
 ```
+

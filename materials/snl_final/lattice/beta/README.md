@@ -1,5 +1,8 @@
+
+
 ## Example output in JSON
 
 ```json
-90.0
+60.00000003453459
 ```
+

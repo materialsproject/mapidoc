@@ -1,5 +1,8 @@
+
+
 ## Example output in JSON
 
 ```json
-"Pm-3m"
+"Fd-3m"
 ```
+

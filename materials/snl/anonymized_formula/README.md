@@ -1,5 +1,8 @@
+
+
 ## Example output in JSON
 
 ```json
-"AB3"
+"AB2"
 ```
+

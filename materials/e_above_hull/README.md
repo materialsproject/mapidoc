@@ -1,7 +1,12 @@
 The calculated energy above the convex hull from the phase diagram. An indication of how stable a material is. A stable material is on the hull and has an e_above_hull of 0. A larger positive number indicates increasing instability.
 
+
+
+
+
 ## Example output in JSON
 
 ```json
-0.007060149375000435
+0
 ```
+

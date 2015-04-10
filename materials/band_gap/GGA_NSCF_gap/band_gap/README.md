@@ -1,5 +1,7 @@
 The Kohn-Sham band gap
 
+
+
 ## Example output in JSON
 
 ```json

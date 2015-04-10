@@ -1,7 +1,12 @@
 Experimental *c* lattice parameter.
 
+
+
+
+
 ## Example output in JSON
 
 ```json
-3.8774999999999995
+5.474420699946252
 ```
+

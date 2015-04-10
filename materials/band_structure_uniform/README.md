@@ -2,9 +2,17 @@ This field contains sub-keys for the various methodologies (GGA/GGA+U). Within e
 
 This band structure is a dense uniform k-point mesh (not along symmetry lines).
 
+
+
 ## Example output in JSON
 
 ```json
-{"GGA": {"oid": "54fcac5dc5981c67aa357cc7", "fs_id": "54fbb60d726d30329adf3d55", "task_id": "mp-940234"}}
+{
+    "GGA": {
+        "oid": "54fcac5dc5981c67aa357cc7", 
+        "fs_id": "54fbb60d726d30329adf3d55", 
+        "task_id": "mp-940234"
+    }
+}
 ```
 
