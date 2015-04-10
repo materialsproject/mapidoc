@@ -1,1 +1,1 @@
-The experimental lattice of the material (which is obtained from the starting input structure).
+The experimental lattice parameters of the material (which is obtained from the starting input structure). Note that these are typically taken from the ICSD database and are not always based on experiments, based on the database entry. The "snl_final" key at the root document contains a history of the structure.
