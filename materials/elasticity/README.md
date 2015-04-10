@@ -2,7 +2,9 @@ Mechanical properties in the elastic limit. Contains the full elastic tensor as 
 
 
 
-## Example output in JSON
+
+
+## Example response in JSON
 
 ```json
 {

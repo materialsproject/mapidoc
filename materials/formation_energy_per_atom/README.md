@@ -7,7 +7,15 @@ Units are eV/atom
 
 
 
-## Example output in JSON
+
+
+## Example response in JSON
+
+```json
+-0.6856915499999996
+```
+
+## Example response in JSON
 
 ```json
 -0.48386232499999987

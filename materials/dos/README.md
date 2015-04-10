@@ -2,7 +2,9 @@ Density of states.
 
 
 
-## Example output in JSON
+
+
+## Example response in JSON
 
 ```json
 {

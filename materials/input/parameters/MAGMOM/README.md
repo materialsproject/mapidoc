@@ -1,6 +1,15 @@
+## Example response in JSON
 
+```json
+[
+    0.6, 
+    5.0, 
+    5.0, 
+    5.0
+]
+```
 
-## Example output in JSON
+## Example response in JSON
 
 ```json
 [

@@ -18,7 +18,24 @@ When available, a GGA+U gap will be preferred over a GGA gap in the `search_gap`
 
 
 
-## Example output in JSON
+
+
+## Example response in JSON
+
+```json
+{
+    "optimize_structure_gap": {
+        "band_gap": 0.03989999999999938, 
+        "is_direct": false
+    }, 
+    "search_gap": {
+        "band_gap": 0.03989999999999938, 
+        "is_direct": false
+    }
+}
+```
+
+## Example response in JSON
 
 ```json
 {

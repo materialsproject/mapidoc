@@ -1,6 +1,10 @@
+## Example response in JSON
 
+```json
+"mpworks.snl_utils.mpsnl"
+```
 
-## Example output in JSON
+## Example response in JSON
 
 ```json
 "mpworks.snl_utils.mpsnl"

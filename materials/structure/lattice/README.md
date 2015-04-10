@@ -1,6 +1,35 @@
+## Example response in JSON
 
+```json
+{
+    "a": 3.92384391, 
+    "c": 3.92384391, 
+    "b": 3.92384391, 
+    "matrix": [
+        [
+            3.92384391, 
+            0.0, 
+            0.0
+        ], 
+        [
+            0.0, 
+            3.92384391, 
+            0.0
+        ], 
+        [
+            0.0, 
+            0.0, 
+            3.92384391
+        ]
+    ], 
+    "volume": 60.41366299424273, 
+    "beta": 90.0, 
+    "alpha": 90.0, 
+    "gamma": 90.0
+}
+```
 
-## Example output in JSON
+## Example response in JSON
 
 ```json
 {

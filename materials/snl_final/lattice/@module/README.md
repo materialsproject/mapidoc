@@ -1,6 +1,10 @@
+## Example response in JSON
 
+```json
+"pymatgen.core.lattice"
+```
 
-## Example output in JSON
+## Example response in JSON
 
 ```json
 "pymatgen.core.lattice"

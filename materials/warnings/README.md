@@ -4,7 +4,15 @@ A list of string warnings associated with the material, e.g., if the material ha
 
 
 
-## Example output in JSON
+
+
+## Example response in JSON
+
+```json
+[]
+```
+
+## Example response in JSON
 
 ```json
 []

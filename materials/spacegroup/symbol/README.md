@@ -4,7 +4,15 @@ The Hermann-Mauguin symbol for the spacegroup. E.g., *Pnma*.
 
 
 
-## Example output in JSON
+
+
+## Example response in JSON
+
+```json
+"Pm-3m"
+```
+
+## Example response in JSON
 
 ```json
 "Fd-3m"

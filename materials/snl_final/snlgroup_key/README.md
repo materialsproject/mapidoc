@@ -1,6 +1,10 @@
+## Example response in JSON
 
+```json
+"Al1 Pt3--221"
+```
 
-## Example output in JSON
+## Example response in JSON
 
 ```json
 "Al2 Lu1--227"

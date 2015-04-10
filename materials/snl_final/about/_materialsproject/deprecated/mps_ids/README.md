@@ -1,6 +1,12 @@
+## Example response in JSON
 
+```json
+[
+    98764
+]
+```
 
-## Example output in JSON
+## Example response in JSON
 
 ```json
 [

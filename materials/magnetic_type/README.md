@@ -1,6 +1,10 @@
+## Example response in JSON
 
+```json
+"Unknown"
+```
 
-## Example output in JSON
+## Example response in JSON
 
 ```json
 "Unknown"

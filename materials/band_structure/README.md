@@ -4,7 +4,9 @@ This band structure is the "line mode" along symmetry lines.
 
 
 
-## Example output in JSON
+
+
+## Example response in JSON
 
 ```json
 {

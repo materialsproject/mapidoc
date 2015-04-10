@@ -1,6 +1,10 @@
+## Example response in JSON
 
+```json
+4.652
+```
 
-## Example output in JSON
+## Example response in JSON
 
 ```json
 19.637999999999998

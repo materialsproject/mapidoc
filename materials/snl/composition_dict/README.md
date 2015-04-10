@@ -1,6 +1,13 @@
+## Example response in JSON
 
+```json
+{
+    "Al": 1.0, 
+    "Pt": 3.0
+}
+```
 
-## Example output in JSON
+## Example response in JSON
 
 ```json
 {

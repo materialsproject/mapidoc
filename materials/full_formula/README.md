@@ -4,7 +4,15 @@ A string of the full explicit formula for the unit cell, e.g., "Lu2Al4"
 
 
 
-## Example output in JSON
+
+
+## Example response in JSON
+
+```json
+"Al1Pt3"
+```
+
+## Example response in JSON
 
 ```json
 "Lu2Al4"

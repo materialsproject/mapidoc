@@ -1,6 +1,6 @@
 
 
-## Example output in JSON
+## Example response in JSON
 
 ```json
 109.47122063449069

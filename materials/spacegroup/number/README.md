@@ -4,7 +4,15 @@ International number for the spacegroup.
 
 
 
-## Example output in JSON
+
+
+## Example response in JSON
+
+```json
+221
+```
+
+## Example response in JSON
 
 ```json
 227

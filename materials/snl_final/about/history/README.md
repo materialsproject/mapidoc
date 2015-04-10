@@ -1,6 +1,88 @@
+## Example response in JSON
 
+```json
+[
+    {
+        "url": "http://icsd.fiz-karlsruhe.de/", 
+        "description": {
+            "icsd_id": 107869
+        }, 
+        "name": "Inorganic Crystal Structure Database (ICSD)"
+    }, 
+    {
+        "url": "http://cctbx.sourceforge.net/", 
+        "description": {
+            "sites": [
+                {
+                    "abc": [
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "name": "Al", 
+                    "wyckoff_multiplicity": 1, 
+                    "symbol": "Al", 
+                    "oxidation_state": 0.0, 
+                    "wyckoff": "a", 
+                    "occupation": 1.0
+                }, 
+                {
+                    "abc": [
+                        0.0, 
+                        0.5, 
+                        0.5
+                    ], 
+                    "name": "Pt", 
+                    "wyckoff_multiplicity": 3, 
+                    "symbol": "Pt", 
+                    "oxidation_state": 0.0, 
+                    "wyckoff": "c", 
+                    "occupation": 1.0
+                }
+            ], 
+            "lattice": {
+                "a": 3.8775, 
+                "c": 3.8775, 
+                "b": 3.8775, 
+                "volume": 58.3, 
+                "beta": 90.0, 
+                "lattice_id": 98764, 
+                "alpha": 90.0, 
+                "gamma": 90.0
+            }, 
+            "description": "Applied symmetry operations based on given spacegroup", 
+            "spacegroup": {
+                "space_group_id": 607, 
+                "centering": "P", 
+                "icsd_name": "P m -3 m", 
+                "cctbx_name": "P m -3 m", 
+                "crystal_system": "cubic", 
+                "number": 221, 
+                "hall": "-P 4 2 3"
+            }
+        }, 
+        "name": "Computational Crystallography Toolbox (CCTBX)"
+    }, 
+    {
+        "url": "http://www.materialsproject.org", 
+        "description": {
+            "crystal_id": 98764
+        }, 
+        "name": "Materials Project"
+    }, 
+    {
+        "url": "http://www.materialsproject.org", 
+        "description": {
+            "fw_id": null, 
+            "task_type": "GGA optimize structure (2x)", 
+            "task_id": "mp-188"
+        }, 
+        "name": "Materials Project structure optimization"
+    }
+]
+```
 
-## Example output in JSON
+## Example response in JSON
 
 ```json
 [

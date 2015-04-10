@@ -4,7 +4,22 @@ Contains a description of the functional used, as well as labels used by the VAS
 
 
 
-## Example output in JSON
+
+
+## Example response in JSON
+
+```json
+{
+    "labels": [
+        "Al", 
+        "Pt"
+    ], 
+    "pot_type": "paw", 
+    "functional": "pbe"
+}
+```
+
+## Example response in JSON
 
 ```json
 {

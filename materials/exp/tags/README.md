@@ -4,7 +4,19 @@ A list of experimental tags associated with the material. For example, a materia
 
 
 
-## Example output in JSON
+
+
+## Example response in JSON
+
+```json
+[
+    "Aluminum platinum (1/3)", 
+    "Aluminium platinum (1/3)", 
+    "Platinum aluminium (3/1)"
+]
+```
+
+## Example response in JSON
 
 ```json
 [

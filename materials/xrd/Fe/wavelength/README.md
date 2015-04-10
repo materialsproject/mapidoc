@@ -1,6 +1,13 @@
+## Example response in JSON
 
+```json
+{
+    "in_angstroms": 1.93735, 
+    "element": "Fe"
+}
+```
 
-## Example output in JSON
+## Example response in JSON
 
 ```json
 {

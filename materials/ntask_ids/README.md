@@ -4,7 +4,15 @@ Number of taskids for this material, i.e., total number of calculation tasks tha
 
 
 
-## Example output in JSON
+
+
+## Example response in JSON
+
+```json
+2
+```
+
+## Example response in JSON
 
 ```json
 4

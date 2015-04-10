@@ -10,7 +10,17 @@ Each material contains multiple computations for different purposes. Each comput
 
 
 
-## Example output in JSON
+
+
+## Example response in JSON
+
+```json
+{
+    "GGA optimize structure (2x)": "mp-188"
+}
+```
+
+## Example response in JSON
 
 ```json
 {

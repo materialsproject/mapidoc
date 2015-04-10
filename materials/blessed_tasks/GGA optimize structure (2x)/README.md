@@ -1,6 +1,10 @@
+## Example response in JSON
 
+```json
+"mp-188"
+```
 
-## Example output in JSON
+## Example response in JSON
 
 ```json
 "mp-1234"

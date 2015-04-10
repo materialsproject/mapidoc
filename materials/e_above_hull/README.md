@@ -4,7 +4,15 @@ The calculated energy above the convex hull from the phase diagram. An indicatio
 
 
 
-## Example output in JSON
+
+
+## Example response in JSON
+
+```json
+0.007060149375000435
+```
+
+## Example response in JSON
 
 ```json
 0

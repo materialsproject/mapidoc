@@ -1,6 +1,10 @@
+## Example response in JSON
 
+```json
+"Kpoints from vasprun.xml"
+```
 
-## Example output in JSON
+## Example response in JSON
 
 ```json
 "Kpoints from vasprun.xml"
