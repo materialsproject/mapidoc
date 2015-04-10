@@ -6,13 +6,9 @@ The last time this material document was "built" from a collection of associated
 
 
 
-## Example response in JSON
 
-```json
-{
-    "$date": 1414951020475
-}
-```
+
+
 
 ## Example response in JSON
 

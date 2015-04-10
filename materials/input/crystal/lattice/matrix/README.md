@@ -1,24 +1,4 @@
-## Example response in JSON
 
-```json
-[
-    [
-        3.8775, 
-        0.0, 
-        0.0
-    ], 
-    [
-        0.0, 
-        3.8775, 
-        0.0
-    ], 
-    [
-        0.0, 
-        0.0, 
-        3.8775
-    ]
-]
-```
 
 ## Example response in JSON
 

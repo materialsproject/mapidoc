@@ -9,11 +9,9 @@ Units are eV/atom
 
 
 
-## Example response in JSON
 
-```json
--0.6856915499999996
-```
+
+
 
 ## Example response in JSON
 

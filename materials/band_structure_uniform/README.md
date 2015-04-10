@@ -6,6 +6,8 @@ This band structure is a dense uniform k-point mesh (not along symmetry lines).
 
 
 
+
+
 ## Example response in JSON
 
 ```json

@@ -6,14 +6,9 @@ Unlike "task_id", this is a list of task_ids associated with each material. Mult
 
 
 
-## Example response in JSON
 
-```json
-[
-    "mp-12649", 
-    "mp-188"
-]
-```
+
+
 
 ## Example response in JSON
 

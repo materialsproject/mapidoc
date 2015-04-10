@@ -8,13 +8,9 @@ Note that this field is currently identical to `updated_at`.
 
 
 
-## Example response in JSON
 
-```json
-{
-    "$date": 1414951020475
-}
-```
+
+
 
 ## Example response in JSON
 

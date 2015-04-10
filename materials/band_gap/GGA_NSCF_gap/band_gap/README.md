@@ -4,6 +4,8 @@ The Kohn-Sham band gap
 
 
 
+
+
 ## Example response in JSON
 
 ```json

@@ -7,11 +7,9 @@ A string representing the crystal system, e.g. "triclinic", "monoclinic",
 
 
 
-## Example response in JSON
 
-```json
-"cubic"
-```
+
+
 
 ## Example response in JSON
 

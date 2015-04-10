@@ -4,6 +4,8 @@ Density of states.
 
 
 
+
+
 ## Example response in JSON
 
 ```json

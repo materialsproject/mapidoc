@@ -6,11 +6,9 @@ A string chemical system associated with the material. For example, Li<sub>2</su
 
 
 
-## Example response in JSON
 
-```json
-"Al-Pt"
-```
+
+
 
 ## Example response in JSON
 

@@ -1,10 +1,4 @@
-## Example response in JSON
 
-```json
-{
-    "$date": 1308219015000
-}
-```
 
 ## Example response in JSON
 

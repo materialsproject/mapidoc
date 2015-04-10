@@ -4,6 +4,8 @@ Kohn-Sham band gap using the GGA functional, calculated during an charge optimiz
 
 
 
+
+
 ## Example response in JSON
 
 ```json

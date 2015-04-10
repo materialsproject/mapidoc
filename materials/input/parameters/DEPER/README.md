@@ -1,8 +1,4 @@
-## Example response in JSON
 
-```json
-0.3
-```
 
 ## Example response in JSON
 

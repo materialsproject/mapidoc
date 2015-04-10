@@ -6,11 +6,9 @@ The task_id for the material. It is also the materials id used in the Materials 
 
 
 
-## Example response in JSON
 
-```json
-"mp-188"
-```
+
+
 
 ## Example response in JSON
 

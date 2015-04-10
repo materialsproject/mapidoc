@@ -6,6 +6,8 @@ This band structure is the "line mode" along symmetry lines.
 
 
 
+
+
 ## Example response in JSON
 
 ```json

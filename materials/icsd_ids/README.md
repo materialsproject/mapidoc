@@ -6,16 +6,9 @@ List of Inorganic Crystal Database (ICSD) ids for structures that have been deem
 
 
 
-## Example response in JSON
 
-```json
-[
-    58131, 
-    609128, 
-    109235, 
-    107869
-]
-```
+
+
 
 ## Example response in JSON
 

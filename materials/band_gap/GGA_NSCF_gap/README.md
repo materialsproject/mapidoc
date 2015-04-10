@@ -4,6 +4,8 @@ Kohn-Sham band gap using the GGA functional, calculated using a static structure
 
 
 
+
+
 ## Example response in JSON
 
 ```json
