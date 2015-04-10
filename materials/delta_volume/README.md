@@ -1,1 +1,8 @@
 Volume change encountered during the structure relaxation (% difference in volume between final and initial structures). A large volume change sometimes indicates problems in the calculation or in the starting structure.
+
+## Example output
+
+```json
+2.115426259867725
+```
+

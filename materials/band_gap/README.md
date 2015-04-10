@@ -13,3 +13,10 @@ This root key contains the various band gaps computed using different types of c
     Kohn-Sham band gap using the GGA functional, calculated during a structure optimization run on a lower density k-point mesh.
 
 When available, a GGA+U gap will be preferred over a GGA gap in the `search_gap` field.
+
+## Example output
+
+```json
+{"optimize_structure_gap": {"band_gap": 0.03989999999999938, "is_direct": false}, "search_gap": {"band_gap": 0.03989999999999938, "is_direct": false}}
+```
+

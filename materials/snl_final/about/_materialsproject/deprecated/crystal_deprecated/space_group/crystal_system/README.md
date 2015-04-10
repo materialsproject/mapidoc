@@ -1,0 +1,6 @@
+## Example output
+
+```json
+"Triclinic"
+```
+
