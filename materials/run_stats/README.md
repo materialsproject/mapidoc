@@ -1,0 +1,1 @@
+CPU time needed to complete the structure optimization portion of this material. Currently, time needed for other tasks (e.g. charge re-optimization, band structure calculation, etc.) is not listed. The structure optimization is performed through two consecutive relaxations (relax1 and relax2), with the second relaxation aiding in achieving a better optimized structure.
