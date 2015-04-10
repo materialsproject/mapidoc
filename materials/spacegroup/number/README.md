@@ -1,8 +1,7 @@
 International number for the spacegroup.
 
-## Example output
+## Example output in JSON
 
 ```json
 221
 ```
-

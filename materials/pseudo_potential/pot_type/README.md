@@ -1,8 +1,5 @@
-
-
-## Example output
+## Example output in JSON
 
 ```json
 "paw"
 ```
-

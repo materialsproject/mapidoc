@@ -14,9 +14,8 @@ This root key contains the various band gaps computed using different types of c
 
 When available, a GGA+U gap will be preferred over a GGA gap in the `search_gap` field.
 
-## Example output
+## Example output in JSON
 
 ```json
 {"optimize_structure_gap": {"band_gap": 0.03989999999999938, "is_direct": false}, "search_gap": {"band_gap": 0.03989999999999938, "is_direct": false}}
 ```
-

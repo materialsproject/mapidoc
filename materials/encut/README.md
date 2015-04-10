@@ -1,8 +1,7 @@
 Energy cutoff used for VASP calculations.
 
-## Example output
+## Example output in JSON
 
 ```json
 520.0
 ```
-

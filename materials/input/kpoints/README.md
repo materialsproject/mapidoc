@@ -1,9 +1,8 @@
 A dict representing the KPOINTS used in the calculation in pymatgen's
 Kpoint.as_dict() format.
 
-## Example output
+## Example output in JSON
 
 ```json
 {"comment": "Kpoints from vasprun.xml", "usershift": [0.0, 0.0, 0.0], "kpoints": [[8, 8, 8]], "actual_points": [{"abc": [0.0625, 0.0625, 0.0625], "weight": 0.015625}, {"abc": [0.1875, 0.0625, 0.0625], "weight": 0.046875}, {"abc": [0.3125, 0.0625, 0.0625], "weight": 0.046875}, {"abc": [0.4375, 0.0625, 0.0625], "weight": 0.046875}, {"abc": [0.1875, 0.1875, 0.0625], "weight": 0.046875}, {"abc": [0.3125, 0.1875, 0.0625], "weight": 0.09375}, {"abc": [0.4375, 0.1875, 0.0625], "weight": 0.09375}, {"abc": [0.3125, 0.3125, 0.0625], "weight": 0.046875}, {"abc": [0.4375, 0.3125, 0.0625], "weight": 0.09375}, {"abc": [0.4375, 0.4375, 0.0625], "weight": 0.046875}, {"abc": [0.1875, 0.1875, 0.1875], "weight": 0.015625}, {"abc": [0.3125, 0.1875, 0.1875], "weight": 0.046875}, {"abc": [0.4375, 0.1875, 0.1875], "weight": 0.046875}, {"abc": [0.3125, 0.3125, 0.1875], "weight": 0.046875}, {"abc": [0.4375, 0.3125, 0.1875], "weight": 0.09375}, {"abc": [0.4375, 0.4375, 0.1875], "weight": 0.046875}, {"abc": [0.3125, 0.3125, 0.3125], "weight": 0.015625}, {"abc": [0.4375, 0.3125, 0.3125], "weight": 0.046875}, {"abc": [0.4375, 0.4375, 0.3125], "weight": 0.046875}, {"abc": [0.4375, 0.4375, 0.4375], "weight": 0.015625}], "@module": "pymatgen.io.vaspio.vasp_input", "nkpoints": 0, "generation_style": "Monkhorst-Pack", "genvec2": [0.0, 0.125, 0.0], "genvec1": [0.125, 0.0, 0.0], "shift": [0.5, 0.5, 0.5], "genvec3": [0.0, 0.0, 0.125], "@class": "Kpoints"}
 ```
-

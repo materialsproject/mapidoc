@@ -2,9 +2,8 @@ The last time this material document was "built" from a collection of associated
 
 Note that this field is currently identical to `updated_at`.
 
-## Example output
+## Example output in JSON
 
 ```json
 {"$date": 1414951020475}
 ```
-

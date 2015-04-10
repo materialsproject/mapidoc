@@ -1,8 +1,7 @@
 Boolean indication whether a GGA+U calculation is performed for this material.
 
-## Example output
+## Example output in JSON
 
 ```json
 false
 ```
-

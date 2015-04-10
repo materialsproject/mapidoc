@@ -1,8 +1,7 @@
 Number of sites in the structure.
 
-## Example output
+## Example output in JSON
 
 ```json
 4
 ```
-

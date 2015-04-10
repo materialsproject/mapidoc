@@ -1,8 +1,5 @@
-
-
-## Example output
+## Example output in JSON
 
 ```json
 [[3.8775, 0.0, 0.0], [0.0, 3.8775, 0.0], [0.0, 0.0, 3.8775]]
 ```
-
