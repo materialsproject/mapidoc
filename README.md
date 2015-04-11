@@ -81,10 +81,9 @@ on the Materials Project database, enabling queries which would otherwise not
 be possible using the other simpler REST forms. For example, a POST to query
 with parameters
 
-```
+```javascript
 criteria="{'elements':{'$in':['Li', 'Na', 'K'], '$all': ['O']}, 'nelements':2}"
 properties="['formula', 'formation_energy_per_atom']"
-}
 ```
 
 will return the formula and formation energy per atom of all Li, Na and K
