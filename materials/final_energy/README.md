@@ -1,1 +1,18 @@
-Calculated vasp energy for structure 
+Calculated vasp energy for structure
+
+
+
+
+
+
+
+
+
+
+
+## Example response in JSON
+
+```json
+-26.94736193
+```
+
