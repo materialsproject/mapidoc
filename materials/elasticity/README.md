@@ -1,4 +1,4 @@
-Mechanical properties in the elastic limit. Contains the full elastic tensor as well as derived properties, e.g. Poisson ratio and bulk (K) and shear (G) moduli.
+Mechanical properties in the elastic limit. Contains the full elastic tensor as well as derived properties, e.g. Poisson ratio and bulk (K) and shear (G) moduli. All numbers for the tensor and derived moduli are in units of GPa. The calculation energy cutoff is in units of eV.
 
 
 
