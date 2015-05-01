@@ -69,24 +69,52 @@ the common keys like elements, formulas, etc.
 
 ## Alternative usage of this documentation
 
-While the easiest way to use the Materials API is to leverage on pymatgen's
-high-level interface to it, you may alternatively also directly submit a http
-POST query to https://www.materialsproject.org/rest/v2/materials/query. For
+While the easiest way to use the Materials API is to leverage pymatgen's
+high-level interface to it, you may also directly submit a http
+POST query to `https://www.materialsproject.org/rest/v2/query`. For
 instance, you may wish to write your own app or queries in another language.
 
-The https://www.materialsproject.org/rest/v2/materials/query API provides
-functionality for advanced query using Mongo-like language for flexible queries
-on the Materials Project database, enabling queries which would otherwise not
+The `https://www.materialsproject.org/rest/v2/query` API provides
+functionality for flexible queries against the Materials Project database using [MongoDB syntax](http://docs.mongodb.org/v2.6/reference/operator/query/), enabling queries which would otherwise not
 be possible using the other simpler REST forms. For example, a POST to query
 with parameters
 
 ```javascript
-criteria="{'elements':{'$in':['Li', 'Na', 'K'], '$all': ['O']}, 'nelements':2}"
-properties="['formula', 'formation_energy_per_atom']"
+criteria='{"elements":{"$in":["Li", "Na", "K"], "$all": ["O"]}, "nelements":2}'
+properties='["formula", "formation_energy_per_atom"]'
 ```
 
 will return the formula and formation energy per atom of all Li, Na and K
 oxides.
+
+Using the command-line tool [curl](http://curl.haxx.se/):
+```bash
+curl -s --header "X-API-KEY: <YOUR-API-KEY>" \
+    https://materialsproject.org/rest/v2/query \
+    -F criteria='{"elements": {"$in": ["Li", "Na", "K"], "$all": ["O"]}, "nelements": 2}' \
+    -F properties='["formula", "formation_energy_per_atom"]'
+```
+
+Using Python and the [requests](http://docs.python-requests.org/en/latest/user/install/#install) library:
+```python
+import json
+import requests
+
+data = {
+    'criteria': {
+        'elements': {'$in': ['Li', 'Na', 'K'], '$all': ['O']},
+        'nelements': 2,
+    },
+    'properties': [
+        'formula',
+        'formation_energy_per_atom',
+    ]
+}
+r = requests.post('https://materialsproject.org/rest/v2/query',
+                 headers={'X-API-KEY': '<YOUR-API-KEY>'},
+                 data={k: json.dumps(v) for k,v in data.iteritems()})
+response_content = r.json() # a dict
+```
 
 ## Tip for efficient querying
 
