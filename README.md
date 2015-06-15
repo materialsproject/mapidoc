@@ -9,13 +9,19 @@ Project’s de facto platform for data access, supporting not only the Materials
 Project’s many collaborative efforts but also enabling new applications and
 analyses.
 
+# Example notebooks
+
+We have added a few example ipython notebooks demonstrating the features of 
+the  Materials API. The NB Viewer version is at this
+[link](http://nbviewer.ipython.org/github/materialsproject/mapidoc/tree/master/example_notebooks/).
+
 # Using this repo
 
-The usage of this repo follows a REST format. The primary use of this repo is to 
-explore the Materials Project's document format and use that info for much more 
-powerful queries with the [pymatgen](http://www.pymatgen.org) (Python Materials 
-Genomics) MPRester.query() method. For more standard queries, the Materials API 
-already has a [wiki page](https://materialsproject.org/wiki/index.php/The_Materials_API)
+The usage of this repo follows a REST format. The primary use of this repo is
+to  explore the Materials Project's document format and use that info for much 
+more powerful queries with the [pymatgen](http://www.pymatgen.org) (Python 
+Materials Genomics) MPRester.query() method. For more standard queries, the 
+Materials API already has a [wiki page](https://materialsproject.org/wiki/index.php/The_Materials_API)
 and pymatgen already provides useful high-level functions for them.
 
 1. Start from the [materials](https://github.com/materialsproject/mapidoc/tree/master/materials)
@@ -116,7 +122,7 @@ r = requests.post('https://materialsproject.org/rest/v2/query',
 response_content = r.json() # a dict
 ```
 
-## Tip for efficient querying
+## Tips for efficient querying
 
 Try to minimize the scope of the properties you are requesting. For example,
 if you are only interested in the XRD pattern for Cu K<sub>&#945;</sub>,
