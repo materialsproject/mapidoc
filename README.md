@@ -13,7 +13,7 @@ analyses.
 
 We have added a few example ipython notebooks demonstrating the features of 
 the  Materials API. The NB Viewer version is at this
-[link](http://nbviewer.ipython.org/github/materialsproject/mapidoc/tree/master/example_notebooks/). Also, you can use the [Binder](http://mybinder.org/) service (in beta) to launch an interactive notebook right now! Click the button below and nagivate to `example_notebooks` to open one of them.
+[link](http://nbviewer.ipython.org/github/materialsproject/mapidoc/tree/master/example_notebooks/). Also, you can use the [Binder](http://mybinder.org/) service (in beta) to launch an interactive notebook right now! Click the button below to open our introductory notebook. To nagivate to other notebooks, go to "File->Open" within the page and click `example_notebooks` to open one of them.
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/materialsproject/mapidoc)
 
