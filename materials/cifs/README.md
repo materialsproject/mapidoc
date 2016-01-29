@@ -1,14 +1,26 @@
 A dict of Crystallographic Information File (CIF) format strings for the material. This includes the conventional, primitive and refined cells.
 
+The **primitive** cell is an economical representation for a structure, in
+terms of number of sites. Thus, this unit cell is typically of interest to
+theorists for efficient calculations. Reference [1] describes the method we use
+to define a primitive cell.
 
+The **conventional standard** structure follows a conventional practice to
+define a cell so that it is more readable / visually understandable to a human
+being. Experimentalists are typically more comfortable with this
+format. Reference [1] describes this standard as well.
 
+The **computed** cell is that computed by MP. It is identical to either the
+primitive or conventional standard cells, the other being the result of a
+transformation of this cell.
 
-
-
-
-
-
-
+The **refined**, aka **symmetrized** structure, is a modification of the
+conventional standard cell to express detected symmetry. Sites are moved
+relative to the energy-relaxed conventional standard cell. Some theorists
+prefer this form for "cleaner" band structure calculations. We use
+[pymatgen](http://http://pymatgen.org/)'s
+`pymatgen.symmetry.analyzer.SpacegroupAnalyzer` via
+`pymatgen.io.cifio.CifWriter` (with `symprec=0.1`) to generate this CIF.
 
 ## Example response in JSON
 
