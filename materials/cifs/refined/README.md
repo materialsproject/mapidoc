@@ -1,6 +1,6 @@
 The refined, aka "symmetrized" structure, is a modification of the conventional standard cell to express detected symmetry. Sites are moved relative to the energy-relaxed conventional standard cell. Some theorists prefer this form for "cleaner" band structure calculations.
 
-Uses [pymatgen](http://http://pymatgen.org/)'s `pymatgen.symmetry.analyzer.SpacegroupAnalyzer` via `pymatgen.io.cifio.CifWriter` (with `symprec=0.1`).
+Uses [pymatgen](http://pymatgen.org/)'s `pymatgen.symmetry.analyzer.SpacegroupAnalyzer` via `pymatgen.io.cifio.CifWriter` (with `symprec=0.1`).
 
 ## Example response in JSON
 
