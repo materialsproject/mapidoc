@@ -1,3 +1,7 @@
+This is the cell computed by MP. It is identical to either the primitive or
+conventional standard cells, the other being the result of a transformation of
+this cell.
+
 ## Example response in JSON
 
 ```json

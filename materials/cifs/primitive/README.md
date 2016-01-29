@@ -1,4 +1,8 @@
+The primitive cell is an economical representation for a structure, in
+terms of number of sites. Thus, this unit cell is typically of interest to
+theorists for efficient calculations. The reference below describes the method we use to define a primitive cell.
 
+Wahyu Setyawan, Stefano Curtarolo, High-throughput electronic band structure calculations: Challenges and tools, Computational Materials Science, Volume 49, Issue 2, August 2010, Pages 299-312, ISSN 0927-0256, [http://dx.doi.org/10.1016/j.commatsci.2010.05.010](http://dx.doi.org/10.1016/j.commatsci.2010.05.010).
 
 ## Example response in JSON
 

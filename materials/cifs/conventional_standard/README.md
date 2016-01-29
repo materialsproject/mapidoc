@@ -1,4 +1,7 @@
+This structure follows a conventional practice to define a cell so that it is more readable / visually understandable to a human being. Experimentalists are typically more comfortable with this format. The reference below describes the standard.
 
+Wahyu Setyawan, Stefano Curtarolo, High-throughput electronic band structure calculations: Challenges and tools, Computational Materials Science, Volume 49, Issue 2, August 2010, Pages 299-312, ISSN 0927-0256,
+[http://dx.doi.org/10.1016/j.commatsci.2010.05.010](http://dx.doi.org/10.1016/j.commatsci.2010.05.010).
 
 ## Example response in JSON
 
