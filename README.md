@@ -120,7 +120,7 @@ data = {
 }
 r = requests.post('https://materialsproject.org/rest/v2/query',
                  headers={'X-API-KEY': '<YOUR-API-KEY>'},
-                 data={k: json.dumps(v) for k,v in data.iteritems()})
+                 data={k: json.dumps(v) for k,v in data.items()})
 response_content = r.json() # a dict
 ```
 
