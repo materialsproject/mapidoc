@@ -61,7 +61,7 @@ and pymatgen already provides useful high-level functions for them.
    elements.
 
     ```python
-    data = m.query(criteria={"elements": {"$all": ["Fe", "O"]}}, properties=["exp.tags", "icsd_id"])
+    data = m.query(criteria={"elements": {"$all": ["Fe", "O"]}}, properties=["exp.tags", "icsd_ids"])
     ```
    
    Note that the criteria and properties follows the format (and richness) of
