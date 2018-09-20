@@ -1,16 +1,7 @@
-Surface properties for various facets of a material. Contains surface energy, work function and optionally the slab models (cif) for each facet as well as data on the occupation of each facet on the Wulff shape. Surface energy is defined in units of J/m^2. Work function is defined in units of eV. 
-
-
-
-
-
-
 ## Example response in JSON
 
 ```json
-{"shape_factor": 4.96013873346222,
- "surface_anisotropy": 0.04637705541263514,
- "surfaces": [{"area_fraction": 0.19226716616368875,
+[{"area_fraction": 0.19226716616368875,
    "is_reconstructed": False,
    "miller_index": [2, 2, 1],
    "surface_energy": 0.5184086506489078,
@@ -74,8 +65,6 @@ Surface properties for various facets of a material. Contains surface energy, wo
    "is_reconstructed": False,
    "miller_index": [3, 2, 0],
    "surface_energy": 0.5036046642284838,
-   "work_function": 2.9450848018009306}],
- "weighted_surface_energy": 0.495069471203702,
- "weighted_work_function": 2.814857404756627}
+   "work_function": 2.9450848018009306}]
 ```
 
