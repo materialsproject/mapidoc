@@ -3,6 +3,6 @@ Collected remarks about a material from a variety of sources, including other da
 ## Example response in JSON
 
 ```json
-['High pressure experimental phase', 'Lutetium nitride']
+["High pressure experimental phase", "Lutetium nitride"]
 ```
 
