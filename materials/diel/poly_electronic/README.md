@@ -1,6 +1,8 @@
+
+
 ## Example response in JSON
 
 ```json
-6.54
+13.22921799999997
 ```
 

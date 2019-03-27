@@ -10,16 +10,44 @@ Contains a description of the functional used, as well as labels used by the VAS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
 {
+    "functional": "PBE",
     "labels": [
-        "Al", 
-        "Lu_3"
-    ], 
-    "pot_type": "paw", 
-    "functional": "pbe"
+        "P",
+        "In_d"
+    ],
+    "pot_type": "paw"
 }
 ```
 

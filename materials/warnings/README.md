@@ -10,6 +10,34 @@ A list of string warnings associated with the material, e.g., if the material ha
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json

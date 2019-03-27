@@ -13,18 +13,45 @@ Example query: `{"has": "elasticity"}` for materials with elasticity data.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
 [
- "bandstructure",
- "diel",
- "elasticity",
- "eos",
- "phonons",
- "piezo",
- "surfaces",
- "xas"
+    "xas",
+    "elasticity",
+    "piezo",
+    "diel",
+    "phonons",
+    "bandstructure",
+    "eos"
 ]
 ```
 

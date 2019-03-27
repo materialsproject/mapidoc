@@ -1,0 +1,1574 @@
+_bt:
+  $date: 1550106813357
+_id:
+  $oid: 5c08c4c2277e2b8e3aa9189c
+_meta:
+  emmet_version: 2018.06.07
+  pymatgen_version: 2019.1.24
+anonymous_formula:
+  A: 1.0
+  B: 1.0
+band_gap:
+  search_gap:
+    band_gap: 0.4679000000000002
+    is_direct: true
+band_structure:
+  GGA:
+    task_id: mp-657140
+blessed_tasks:
+  GGA NSCF Line: mp-1061027
+  GGA NSCF Uniform: mp-1061021
+  GGA Static: mp-1060980
+  GGA Static Dielectric: mp-1142286
+  GGA Structure Optimization: mp-1060956
+bond_valence:
+  method: BVAnalyzer
+  possible_species:
+  - In3+
+  - P3-
+  possible_valences:
+  - -3
+  - 3
+chemsys: In-P
+cif: "# generated using pymatgen\ndata_InP\n_symmetry_space_group_name_H-M   'P 1'\n\
+  _cell_length_a   4.21204068\n_cell_length_b   4.21204068\n_cell_length_c   4.21204068\n\
+  _cell_angle_alpha   59.99999997\n_cell_angle_beta   60.00000000\n_cell_angle_gamma\
+  \   59.99999998\n_symmetry_Int_Tables_number   1\n_chemical_formula_structural \
+  \  InP\n_chemical_formula_sum   'In1 P1'\n_cell_volume   52.83998340\n_cell_formula_units_Z\
+  \   1\nloop_\n _symmetry_equiv_pos_site_id\n _symmetry_equiv_pos_as_xyz\n  1  'x,\
+  \ y, z'\nloop_\n _atom_site_type_symbol\n _atom_site_label\n _atom_site_symmetry_multiplicity\n\
+  \ _atom_site_fract_x\n _atom_site_fract_y\n _atom_site_fract_z\n _atom_site_occupancy\n\
+  \  P  P1  1  0.250000  0.250000  0.250000  1\n  In  In2  1  0.000000  0.000000 \
+  \ 0.000000  1\n"
+cifs:
+  computed: "# generated using pymatgen\ndata_InP\n_symmetry_space_group_name_H-M\
+    \   F-43m\n_cell_length_a   5.95672505\n_cell_length_b   5.95672505\n_cell_length_c\
+    \   5.95672505\n_cell_angle_alpha   90.00000000\n_cell_angle_beta   90.00000000\n\
+    _cell_angle_gamma   90.00000000\n_symmetry_Int_Tables_number   216\n_chemical_formula_structural\
+    \   InP\n_chemical_formula_sum   'In4 P4'\n_cell_volume   211.35993358\n_cell_formula_units_Z\
+    \   4\nloop_\n _symmetry_equiv_pos_site_id\n _symmetry_equiv_pos_as_xyz\n  1 \
+    \ 'x, y, z'\n  2  '-z, -y, x'\n  3  '-x, y, -z'\n  4  'z, -y, -x'\n  5  'x, -y,\
+    \ -z'\n  6  '-z, y, -x'\n  7  '-x, -y, z'\n  8  'z, y, x'\n  9  'y, -z, -x'\n\
+    \  10  '-y, -x, z'\n  11  'y, z, x'\n  12  '-y, x, -z'\n  13  '-y, z, -x'\n  14\
+    \  'y, x, z'\n  15  '-y, -z, x'\n  16  'y, -x, -z'\n  17  '-z, x, -y'\n  18  '-x,\
+    \ -z, y'\n  19  'z, -x, -y'\n  20  'x, z, y'\n  21  'z, x, y'\n  22  'x, -z, -y'\n\
+    \  23  '-z, -x, y'\n  24  '-x, z, -y'\n  25  'x+1/2, y+1/2, z'\n  26  '-z+1/2,\
+    \ -y+1/2, x'\n  27  '-x+1/2, y+1/2, -z'\n  28  'z+1/2, -y+1/2, -x'\n  29  'x+1/2,\
+    \ -y+1/2, -z'\n  30  '-z+1/2, y+1/2, -x'\n  31  '-x+1/2, -y+1/2, z'\n  32  'z+1/2,\
+    \ y+1/2, x'\n  33  'y+1/2, -z+1/2, -x'\n  34  '-y+1/2, -x+1/2, z'\n  35  'y+1/2,\
+    \ z+1/2, x'\n  36  '-y+1/2, x+1/2, -z'\n  37  '-y+1/2, z+1/2, -x'\n  38  'y+1/2,\
+    \ x+1/2, z'\n  39  '-y+1/2, -z+1/2, x'\n  40  'y+1/2, -x+1/2, -z'\n  41  '-z+1/2,\
+    \ x+1/2, -y'\n  42  '-x+1/2, -z+1/2, y'\n  43  'z+1/2, -x+1/2, -y'\n  44  'x+1/2,\
+    \ z+1/2, y'\n  45  'z+1/2, x+1/2, y'\n  46  'x+1/2, -z+1/2, -y'\n  47  '-z+1/2,\
+    \ -x+1/2, y'\n  48  '-x+1/2, z+1/2, -y'\n  49  'x+1/2, y, z+1/2'\n  50  '-z+1/2,\
+    \ -y, x+1/2'\n  51  '-x+1/2, y, -z+1/2'\n  52  'z+1/2, -y, -x+1/2'\n  53  'x+1/2,\
+    \ -y, -z+1/2'\n  54  '-z+1/2, y, -x+1/2'\n  55  '-x+1/2, -y, z+1/2'\n  56  'z+1/2,\
+    \ y, x+1/2'\n  57  'y+1/2, -z, -x+1/2'\n  58  '-y+1/2, -x, z+1/2'\n  59  'y+1/2,\
+    \ z, x+1/2'\n  60  '-y+1/2, x, -z+1/2'\n  61  '-y+1/2, z, -x+1/2'\n  62  'y+1/2,\
+    \ x, z+1/2'\n  63  '-y+1/2, -z, x+1/2'\n  64  'y+1/2, -x, -z+1/2'\n  65  '-z+1/2,\
+    \ x, -y+1/2'\n  66  '-x+1/2, -z, y+1/2'\n  67  'z+1/2, -x, -y+1/2'\n  68  'x+1/2,\
+    \ z, y+1/2'\n  69  'z+1/2, x, y+1/2'\n  70  'x+1/2, -z, -y+1/2'\n  71  '-z+1/2,\
+    \ -x, y+1/2'\n  72  '-x+1/2, z, -y+1/2'\n  73  'x, y+1/2, z+1/2'\n  74  '-z, -y+1/2,\
+    \ x+1/2'\n  75  '-x, y+1/2, -z+1/2'\n  76  'z, -y+1/2, -x+1/2'\n  77  'x, -y+1/2,\
+    \ -z+1/2'\n  78  '-z, y+1/2, -x+1/2'\n  79  '-x, -y+1/2, z+1/2'\n  80  'z, y+1/2,\
+    \ x+1/2'\n  81  'y, -z+1/2, -x+1/2'\n  82  '-y, -x+1/2, z+1/2'\n  83  'y, z+1/2,\
+    \ x+1/2'\n  84  '-y, x+1/2, -z+1/2'\n  85  '-y, z+1/2, -x+1/2'\n  86  'y, x+1/2,\
+    \ z+1/2'\n  87  '-y, -z+1/2, x+1/2'\n  88  'y, -x+1/2, -z+1/2'\n  89  '-z, x+1/2,\
+    \ -y+1/2'\n  90  '-x, -z+1/2, y+1/2'\n  91  'z, -x+1/2, -y+1/2'\n  92  'x, z+1/2,\
+    \ y+1/2'\n  93  'z, x+1/2, y+1/2'\n  94  'x, -z+1/2, -y+1/2'\n  95  '-z, -x+1/2,\
+    \ y+1/2'\n  96  '-x, z+1/2, -y+1/2'\nloop_\n _atom_site_type_symbol\n _atom_site_label\n\
+    \ _atom_site_symmetry_multiplicity\n _atom_site_fract_x\n _atom_site_fract_y\n\
+    \ _atom_site_fract_z\n _atom_site_occupancy\n  In  In1  4  0.000000  0.000000\
+    \  0.500000  1\n  P  P2  4  0.250000  0.250000  0.250000  1\n"
+  conventional_standard: "# generated using pymatgen\ndata_InP\n_symmetry_space_group_name_H-M\
+    \   F-43m\n_cell_length_a   5.95672505\n_cell_length_b   5.95672505\n_cell_length_c\
+    \   5.95672505\n_cell_angle_alpha   90.00000000\n_cell_angle_beta   90.00000000\n\
+    _cell_angle_gamma   90.00000000\n_symmetry_Int_Tables_number   216\n_chemical_formula_structural\
+    \   InP\n_chemical_formula_sum   'In4 P4'\n_cell_volume   211.35993358\n_cell_formula_units_Z\
+    \   4\nloop_\n _symmetry_equiv_pos_site_id\n _symmetry_equiv_pos_as_xyz\n  1 \
+    \ 'x, y, z'\n  2  '-z, -y, x'\n  3  '-x, y, -z'\n  4  'z, -y, -x'\n  5  'x, -y,\
+    \ -z'\n  6  '-z, y, -x'\n  7  '-x, -y, z'\n  8  'z, y, x'\n  9  'y, -z, -x'\n\
+    \  10  '-y, -x, z'\n  11  'y, z, x'\n  12  '-y, x, -z'\n  13  '-y, z, -x'\n  14\
+    \  'y, x, z'\n  15  '-y, -z, x'\n  16  'y, -x, -z'\n  17  '-z, x, -y'\n  18  '-x,\
+    \ -z, y'\n  19  'z, -x, -y'\n  20  'x, z, y'\n  21  'z, x, y'\n  22  'x, -z, -y'\n\
+    \  23  '-z, -x, y'\n  24  '-x, z, -y'\n  25  'x+1/2, y+1/2, z'\n  26  '-z+1/2,\
+    \ -y+1/2, x'\n  27  '-x+1/2, y+1/2, -z'\n  28  'z+1/2, -y+1/2, -x'\n  29  'x+1/2,\
+    \ -y+1/2, -z'\n  30  '-z+1/2, y+1/2, -x'\n  31  '-x+1/2, -y+1/2, z'\n  32  'z+1/2,\
+    \ y+1/2, x'\n  33  'y+1/2, -z+1/2, -x'\n  34  '-y+1/2, -x+1/2, z'\n  35  'y+1/2,\
+    \ z+1/2, x'\n  36  '-y+1/2, x+1/2, -z'\n  37  '-y+1/2, z+1/2, -x'\n  38  'y+1/2,\
+    \ x+1/2, z'\n  39  '-y+1/2, -z+1/2, x'\n  40  'y+1/2, -x+1/2, -z'\n  41  '-z+1/2,\
+    \ x+1/2, -y'\n  42  '-x+1/2, -z+1/2, y'\n  43  'z+1/2, -x+1/2, -y'\n  44  'x+1/2,\
+    \ z+1/2, y'\n  45  'z+1/2, x+1/2, y'\n  46  'x+1/2, -z+1/2, -y'\n  47  '-z+1/2,\
+    \ -x+1/2, y'\n  48  '-x+1/2, z+1/2, -y'\n  49  'x+1/2, y, z+1/2'\n  50  '-z+1/2,\
+    \ -y, x+1/2'\n  51  '-x+1/2, y, -z+1/2'\n  52  'z+1/2, -y, -x+1/2'\n  53  'x+1/2,\
+    \ -y, -z+1/2'\n  54  '-z+1/2, y, -x+1/2'\n  55  '-x+1/2, -y, z+1/2'\n  56  'z+1/2,\
+    \ y, x+1/2'\n  57  'y+1/2, -z, -x+1/2'\n  58  '-y+1/2, -x, z+1/2'\n  59  'y+1/2,\
+    \ z, x+1/2'\n  60  '-y+1/2, x, -z+1/2'\n  61  '-y+1/2, z, -x+1/2'\n  62  'y+1/2,\
+    \ x, z+1/2'\n  63  '-y+1/2, -z, x+1/2'\n  64  'y+1/2, -x, -z+1/2'\n  65  '-z+1/2,\
+    \ x, -y+1/2'\n  66  '-x+1/2, -z, y+1/2'\n  67  'z+1/2, -x, -y+1/2'\n  68  'x+1/2,\
+    \ z, y+1/2'\n  69  'z+1/2, x, y+1/2'\n  70  'x+1/2, -z, -y+1/2'\n  71  '-z+1/2,\
+    \ -x, y+1/2'\n  72  '-x+1/2, z, -y+1/2'\n  73  'x, y+1/2, z+1/2'\n  74  '-z, -y+1/2,\
+    \ x+1/2'\n  75  '-x, y+1/2, -z+1/2'\n  76  'z, -y+1/2, -x+1/2'\n  77  'x, -y+1/2,\
+    \ -z+1/2'\n  78  '-z, y+1/2, -x+1/2'\n  79  '-x, -y+1/2, z+1/2'\n  80  'z, y+1/2,\
+    \ x+1/2'\n  81  'y, -z+1/2, -x+1/2'\n  82  '-y, -x+1/2, z+1/2'\n  83  'y, z+1/2,\
+    \ x+1/2'\n  84  '-y, x+1/2, -z+1/2'\n  85  '-y, z+1/2, -x+1/2'\n  86  'y, x+1/2,\
+    \ z+1/2'\n  87  '-y, -z+1/2, x+1/2'\n  88  'y, -x+1/2, -z+1/2'\n  89  '-z, x+1/2,\
+    \ -y+1/2'\n  90  '-x, -z+1/2, y+1/2'\n  91  'z, -x+1/2, -y+1/2'\n  92  'x, z+1/2,\
+    \ y+1/2'\n  93  'z, x+1/2, y+1/2'\n  94  'x, -z+1/2, -y+1/2'\n  95  '-z, -x+1/2,\
+    \ y+1/2'\n  96  '-x, z+1/2, -y+1/2'\nloop_\n _atom_site_type_symbol\n _atom_site_label\n\
+    \ _atom_site_symmetry_multiplicity\n _atom_site_fract_x\n _atom_site_fract_y\n\
+    \ _atom_site_fract_z\n _atom_site_occupancy\n  In  In1  4  0.000000  0.000000\
+    \  0.500000  1\n  P  P2  4  0.250000  0.250000  0.750000  1\n"
+  primitive: "# generated using pymatgen\ndata_InP\n_symmetry_space_group_name_H-M\
+    \   'P 1'\n_cell_length_a   4.21204068\n_cell_length_b   4.21204068\n_cell_length_c\
+    \   4.21204068\n_cell_angle_alpha   60.00000000\n_cell_angle_beta   60.00000000\n\
+    _cell_angle_gamma   60.00000000\n_symmetry_Int_Tables_number   1\n_chemical_formula_structural\
+    \   InP\n_chemical_formula_sum   'In1 P1'\n_cell_volume   52.83998340\n_cell_formula_units_Z\
+    \   1\nloop_\n _symmetry_equiv_pos_site_id\n _symmetry_equiv_pos_as_xyz\n  1 \
+    \ 'x, y, z'\nloop_\n _atom_site_type_symbol\n _atom_site_label\n _atom_site_symmetry_multiplicity\n\
+    \ _atom_site_fract_x\n _atom_site_fract_y\n _atom_site_fract_z\n _atom_site_occupancy\n\
+    \  In  In1  1  0.500000  0.500000  0.500000  1\n  P  P2  1  0.250000  0.250000\
+    \  0.250000  1\n"
+  refined: "# generated using pymatgen\ndata_InP\n_symmetry_space_group_name_H-M \
+    \  F-43m\n_cell_length_a   5.95672505\n_cell_length_b   5.95672505\n_cell_length_c\
+    \   5.95672505\n_cell_angle_alpha   90.00000000\n_cell_angle_beta   90.00000000\n\
+    _cell_angle_gamma   90.00000000\n_symmetry_Int_Tables_number   216\n_chemical_formula_structural\
+    \   InP\n_chemical_formula_sum   'In4 P4'\n_cell_volume   211.35993358\n_cell_formula_units_Z\
+    \   4\nloop_\n _symmetry_equiv_pos_site_id\n _symmetry_equiv_pos_as_xyz\n  1 \
+    \ 'x, y, z'\n  2  'z, -y, -x'\n  3  '-x, y, -z'\n  4  '-z, -y, x'\n  5  'x, -y,\
+    \ -z'\n  6  'z, y, x'\n  7  '-x, -y, z'\n  8  '-z, y, -x'\n  9  '-y, -z, x'\n\
+    \  10  'y, x, z'\n  11  '-y, z, -x'\n  12  'y, -x, -z'\n  13  'y, z, x'\n  14\
+    \  '-y, -x, z'\n  15  'y, -z, -x'\n  16  '-y, x, -z'\n  17  'z, -x, -y'\n  18\
+    \  '-x, -z, y'\n  19  '-z, x, -y'\n  20  'x, z, y'\n  21  '-z, -x, y'\n  22  'x,\
+    \ -z, -y'\n  23  'z, x, y'\n  24  '-x, z, -y'\n  25  'x+1/2, y+1/2, z'\n  26 \
+    \ 'z+1/2, -y+1/2, -x'\n  27  '-x+1/2, y+1/2, -z'\n  28  '-z+1/2, -y+1/2, x'\n\
+    \  29  'x+1/2, -y+1/2, -z'\n  30  'z+1/2, y+1/2, x'\n  31  '-x+1/2, -y+1/2, z'\n\
+    \  32  '-z+1/2, y+1/2, -x'\n  33  '-y+1/2, -z+1/2, x'\n  34  'y+1/2, x+1/2, z'\n\
+    \  35  '-y+1/2, z+1/2, -x'\n  36  'y+1/2, -x+1/2, -z'\n  37  'y+1/2, z+1/2, x'\n\
+    \  38  '-y+1/2, -x+1/2, z'\n  39  'y+1/2, -z+1/2, -x'\n  40  '-y+1/2, x+1/2, -z'\n\
+    \  41  'z+1/2, -x+1/2, -y'\n  42  '-x+1/2, -z+1/2, y'\n  43  '-z+1/2, x+1/2, -y'\n\
+    \  44  'x+1/2, z+1/2, y'\n  45  '-z+1/2, -x+1/2, y'\n  46  'x+1/2, -z+1/2, -y'\n\
+    \  47  'z+1/2, x+1/2, y'\n  48  '-x+1/2, z+1/2, -y'\n  49  'x+1/2, y, z+1/2'\n\
+    \  50  'z+1/2, -y, -x+1/2'\n  51  '-x+1/2, y, -z+1/2'\n  52  '-z+1/2, -y, x+1/2'\n\
+    \  53  'x+1/2, -y, -z+1/2'\n  54  'z+1/2, y, x+1/2'\n  55  '-x+1/2, -y, z+1/2'\n\
+    \  56  '-z+1/2, y, -x+1/2'\n  57  '-y+1/2, -z, x+1/2'\n  58  'y+1/2, x, z+1/2'\n\
+    \  59  '-y+1/2, z, -x+1/2'\n  60  'y+1/2, -x, -z+1/2'\n  61  'y+1/2, z, x+1/2'\n\
+    \  62  '-y+1/2, -x, z+1/2'\n  63  'y+1/2, -z, -x+1/2'\n  64  '-y+1/2, x, -z+1/2'\n\
+    \  65  'z+1/2, -x, -y+1/2'\n  66  '-x+1/2, -z, y+1/2'\n  67  '-z+1/2, x, -y+1/2'\n\
+    \  68  'x+1/2, z, y+1/2'\n  69  '-z+1/2, -x, y+1/2'\n  70  'x+1/2, -z, -y+1/2'\n\
+    \  71  'z+1/2, x, y+1/2'\n  72  '-x+1/2, z, -y+1/2'\n  73  'x, y+1/2, z+1/2'\n\
+    \  74  'z, -y+1/2, -x+1/2'\n  75  '-x, y+1/2, -z+1/2'\n  76  '-z, -y+1/2, x+1/2'\n\
+    \  77  'x, -y+1/2, -z+1/2'\n  78  'z, y+1/2, x+1/2'\n  79  '-x, -y+1/2, z+1/2'\n\
+    \  80  '-z, y+1/2, -x+1/2'\n  81  '-y, -z+1/2, x+1/2'\n  82  'y, x+1/2, z+1/2'\n\
+    \  83  '-y, z+1/2, -x+1/2'\n  84  'y, -x+1/2, -z+1/2'\n  85  'y, z+1/2, x+1/2'\n\
+    \  86  '-y, -x+1/2, z+1/2'\n  87  'y, -z+1/2, -x+1/2'\n  88  '-y, x+1/2, -z+1/2'\n\
+    \  89  'z, -x+1/2, -y+1/2'\n  90  '-x, -z+1/2, y+1/2'\n  91  '-z, x+1/2, -y+1/2'\n\
+    \  92  'x, z+1/2, y+1/2'\n  93  '-z, -x+1/2, y+1/2'\n  94  'x, -z+1/2, -y+1/2'\n\
+    \  95  'z, x+1/2, y+1/2'\n  96  '-x, z+1/2, -y+1/2'\nloop_\n _atom_site_type_symbol\n\
+    \ _atom_site_label\n _atom_site_symmetry_multiplicity\n _atom_site_fract_x\n _atom_site_fract_y\n\
+    \ _atom_site_fract_z\n _atom_site_occupancy\n  In  In1  4  0.000000  0.000000\
+    \  0.500000  1\n  P  P2  4  0.250000  0.250000  0.750000  1\n"
+created_at: '2013-10-16 21:45:09'
+delta_volume: 2.015615506659195
+density: 4.581623553814487
+diel:
+  e_electronic:
+  - - 13.22921799999997
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 13.22921799999997
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 13.22921799999997
+  e_total:
+  - - 16.48536399999997
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 16.485363999999965
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 16.48536399999997
+  n: 3.6371991971845548
+  poly_electronic: 13.22921799999997
+  poly_total: 16.48536399999997
+doi: 10.17188/1195475
+doi_bibtex: "@misc{osti_1195475,\n    author = \"Persson, Kristin\",\n    title =\
+  \ \"Materials Data on InP (SG:216) by Materials Project\",\n    abstractNote = \"\
+  Computed materials data using density functional theory calculations. These calculations\
+  \ determine the electronic structure of bulk materials by solving approximations\
+  \ to the Schrodinger equation. For more information, see https://materialsproject.org/docs/calculations\"\
+  ,\n    doi = \"10.17188/1195475\",\n    place = \"United States\",\n    year = \"\
+  2014\",\n    month = \"11\",\n    note = \"An optional note\"\n}\n"
+dos:
+  GGA:
+    task_id: mp-1059637
+e_above_hull: 0
+efermi: 4.68964738
+elasticity:
+  G_Reuss: 29.0
+  G_VRH: 31.0
+  G_Voigt: 33.0
+  G_Voigt_Reuss_Hill: 31.0
+  K_Reuss: 59.0
+  K_VRH: 59.0
+  K_Voigt: 59.0
+  K_Voigt_Reuss_Hill: 59.0
+  compliance_tensor:
+  - - 18.2
+    - -6.3
+    - -6.3
+    - -0.0
+    - -0.0
+    - 0.0
+  - - -6.3
+    - 18.2
+    - -6.3
+    - 0.0
+    - -0.0
+    - 0.0
+  - - -6.3
+    - -6.3
+    - 18.2
+    - 0.0
+    - 0.0
+    - 0.0
+  - - -0.0
+    - 0.0
+    - 0.0
+    - 24.1
+    - 0.0
+    - 0.0
+  - - -0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 24.1
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 24.1
+  elastic_anisotropy: 0.63
+  elastic_tensor:
+  - - 87.0
+    - 46.0
+    - 46.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 46.0
+    - 87.0
+    - 46.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 46.0
+    - 46.0
+    - 87.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 42.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 42.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 42.0
+  elastic_tensor_original:
+  - - 86.7609314902358
+    - 45.82525487414483
+    - 45.82525487414483
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 45.80255246600822
+    - 86.73738719487037
+    - 45.80255246600822
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 45.814449922278285
+    - 45.814449922278285
+    - 86.74985735847083
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 3.2776704131258175e-05
+    - 3.3070037800484334e-05
+    - 3.256003721695929e-05
+    - 41.57328734278123
+    - 0.0
+    - 0.0
+  - - -3.048336817630867e-05
+    - -3.720004252081755e-05
+    - -3.442337268045633e-05
+    - 0.0
+    - 41.57340598958351
+    - 0.0
+  - - 0.00011233012839720247
+    - 0.00011865013562032229
+    - 0.0001196868034720018
+    - 0.0
+    - 0.0
+    - 41.57337998288712
+  homogeneous_poisson: 0.28
+  nsites: 2
+  poisson_ratio: 0.28
+  universal_anisotropy: 0.63
+  warnings: []
+elements:
+- In
+- P
+encut: 520
+exp:
+  tags:
+  - Indium phosphide (1/1)
+  - Indium phosphide
+final_energy: -8.58127877
+final_energy_per_atom: -4.290639385
+formation_energy_per_atom: -0.2098130427380962
+formula_anonymous: AB
+full_formula: In1P1
+has:
+- xas
+- elasticity
+- piezo
+- diel
+- phonons
+- bandstructure
+- eos
+has_bandstructure: true
+hubbards: {}
+icsd_ids:
+- 640182
+- 640185
+- 24517
+- 41443
+- 640184
+- 600858
+- 600506
+- 53105
+- 640191
+- 190417
+- 640186
+- 181196
+- 165466
+- 188691
+- 640192
+initial_structure:
+  '@class': Structure
+  '@module': pymatgen.core.structure
+  lattice:
+    a: 4.157787873394785
+    alpha: 59.99999993295936
+    b: 4.157787871573669
+    beta: 59.99999994744832
+    c: 4.15778787
+    gamma: 59.9999999964111
+    matrix:
+    - - 3.60074992
+      - 0.0
+      - 2.07889394
+    - - 1.20024997
+      - 3.39481958
+      - 2.07889394
+    - - 0.0
+      - 0.0
+      - 4.15778787
+    volume: 50.82436788958273
+  sites:
+  - abc:
+    - 0.25
+    - 0.25
+    - 0.25
+    label: P
+    species:
+    - element: P
+      occu: 1
+    xyz:
+    - 1.2002499725
+    - 0.848704895
+    - 2.0788939375
+  - abc:
+    - 0.0
+    - 0.0
+    - 0.0
+    label: In
+    species:
+    - element: In
+      occu: 1
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+input:
+  crystal:
+    '@class': Structure
+    '@module': pymatgen.core.structure
+    lattice:
+      a: 4.157787873394785
+      alpha: 59.99999993295936
+      b: 4.157787871573669
+      beta: 59.99999994744832
+      c: 4.15778787
+      gamma: 59.9999999964111
+      matrix:
+      - - 3.60074992
+        - 0.0
+        - 2.07889394
+      - - 1.20024997
+        - 3.39481958
+        - 2.07889394
+      - - 0.0
+        - 0.0
+        - 4.15778787
+      volume: 50.82436788958273
+    sites:
+    - abc:
+      - 0.25
+      - 0.25
+      - 0.25
+      label: P
+      species:
+      - element: P
+        occu: 1
+      xyz:
+      - 1.2002499725
+      - 0.848704895
+      - 2.0788939375
+    - abc:
+      - 0.0
+      - 0.0
+      - 0.0
+      label: In
+      species:
+      - element: In
+        occu: 1
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+  incar:
+    '@class': Incar
+    '@module': pymatgen.io.vasp.inputs
+    ALGO: Normal
+    AMIX: 0.2
+    AMIX_MAG: 0.8
+    BMIX: 0.001
+    BMIX_MAG: 0.001
+    ENCUT: 520
+    IBRION: 2
+    ICHARG: 1
+    ISIF: 3
+    ISMEAR: 1
+    ISPIN: 2
+    LREAL: Auto
+    LWAVE: true
+    MAGMOM:
+    - 0.6
+    - 0.6
+    NELM: 100
+    NELMDL: 6
+    NELMIN: 3
+    NPAR: 1
+    NSW: 200
+    PREC: Accurate
+    SIGMA: 0.2
+    SYSTEM: 'Rubyvaspy :: p in'
+  kpoints:
+    '@class': Kpoints
+    '@module': pymatgen.io.vasp.inputs
+    comment: Automatic kpoint scheme
+    coord_type: null
+    generation_style: Monkhorst
+    kpoints:
+    - - 8
+      - 8
+      - 8
+    kpts_weights: null
+    labels: null
+    nkpoints: 0
+    tet_connections: null
+    tet_number: 0
+    tet_weight: 0
+    usershift:
+    - 0
+    - 0
+    - 0
+  potcar_spec:
+  - hash: 7dc3393307131ae67785a0cdacb61d5f
+    titel: PAW_PBE P 17Jan2003
+  - hash: b87558aef4b20a3c4a008ff3e8775108
+    titel: PAW_PBE In_d 06Sep2000
+is_compatible: true
+is_hubbard: false
+is_ordered: true
+last_updated:
+  $date: 1550033642697
+magnetic_type: NM
+magnetism:
+  exchange_symmetry: 216
+  is_magnetic: false
+  magmoms:
+  - 0.0
+  - 0.0
+  num_magnetic_sites: '0'
+  num_unique_magnetic_sites: 0
+  ordering: NM
+  total_magnetization: 8.62e-05
+  total_magnetization_normalized_formula_units: 8.62e-05
+  total_magnetization_normalized_vol: 1.6313404066309887e-06
+  types_of_magnetic_species: []
+nelements: 2
+nkpts: 16
+nsites: 2
+ntask_ids: 15
+original_task_id: mp-20351
+oxide_type: None
+pf_ids: []
+piezo:
+  eij_max: 0.0
+  piezoelectric_tensor:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  v_max:
+  - 1.0
+  - 0.0
+  - 0.0
+pretty_formula: InP
+pseudo_potential:
+  functional: PBE
+  labels:
+  - P
+  - In_d
+  pot_type: paw
+reduced_cell_formula:
+  In: 1.0
+  P: 1.0
+run_type: GGA
+sbxd:
+- e_above_hull: 0
+  id: core
+- e_above_hull: 0
+  id: jcesr
+- e_above_hull: 0
+  id: vw
+- e_above_hull: 0
+  id: building33
+sbxn:
+- core
+- jcesr
+- vw
+- building33
+snl:
+  '@class': StructureNL
+  '@module': pymatgen.util.provenance
+  about:
+    _db_ids:
+      icsd_ids:
+      - '640182'
+      - '640185'
+      - '24517'
+      - '41443'
+      - '640184'
+      - '600858'
+      - '600506'
+      - '53105'
+      - '640191'
+      - '190417'
+      - '640186'
+      - '181196'
+      - '165466'
+      - '188691'
+      - '640192'
+    _tags:
+    - Indium phosphide (1/1)
+    - Indium phosphide
+    authors:
+    - email: feedback@materialsproject.org
+      name: Materials Project
+    created_at: '2017-07-18 08:30:54.844993'
+    history:
+    - description:
+        id: '640182'
+      name: ICSD
+      url: https://icsd.fiz-karlsruhe.de/
+    - description: {}
+      name: Materials Project Optimized Structure
+      url: http://www.materialsproject.org
+    projects:
+    - ICSD
+    references: "@article{Giesecke1958,\n    author = \"Giesecke, G. and Pfister,\
+      \ H.\",\n    title = \"Praezisionsbestimmung der Gitterkonstanten von A(III)\
+      \ B(V)-Verbindungen\",\n    journal = \"Acta Crystallographica (1,1948-23,1967)\"\
+      ,\n    year = \"1958\",\n    volume = \"11\",\n    pages = \"369-371\",\n  \
+      \  ASTM_id = \"ACCRA9\"\n}\n\n@article{Addamiano1960,\n    author = \"Addamiano,\
+      \ A.\",\n    title = \"On the preparation of the phosphides of aluminum, gallium\
+      \ and indium\",\n    journal = \"Journal of the American Chemical Society\"\
+      ,\n    year = \"1960\",\n    volume = \"82\",\n    pages = \"1537-1540\",\n\
+      \    ASTM_id = \"JACSAT\"\n}\n\n@article{Iandelli1941,\n    author = \"Iandelli,\
+      \ A.\",\n    title = \"Sulla struttura dei composti In P, In As e In Sb\",\n\
+      \    journal = \"Gazzetta Chimica Italiana\",\n    year = \"1941\",\n    volume\
+      \ = \"71\",\n    pages = \"58-62\",\n    ASTM_id = \"GCITA9\"\n}\n\n@article{Massidda1990,\n\
+      \    author = \"Massidda, S. and Continenza, A. and Freeman, A.J. and de Pascale,\
+      \ T.M. and Meloni, F. and Serra, M.\",\n    title = \"Structural and electronic\
+      \ properties of narrow-band-gap semiconductors: In P, In As, and In Sb\",\n\
+      \    journal = \"Physical Review, Serie 3. B - Condensed Matter (18,1978-)\"\
+      ,\n    year = \"1990\",\n    volume = \"41\",\n    pages = \"12079-12085\",\n\
+      \    ASTM_id = \"PRBMDO\"\n}\n\n@article{Egorov1969,\n    author = \"Egorov,\
+      \ L.A. and Torbova, O.D.\",\n    title = \"Crystallization of solid solutions\
+      \ of In As1-x Px from the gas phase\",\n    journal = \"Inorganic Materials\"\
+      ,\n    year = \"1969\",\n    volume = \"5\",\n    pages = \"144-145\",\n   \
+      \ ASTM_id = \"INOMAF\"\n}\n\n@article{Antyukhov1986,\n    author = \"Antyukhov,\
+      \ A.M.\",\n    title = \"The Vegard law in the case of solid solutions of the\
+      \ P-In-As system\",\n    journal = \"Inorganic Materials\",\n    year = \"1986\"\
+      ,\n    volume = \"22\",\n    pages = \"426-428\",\n    ASTM_id = \"INOMAF\"\n\
+      }\n\n@article{Geist1984,\n    author = \"Geist, V. and Ascheron, C.\",\n   \
+      \ title = \"The proton-induced Kossel effect and its application to crystallographic\
+      \ studies\",\n    journal = \"Crystal Research and Technology\",\n    year =\
+      \ \"1984\",\n    volume = \"19\",\n    pages = \"1231-1244\",\n    ASTM_id =\
+      \ \"CRTEDF\"\n}\n\n@article{Menoni1987,\n    author = \"Menoni, C.S. and Spain,\
+      \ I.L.\",\n    title = \"Equation of state of In P to 19 GPa\",\n    journal\
+      \ = \"Physical Review, Serie 3. B - Condensed Matter (18,1978-)\",\n    year\
+      \ = \"1987\",\n    volume = \"35\",\n    pages = \"7520-7525\",\n    ASTM_id\
+      \ = \"PRBMDO\"\n}\n\n@article{Hahn1960,\n    author = \"Hahn, H. and Thiele,\
+      \ D.\",\n    title = \"Ueber die Systeme In2 Se3 / In P, In2 Se3 / In As, In\
+      \ Se / In As, und In Te, In As\",\n    journal = \"Zeitschrift fuer Anorganische\
+      \ und Allgemeine Chemie (1950) (DE)\",\n    year = \"1960\",\n    volume = \"\
+      303\",\n    pages = \"147-154\",\n    ASTM_id = \"ZAACAB\"\n}\n\n@article{Wang2002,\n\
+      \    author = \"Wang, S.Q. and Ye, H.Q.\",\n    title = \"A plane-wave pseudopotential\
+      \ study on III-V zinc-blende and wurtzite semiconductors under pressure\",\n\
+      \    journal = \"Journal of Physics: Condensed Matter\",\n    year = \"2002\"\
+      ,\n    volume = \"14\",\n    pages = \"9579-9587\",\n    ASTM_id = \"JCOMEL\"\
+      \n}\n\n@article{Thompson1969,\n    author = \"Thompson, A.G. and Rowe, J.E.\
+      \ and Rubenstein, M.\",\n    title = \"Preparation and optical properties of\
+      \ In As1-x Px\",\n    journal = \"Journal of Applied Physics\",\n    year =\
+      \ \"1969\",\n    volume = \"40\",\n    pages = \"3280-3288\",\n    ASTM_id =\
+      \ \"JAPIAU\"\n}\n\n@article{HouHaiJu2011,\n    author = \"Jun, Hou Hai and Jie,\
+      \ Kong Fan\",\n    title = \"Theoretical investigation on the structural, dynamical\
+      \ and thermodynamic properties of the zinc-blende In X (X = P, As, Sb)\",\n\
+      \    journal = \"Physica Status Solidi B - Basic Solid State Physics\",\n  \
+      \  year = \"2011\",\n    volume = \"248\",\n    pages = \"1399-1404\",\n   \
+      \ ASTM_id = \"PSSBBD\"\n}\n\n@article{Breidi2009,\n    author = \"Breidi, A.\
+      \ and Amrani, B. and El haj Hassan, F.\",\n    title = \"First-principles calculations\
+      \ on the origins of the gap bowing in In As1-x Px alloys\",\n    journal = \"\
+      Physica B, Condensed Matter\",\n    year = \"2009\",\n    volume = \"404\",\n\
+      \    pages = \"3435-3439\",\n    ASTM_id = \"PHYBE3\"\n}\n\n@article{Lopez-Perez2013,\n\
+      \    author = \"Lopez-Perez, William and Simon-Olivera, Nicolas and Molina-Coronell,\
+      \ Javier and Gonzalez-Garcia, Alvaro and Gonzalez-Hernandez, Rafael\",\n   \
+      \ title = \"Structural parameters, band-gap bowings and phase diagrams of zinc-blende\
+      \ Sc1-x Inx P ternary alloys: A FP-LAPW study\",\n    journal = \"Journal of\
+      \ Alloys and Compounds\",\n    year = \"2013\",\n    volume = \"574\",\n   \
+      \ pages = \"124-130\",\n    ASTM_id = \"JALCEU\"\n}\n\n@article{Koester1958,\n\
+      \    author = \"Koester, W. and Ulrich, W.\",\n    title = \"Zur Isomorphie\
+      \ der Verbindungen des Typs A(III) B(V)\",\n    journal = \"Zeitschrift fuer\
+      \ Metallkunde\",\n    year = \"1958\",\n    volume = \"49\",\n    pages = \"\
+      365-367\",\n    ASTM_id = \"ZEMTAE\"\n}\n"
+    remarks:
+    - Indium phosphide
+  charge: null
+  lattice:
+    a: 4.212040679434068
+    alpha: 59.99999997418664
+    b: 4.212040676713186
+    beta: 59.999999995555385
+    c: 4.21204068
+    gamma: 59.99999997566818
+    matrix:
+    - - 3.64773423
+      - 0.0
+      - 2.10602034
+    - - 1.21591141
+      - 3.43911681
+      - 2.10602034
+    - - 0.0
+      - 0.0
+      - 4.21204068
+    volume: 52.83998339624193
+  sites:
+  - abc:
+    - 0.25
+    - 0.25
+    - 0.25
+    label: P
+    properties:
+      magmom: 0.0
+    species:
+    - element: P
+      occu: 1
+    xyz:
+    - 1.21591141
+    - 0.8597792025
+    - 2.10602034
+  - abc:
+    - 0.0
+    - 0.0
+    - 0.0
+    label: In
+    properties:
+      magmom: 0.0
+    species:
+    - element: In
+      occu: 1
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+snl_final:
+  '@class': StructureNL
+  '@module': pymatgen.util.provenance
+  about:
+    _db_ids:
+      icsd_ids:
+      - '640182'
+      - '640185'
+      - '24517'
+      - '41443'
+      - '640184'
+      - '600858'
+      - '600506'
+      - '53105'
+      - '640191'
+      - '190417'
+      - '640186'
+      - '181196'
+      - '165466'
+      - '188691'
+      - '640192'
+    _tags:
+    - Indium phosphide (1/1)
+    - Indium phosphide
+    authors:
+    - email: feedback@materialsproject.org
+      name: Materials Project
+    created_at: '2017-07-18 08:30:54.844993'
+    history:
+    - description:
+        id: '640182'
+      name: ICSD
+      url: https://icsd.fiz-karlsruhe.de/
+    - description: {}
+      name: Materials Project Optimized Structure
+      url: http://www.materialsproject.org
+    projects:
+    - ICSD
+    references: "@article{Giesecke1958,\n    author = \"Giesecke, G. and Pfister,\
+      \ H.\",\n    title = \"Praezisionsbestimmung der Gitterkonstanten von A(III)\
+      \ B(V)-Verbindungen\",\n    journal = \"Acta Crystallographica (1,1948-23,1967)\"\
+      ,\n    year = \"1958\",\n    volume = \"11\",\n    pages = \"369-371\",\n  \
+      \  ASTM_id = \"ACCRA9\"\n}\n\n@article{Addamiano1960,\n    author = \"Addamiano,\
+      \ A.\",\n    title = \"On the preparation of the phosphides of aluminum, gallium\
+      \ and indium\",\n    journal = \"Journal of the American Chemical Society\"\
+      ,\n    year = \"1960\",\n    volume = \"82\",\n    pages = \"1537-1540\",\n\
+      \    ASTM_id = \"JACSAT\"\n}\n\n@article{Iandelli1941,\n    author = \"Iandelli,\
+      \ A.\",\n    title = \"Sulla struttura dei composti In P, In As e In Sb\",\n\
+      \    journal = \"Gazzetta Chimica Italiana\",\n    year = \"1941\",\n    volume\
+      \ = \"71\",\n    pages = \"58-62\",\n    ASTM_id = \"GCITA9\"\n}\n\n@article{Massidda1990,\n\
+      \    author = \"Massidda, S. and Continenza, A. and Freeman, A.J. and de Pascale,\
+      \ T.M. and Meloni, F. and Serra, M.\",\n    title = \"Structural and electronic\
+      \ properties of narrow-band-gap semiconductors: In P, In As, and In Sb\",\n\
+      \    journal = \"Physical Review, Serie 3. B - Condensed Matter (18,1978-)\"\
+      ,\n    year = \"1990\",\n    volume = \"41\",\n    pages = \"12079-12085\",\n\
+      \    ASTM_id = \"PRBMDO\"\n}\n\n@article{Egorov1969,\n    author = \"Egorov,\
+      \ L.A. and Torbova, O.D.\",\n    title = \"Crystallization of solid solutions\
+      \ of In As1-x Px from the gas phase\",\n    journal = \"Inorganic Materials\"\
+      ,\n    year = \"1969\",\n    volume = \"5\",\n    pages = \"144-145\",\n   \
+      \ ASTM_id = \"INOMAF\"\n}\n\n@article{Antyukhov1986,\n    author = \"Antyukhov,\
+      \ A.M.\",\n    title = \"The Vegard law in the case of solid solutions of the\
+      \ P-In-As system\",\n    journal = \"Inorganic Materials\",\n    year = \"1986\"\
+      ,\n    volume = \"22\",\n    pages = \"426-428\",\n    ASTM_id = \"INOMAF\"\n\
+      }\n\n@article{Geist1984,\n    author = \"Geist, V. and Ascheron, C.\",\n   \
+      \ title = \"The proton-induced Kossel effect and its application to crystallographic\
+      \ studies\",\n    journal = \"Crystal Research and Technology\",\n    year =\
+      \ \"1984\",\n    volume = \"19\",\n    pages = \"1231-1244\",\n    ASTM_id =\
+      \ \"CRTEDF\"\n}\n\n@article{Menoni1987,\n    author = \"Menoni, C.S. and Spain,\
+      \ I.L.\",\n    title = \"Equation of state of In P to 19 GPa\",\n    journal\
+      \ = \"Physical Review, Serie 3. B - Condensed Matter (18,1978-)\",\n    year\
+      \ = \"1987\",\n    volume = \"35\",\n    pages = \"7520-7525\",\n    ASTM_id\
+      \ = \"PRBMDO\"\n}\n\n@article{Hahn1960,\n    author = \"Hahn, H. and Thiele,\
+      \ D.\",\n    title = \"Ueber die Systeme In2 Se3 / In P, In2 Se3 / In As, In\
+      \ Se / In As, und In Te, In As\",\n    journal = \"Zeitschrift fuer Anorganische\
+      \ und Allgemeine Chemie (1950) (DE)\",\n    year = \"1960\",\n    volume = \"\
+      303\",\n    pages = \"147-154\",\n    ASTM_id = \"ZAACAB\"\n}\n\n@article{Wang2002,\n\
+      \    author = \"Wang, S.Q. and Ye, H.Q.\",\n    title = \"A plane-wave pseudopotential\
+      \ study on III-V zinc-blende and wurtzite semiconductors under pressure\",\n\
+      \    journal = \"Journal of Physics: Condensed Matter\",\n    year = \"2002\"\
+      ,\n    volume = \"14\",\n    pages = \"9579-9587\",\n    ASTM_id = \"JCOMEL\"\
+      \n}\n\n@article{Thompson1969,\n    author = \"Thompson, A.G. and Rowe, J.E.\
+      \ and Rubenstein, M.\",\n    title = \"Preparation and optical properties of\
+      \ In As1-x Px\",\n    journal = \"Journal of Applied Physics\",\n    year =\
+      \ \"1969\",\n    volume = \"40\",\n    pages = \"3280-3288\",\n    ASTM_id =\
+      \ \"JAPIAU\"\n}\n\n@article{HouHaiJu2011,\n    author = \"Jun, Hou Hai and Jie,\
+      \ Kong Fan\",\n    title = \"Theoretical investigation on the structural, dynamical\
+      \ and thermodynamic properties of the zinc-blende In X (X = P, As, Sb)\",\n\
+      \    journal = \"Physica Status Solidi B - Basic Solid State Physics\",\n  \
+      \  year = \"2011\",\n    volume = \"248\",\n    pages = \"1399-1404\",\n   \
+      \ ASTM_id = \"PSSBBD\"\n}\n\n@article{Breidi2009,\n    author = \"Breidi, A.\
+      \ and Amrani, B. and El haj Hassan, F.\",\n    title = \"First-principles calculations\
+      \ on the origins of the gap bowing in In As1-x Px alloys\",\n    journal = \"\
+      Physica B, Condensed Matter\",\n    year = \"2009\",\n    volume = \"404\",\n\
+      \    pages = \"3435-3439\",\n    ASTM_id = \"PHYBE3\"\n}\n\n@article{Lopez-Perez2013,\n\
+      \    author = \"Lopez-Perez, William and Simon-Olivera, Nicolas and Molina-Coronell,\
+      \ Javier and Gonzalez-Garcia, Alvaro and Gonzalez-Hernandez, Rafael\",\n   \
+      \ title = \"Structural parameters, band-gap bowings and phase diagrams of zinc-blende\
+      \ Sc1-x Inx P ternary alloys: A FP-LAPW study\",\n    journal = \"Journal of\
+      \ Alloys and Compounds\",\n    year = \"2013\",\n    volume = \"574\",\n   \
+      \ pages = \"124-130\",\n    ASTM_id = \"JALCEU\"\n}\n\n@article{Koester1958,\n\
+      \    author = \"Koester, W. and Ulrich, W.\",\n    title = \"Zur Isomorphie\
+      \ der Verbindungen des Typs A(III) B(V)\",\n    journal = \"Zeitschrift fuer\
+      \ Metallkunde\",\n    year = \"1958\",\n    volume = \"49\",\n    pages = \"\
+      365-367\",\n    ASTM_id = \"ZEMTAE\"\n}\n"
+    remarks:
+    - Indium phosphide
+  charge: null
+  lattice:
+    a: 4.212040679434068
+    alpha: 59.99999997418664
+    b: 4.212040676713186
+    beta: 59.999999995555385
+    c: 4.21204068
+    gamma: 59.99999997566818
+    matrix:
+    - - 3.64773423
+      - 0.0
+      - 2.10602034
+    - - 1.21591141
+      - 3.43911681
+      - 2.10602034
+    - - 0.0
+      - 0.0
+      - 4.21204068
+    volume: 52.83998339624193
+  sites:
+  - abc:
+    - 0.25
+    - 0.25
+    - 0.25
+    label: P
+    properties:
+      magmom: 0.0
+    species:
+    - element: P
+      occu: 1
+    xyz:
+    - 1.21591141
+    - 0.8597792025
+    - 2.10602034
+  - abc:
+    - 0.0
+    - 0.0
+    - 0.0
+    label: In
+    properties:
+      magmom: 0.0
+    species:
+    - element: In
+      occu: 1
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+spacegroup:
+  crystal_system: cubic
+  hall: F -4 2 3
+  number: 216
+  point_group: -43m
+  source: spglib
+  symbol: F-43m
+structure:
+  '@class': Structure
+  '@module': pymatgen.core.structure
+  charge: null
+  lattice:
+    a: 4.212040679434068
+    alpha: 59.99999997418664
+    b: 4.212040676713186
+    beta: 59.999999995555385
+    c: 4.21204068
+    gamma: 59.99999997566818
+    matrix:
+    - - 3.64773423
+      - 0.0
+      - 2.10602034
+    - - 1.21591141
+      - 3.43911681
+      - 2.10602034
+    - - 0.0
+      - 0.0
+      - 4.21204068
+    volume: 52.83998339624193
+  sites:
+  - abc:
+    - 0.25
+    - 0.25
+    - 0.25
+    label: P
+    properties:
+      magmom: 0.0
+    species:
+    - element: P
+      occu: 1
+    xyz:
+    - 1.21591141
+    - 0.8597792025
+    - 2.10602034
+  - abc:
+    - 0.0
+    - 0.0
+    - 0.0
+    label: In
+    properties:
+      magmom: 0.0
+    species:
+    - element: In
+      occu: 1
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+task_id: mp-20351
+task_ids:
+- mp-673248
+- mp-657140
+- mp-657129
+- mp-657134
+- mp-20351
+- mp-1059583
+- mp-1059600
+- mp-1059637
+- mp-1059643
+- mp-1060956
+- mp-1060980
+- mp-1061021
+- mp-1061027
+- mp-1114738
+- mp-1142286
+total_magnetization: 8.62e-05
+unit_cell_formula:
+  In: 1.0
+  P: 1.0
+volume: 52.83998339624193
+warnings: []
+xrd:
+  Ag:
+    created_at: '2019-02-13T07:11:18.613218'
+    meta:
+    - amplitude
+    - hkl
+    - two_theta
+    - d_spacing
+    pattern:
+    - - 100.0
+      - - 1
+        - 1
+        - 1
+      - 9.35474644814491
+      - 3.4391168124269598
+    - - 26.240897101919238
+      - - 2
+        - 0
+        - 0
+      - 10.805944812863817
+      - 2.9783625261439095
+    - - 61.847765706591616
+      - - 2
+        - 2
+        - 0
+      - 15.304735334136481
+      - 2.1060203390682544
+    - - 52.93936660995725
+      - - 3
+        - 1
+        - 1
+      - 17.966606258862225
+      - 1.79602017979535
+    - - 8.152228814486115
+      - - 2
+        - 2
+        - 2
+      - 18.77257429620497
+      - 1.7195584062134799
+    - - 11.093861274704741
+      - - 4
+        - 0
+        - 0
+      - 21.709506013653552
+      - 1.4891812630719548
+    - - 22.968590756862543
+      - - 3
+        - 3
+        - 1
+      - 23.684390316890177
+      - 1.3665664493357703
+    - - 11.012533734980284
+      - - 4
+        - 2
+        - 0
+      - 24.308945420912558
+      - 1.3319642140191552
+    - - 23.365641463706257
+      - - 4
+        - 2
+        - 2
+      - 26.669962767882257
+      - 1.2159114096798835
+    - - 17.240463646427
+      - - 3
+        - 3
+        - 3
+      - 28.320499878473186
+      - 1.1463722708089867
+    - - 7.197378641699395
+      - - 4
+        - 4
+        - 0
+      - 30.891349839506642
+      - 1.0530101695341272
+    - - 16.46736472078139
+      - - 5
+        - 3
+        - 1
+      - 32.34485151182771
+      - 1.0068703044377991
+    - - 4.959353663577612
+      - - 6
+        - 0
+        - 0
+      - 32.816535656347405
+      - 0.9927875087146365
+    wavelength:
+      element: Ag
+      in_angstroms: 0.560885
+  Co:
+    created_at: '2019-02-13T07:11:18.615688'
+    meta:
+    - amplitude
+    - hkl
+    - two_theta
+    - d_spacing
+    pattern:
+    - - 100.0
+      - - 1
+        - 1
+        - 1
+      - 30.173239287589535
+      - 3.4391168124269598
+    - - 25.492850504038845
+      - - 2
+        - 0
+        - 0
+      - 34.98060075256497
+      - 2.9783625261439095
+    - - 54.04285298861804
+      - - 2
+        - 2
+        - 0
+      - 50.30561608528611
+      - 2.1060203390682544
+    - - 43.418278302324204
+      - - 3
+        - 1
+        - 1
+      - 59.78792712813985
+      - 1.79602017979535
+    - - 6.575242877431893
+      - - 2
+        - 2
+        - 2
+      - 62.73938594934345
+      - 1.7195584062134799
+    - - 8.62221960505683
+      - - 4
+        - 0
+        - 0
+      - 73.89581695326743
+      - 1.4891812630719548
+    - - 18.06084566275981
+      - - 3
+        - 3
+        - 1
+      - 81.84251543796849
+      - 1.3665664493357703
+    - - 8.771134432330332
+      - - 4
+        - 2
+        - 0
+      - 84.44904248869949
+      - 1.3319642140191552
+    - - 20.58117011018315
+      - - 4
+        - 2
+        - 2
+      - 94.81408477747532
+      - 1.2159114096798835
+    - - 17.289116404133598
+      - - 3
+        - 3
+        - 3
+      - 102.67456710961156
+      - 1.1463722708089867
+    - - 9.945572156592336
+      - - 4
+        - 4
+        - 0
+      - 116.43808100711422
+      - 1.0530101695341272
+    - - 29.491324151054478
+      - - 5
+        - 3
+        - 1
+      - 125.50125278664137
+      - 1.0068703044377991
+    - - 9.81670886826005
+      - - 6
+        - 0
+        - 0
+      - 128.74711533301658
+      - 0.9927875087146365
+    - - 31.896994133424744
+      - - 6
+        - 2
+        - 0
+      - 143.75905139604262
+      - 0.9418409280307546
+    - - 39.40443837603387
+      - - 5
+        - 3
+        - 3
+      - 160.39503113817426
+      - 0.9083920543383022
+    - - 42.83822236304801
+      - - 6
+        - 2
+        - 2
+      - 170.81992604179277
+      - 0.898010089897675
+    wavelength:
+      element: Co
+      in_angstroms: 1.79026
+  Cr:
+    created_at: '2019-02-13T07:11:18.615302'
+    meta:
+    - amplitude
+    - hkl
+    - two_theta
+    - d_spacing
+    pattern:
+    - - 17.85889607343665
+      - - 1
+        - 1
+        - 1
+      - 38.91161558979375
+      - 3.4391168124269598
+    - - 4.474879893944205
+      - - 2
+        - 0
+        - 0
+      - 45.2387275338781
+      - 2.9783625261439095
+    - - 9.169825514138749
+      - - 2
+        - 2
+        - 0
+      - 65.9013552959975
+      - 2.1060203390682544
+    - - 7.659704261484803
+      - - 3
+        - 1
+        - 1
+      - 79.25579354654126
+      - 1.79602017979535
+    - - 1.1960157516133674
+      - - 2
+        - 2
+        - 2
+      - 83.54266631439226
+      - 1.7195584062134799
+    - - 1.9646314367442117
+      - - 4
+        - 0
+        - 0
+      - 100.56682948963243
+      - 1.4891812630719548
+    - - 5.421428411301764
+      - - 3
+        - 3
+        - 1
+      - 113.90782466190622
+      - 1.3665664493357703
+    - - 2.9434744802660884
+      - - 4
+        - 2
+        - 0
+      - 118.63498255514531
+      - 1.3319642140191552
+    - - 12.532173458376489
+      - - 4
+        - 2
+        - 2
+      - 140.8116874517726
+      - 1.2159114096798835
+    - - 100.0
+      - - 3
+        - 3
+        - 3
+      - 175.52948042701038
+      - 1.1463722708089867
+    wavelength:
+      element: Cr
+      in_angstroms: 2.291
+  Cu:
+    created_at: '2019-02-13T07:11:18.614574'
+    meta:
+    - amplitude
+    - hkl
+    - two_theta
+    - d_spacing
+    pattern:
+    - - 92.43950442653615
+      - - 1
+        - 1
+        - 1
+      - 25.907235138910504
+      - 3.4391168124269598
+    - - 23.752252980992697
+      - - 2
+        - 0
+        - 0
+      - 30.00251160994995
+      - 2.9783625261439095
+    - - 51.67662475906097
+      - - 2
+        - 2
+        - 0
+      - 42.945089644071125
+      - 2.1060203390682544
+    - - 41.92150484664333
+      - - 3
+        - 1
+        - 1
+      - 50.83841508704101
+      - 1.79602017979535
+    - - 6.351675994192671
+      - - 2
+        - 2
+        - 2
+      - 53.27246052112699
+      - 1.7195584062134799
+    - - 8.190674473752308
+      - - 4
+        - 0
+        - 0
+      - 62.35357540451394
+      - 1.4891812630719548
+    - - 16.53040411723621
+      - - 3
+        - 3
+        - 1
+      - 68.68368262636764
+      - 1.3665664493357703
+    - - 7.885829324173959
+      - - 4
+        - 2
+        - 0
+      - 70.7301668725999
+      - 1.3319642140191552
+    - - 16.738308009320257
+      - - 4
+        - 2
+        - 2
+      - 78.69563151325018
+      - 1.2159114096798835
+    - - 12.66237903828043
+      - - 3
+        - 3
+        - 3
+      - 84.51854744186082
+      - 1.1463722708089867
+    - - 5.8133606049795725
+      - - 4
+        - 4
+        - 0
+      - 94.1272671503165
+      - 1.0530101695341272
+    - - 14.567793351127992
+      - - 5
+        - 3
+        - 1
+      - 99.93143250602304
+      - 1.0068703044377991
+    - - 4.548381482056769
+      - - 6
+        - 0
+        - 0
+      - 101.88620788122442
+      - 0.9927875087146365
+    - - 10.518772052846776
+      - - 6
+        - 2
+        - 0
+      - 109.87475082204439
+      - 0.9418409280307546
+    - - 7.230951264136004
+      - - 5
+        - 3
+        - 3
+      - 116.1333964759697
+      - 0.9083920543383022
+    - - 3.736159681745708
+      - - 6
+        - 2
+        - 2
+      - 118.29176563439654
+      - 0.898010089897675
+    - - 4.064348695654455
+      - - 4
+        - 4
+        - 4
+      - 127.44201204649534
+      - 0.8597792031067399
+    - - 18.742548011581007
+      - - 5
+        - 5
+        - 1
+      - 135.10939446598746
+      - 0.8341083456749337
+    - - 5.117767227388495
+      - - 6
+        - 4
+        - 0
+      - 137.89819283800972
+      - 0.8260491388409479
+    - - 42.56796717514748
+      - - 6
+        - 4
+        - 2
+      - 151.15775164118546
+      - 0.7960008676026469
+    - - 100.0
+      - - 7
+        - 3
+        - 1
+      - 167.54045766635892
+      - 0.7754995475695422
+    wavelength:
+      element: Cu
+      in_angstroms: 1.54184
+  Fe:
+    created_at: '2019-02-13T07:11:18.614158'
+    meta:
+    - amplitude
+    - hkl
+    - two_theta
+    - d_spacing
+    pattern:
+    - - 100.0
+      - - 1
+        - 1
+        - 1
+      - 32.719071302725894
+      - 3.4391168124269598
+    - - 25.366171976980944
+      - - 2
+        - 0
+        - 0
+      - 37.95992153323185
+      - 2.9783625261439095
+    - - 53.0265424551364
+      - - 2
+        - 2
+        - 0
+      - 54.76843297354433
+      - 2.1060203390682544
+    - - 42.60997132925986
+      - - 3
+        - 1
+        - 1
+      - 65.27816015761253
+      - 1.79602017979535
+    - - 6.472849103683766
+      - - 2
+        - 2
+        - 2
+      - 68.57249795788282
+      - 1.7195584062134799
+    - - 8.768014236878786
+      - - 4
+        - 0
+        - 0
+      - 81.1548303850366
+      - 1.4891812630719548
+    - - 19.283925001593797
+      - - 3
+        - 3
+        - 1
+      - 90.28099226539862
+      - 1.3665664493357703
+    - - 9.564448116230968
+      - - 4
+        - 2
+        - 0
+      - 93.31319365762971
+      - 1.3319642140191552
+    - - 24.95604058560132
+      - - 4
+        - 2
+        - 2
+      - 105.62575234848802
+      - 1.2159114096798835
+    - - 23.182284411163348
+      - - 3
+        - 3
+        - 3
+      - 115.34208314191461
+      - 1.1463722708089867
+    - - 16.770472931277574
+      - - 4
+        - 4
+        - 0
+      - 133.82597134464345
+      - 1.0530101695341272
+    - - 64.89615865422519
+      - - 5
+        - 3
+        - 1
+      - 148.33580883888706
+      - 1.0068703044377991
+    - - 25.732763623891277
+      - - 6
+        - 0
+        - 0
+      - 154.69282818788224
+      - 0.9927875087146365
+    wavelength:
+      element: Fe
+      in_angstroms: 1.93735
+  Mo:
+    created_at: '2019-02-13T07:11:18.613734'
+    meta:
+    - amplitude
+    - hkl
+    - two_theta
+    - d_spacing
+    pattern:
+    - - 100.0
+      - - 1
+        - 1
+        - 1
+      - 11.861953965152766
+      - 3.4391168124269598
+    - - 26.188513031144794
+      - - 2
+        - 0
+        - 0
+      - 13.705206804051317
+      - 2.9783625261439095
+    - - 61.23627291852238
+      - - 2
+        - 2
+        - 0
+      - 19.428867206995157
+      - 2.1060203390682544
+    - - 52.1083530925797
+      - - 3
+        - 1
+        - 1
+      - 22.82398043030602
+      - 1.79602017979535
+    - - 8.008651500889117
+      - - 2
+        - 2
+        - 2
+      - 23.853454493443834
+      - 1.7195584062134799
+    - - 10.814848248559327
+      - - 4
+        - 0
+        - 0
+      - 27.61152465742903
+      - 1.4891812630719548
+    - - 22.26419248525108
+      - - 3
+        - 3
+        - 1
+      - 30.145137010314457
+      - 1.3665664493357703
+    - - 10.65485462139112
+      - - 4
+        - 2
+        - 0
+      - 30.947600666037683
+      - 1.3319642140191552
+    - - 22.44093663251487
+      - - 4
+        - 2
+        - 2
+      - 33.98688411628979
+      - 1.2159114096798835
+    - - 16.46930654454803
+      - - 3
+        - 3
+        - 3
+      - 36.117367114932286
+      - 1.1463722708089867
+    - - 6.816161703509934
+      - - 4
+        - 4
+        - 0
+      - 39.44626921252265
+      - 1.0530101695341272
+    - - 15.51758586993961
+      - - 5
+        - 3
+        - 1
+      - 41.334512589984826
+      - 1.0068703044377991
+    - - 4.665734272999222
+      - - 6
+        - 0
+        - 0
+      - 41.948296996753065
+      - 0.9927875087146365
+    - - 9.020659699166355
+      - - 6
+        - 2
+        - 0
+      - 44.33418271752983
+      - 0.9418409280307546
+    wavelength:
+      element: Mo
+      in_angstroms: 0.71073

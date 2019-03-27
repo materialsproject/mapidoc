@@ -8,14 +8,40 @@ This band structure is the "line mode" along symmetry lines.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
 {
     "GGA": {
-        "oid": "54fcac67c5981c67aa357cc9", 
-        "fs_id": "54fc8af1d1b6dd448253ed71", 
-        "task_id": "mp-940654"
+        "task_id": "mp-657140"
     }
 }
 ```

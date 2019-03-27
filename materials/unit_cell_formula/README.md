@@ -10,12 +10,40 @@ A dict of the full (unnormalized) formula of the unit cell. E.g., {"Li": 4, "O":
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
 {
-    "Lu": 2.0, 
-    "Al": 4.0
+    "In": 1.0,
+    "P": 1.0
 }
 ```
 

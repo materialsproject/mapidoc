@@ -4,9 +4,9 @@
 
 ```json
 [
-    "amplitude", 
-    "hkl", 
-    "two_theta", 
+    "amplitude",
+    "hkl",
+    "two_theta",
     "d_spacing"
 ]
 ```

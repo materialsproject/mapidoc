@@ -12,12 +12,40 @@ identities. E.g., the anonymous formula for SrTiO3 would become {"A": 1, "B": 1,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
 {
-    "A": 1.0, 
-    "B": 2.0
+    "A": 1.0,
+    "B": 1.0
 }
 ```
 

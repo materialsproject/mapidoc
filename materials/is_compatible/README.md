@@ -10,6 +10,34 @@ Whether this calculation is considered compatible under the GGA/GGA+U mixing sch
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json

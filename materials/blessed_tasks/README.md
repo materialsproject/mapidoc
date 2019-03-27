@@ -16,14 +16,43 @@ Each material contains multiple computations for different purposes. Each comput
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
 {
-    "GGA band structure v2": "mp-940654", 
-    "GGA Uniform v2": "mp-940234", 
-    "GGA static v2": "mp-925833", 
-    "GGA optimize structure (2x)": "mp-1234"
+    "GGA NSCF Line": "mp-1061027",
+    "GGA NSCF Uniform": "mp-1061021",
+    "GGA Static": "mp-1060980",
+    "GGA Static Dielectric": "mp-1142286",
+    "GGA Structure Optimization": "mp-1060956"
 }
 ```
 

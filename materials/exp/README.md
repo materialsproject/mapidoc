@@ -10,12 +10,41 @@ This contains sub-keys that contain information on this material derived from ex
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
 {
     "tags": [
-        "Aluminium lutetium (2/1)"
+        "Indium phosphide (1/1)",
+        "Indium phosphide"
     ]
 }
 ```

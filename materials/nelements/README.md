@@ -12,6 +12,34 @@ For example, a material with [pretty_formula](../pretty_formula) LiFePO4 would h
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json

@@ -4,8 +4,8 @@
 
 ```json
 {
-    "in_angstroms": 1.93735, 
-    "element": "Fe"
+    "element": "Fe",
+    "in_angstroms": 1.93735
 }
 ```
 

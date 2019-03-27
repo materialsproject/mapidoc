@@ -10,9 +10,37 @@ Volume change encountered during the structure relaxation (% difference in volum
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
-0.9126641502299435
+2.015615506659195
 ```
 

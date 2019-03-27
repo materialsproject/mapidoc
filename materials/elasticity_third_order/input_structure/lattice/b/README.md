@@ -1,0 +1,8 @@
+
+
+## Example response in JSON
+
+```json
+4.512374419696353
+```
+
