@@ -3,6 +3,6 @@
 ## Example response in JSON
 
 ```json
-59.9999999964111
+120.0000000198893
 ```
 

@@ -4,7 +4,7 @@
 
 ```json
 [
-    "Indium phosphide"
+    "Tellurium"
 ]
 ```
 

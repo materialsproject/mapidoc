@@ -28,6 +28,14 @@ Boolean indicating if a Bandstructure (in line mode, across high-symmetry lines)
 
 
 
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json

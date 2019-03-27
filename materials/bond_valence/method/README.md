@@ -3,6 +3,6 @@
 ## Example response in JSON
 
 ```json
-"BVAnalyzer"
+"oxi_state_guesses"
 ```
 

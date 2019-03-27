@@ -52,13 +52,23 @@ When available, a GGA+U gap will be preferred over a GGA gap in the `search_gap`
 
 
 
+
+
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
 {
     "search_gap": {
-        "band_gap": 0.4679000000000002,
-        "is_direct": true
+        "band_gap": 0.1856,
+        "is_direct": false
     }
 }
 ```

@@ -38,12 +38,20 @@ A list of experimental tags associated with the material. For example, a materia
 
 
 
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
 [
-    "Indium phosphide (1/1)",
-    "Indium phosphide"
+    "High pressure experimental phase",
+    "Tellurium"
 ]
 ```
 

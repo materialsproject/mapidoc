@@ -44,15 +44,25 @@ Each material contains multiple computations for different purposes. Each comput
 
 
 
+
+
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
 {
-    "GGA NSCF Line": "mp-1061027",
-    "GGA NSCF Uniform": "mp-1061021",
-    "GGA Static": "mp-1060980",
-    "GGA Static Dielectric": "mp-1142286",
-    "GGA Structure Optimization": "mp-1060956"
+    "GGA NSCF Line": "mp-1062271",
+    "GGA NSCF Uniform": "mp-1062278",
+    "GGA Static": "mp-1062254",
+    "GGA Static Dielectric": "mp-1140942",
+    "GGA Structure Optimization": "mp-1062240"
 }
 ```
 

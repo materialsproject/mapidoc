@@ -5,12 +5,8 @@
 ```json
 [
     {
-        "hash": "7dc3393307131ae67785a0cdacb61d5f",
-        "titel": "PAW_PBE P 17Jan2003"
-    },
-    {
-        "hash": "b87558aef4b20a3c4a008ff3e8775108",
-        "titel": "PAW_PBE In_d 06Sep2000"
+        "hash": "72719856e22fb1d3032df6f96d98a0f2",
+        "titel": "PAW_PBE Te 08Apr2002"
     }
 ]
 ```

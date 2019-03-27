@@ -38,6 +38,14 @@ The initial input structure for the calculation in the pymatgen json representat
 
 
 
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
@@ -45,67 +53,86 @@ The initial input structure for the calculation in the pymatgen json representat
     "@class": "Structure",
     "@module": "pymatgen.core.structure",
     "lattice": {
-        "a": 4.157787873394785,
-        "alpha": 59.99999993295936,
-        "b": 4.157787871573669,
-        "beta": 59.99999994744832,
-        "c": 4.15778787,
-        "gamma": 59.9999999964111,
+        "a": 4.4593,
+        "alpha": 90.0,
+        "b": 4.459299997318832,
+        "beta": 90.0,
+        "c": 5.9282,
+        "gamma": 120.0000000198893,
         "matrix": [
             [
-                3.60074992,
+                4.4593,
                 0.0,
-                2.07889394
+                0.0
             ],
             [
-                1.20024997,
-                3.39481958,
-                2.07889394
+                -2.22965,
+                3.86186708,
+                0.0
             ],
             [
                 0.0,
                 0.0,
-                4.15778787
+                5.9282
             ]
         ],
-        "volume": 50.82436788958273
+        "volume": 102.09085934520921
     },
     "sites": [
         {
             "abc": [
-                0.25,
-                0.25,
-                0.25
+                0.261969,
+                0.0,
+                0.33333333
             ],
-            "label": "P",
+            "label": "Te",
             "species": [
                 {
-                    "element": "P",
+                    "element": "Te",
                     "occu": 1
                 }
             ],
             "xyz": [
-                1.2002499725,
-                0.848704895,
-                2.0788939375
+                1.1681983617,
+                0.0,
+                1.976066646906
             ]
         },
         {
             "abc": [
                 0.0,
-                0.0,
-                0.0
+                0.261969,
+                0.66666667
             ],
-            "label": "In",
+            "label": "Te",
             "species": [
                 {
-                    "element": "In",
+                    "element": "Te",
                     "occu": 1
                 }
             ],
             "xyz": [
-                0.0,
-                0.0,
+                -0.58409918085,
+                1.0116894570805202,
+                3.952133353094
+            ]
+        },
+        {
+            "abc": [
+                0.738031,
+                0.738031,
+                0.0
+            ],
+            "label": "Te",
+            "species": [
+                {
+                    "element": "Te",
+                    "occu": 1
+                }
+            ],
+            "xyz": [
+                1.64555081915,
+                2.85017762291948,
                 0.0
             ]
         }

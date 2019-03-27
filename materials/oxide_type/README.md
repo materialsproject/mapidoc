@@ -28,6 +28,14 @@ The oxide type is used to determine energy corrections to oxide compounds. If th
 
 
 
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json

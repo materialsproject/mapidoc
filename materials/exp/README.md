@@ -38,13 +38,21 @@ This contains sub-keys that contain information on this material derived from ex
 
 
 
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
 {
     "tags": [
-        "Indium phosphide (1/1)",
-        "Indium phosphide"
+        "High pressure experimental phase",
+        "Tellurium"
     ]
 }
 ```

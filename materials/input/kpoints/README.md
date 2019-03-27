@@ -39,6 +39,14 @@ Kpoint.as_dict() format.
 
 
 
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
@@ -47,12 +55,12 @@ Kpoint.as_dict() format.
     "@module": "pymatgen.io.vasp.inputs",
     "comment": "Automatic kpoint scheme",
     "coord_type": null,
-    "generation_style": "Monkhorst",
+    "generation_style": "Gamma",
     "kpoints": [
         [
             8,
             8,
-            8
+            6
         ]
     ],
     "kpts_weights": null,

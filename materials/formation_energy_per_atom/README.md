@@ -41,9 +41,17 @@ Units are eV/atom
 
 
 
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
--0.2098130427380962
+0.0
 ```
 

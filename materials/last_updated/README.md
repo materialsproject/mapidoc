@@ -29,11 +29,19 @@ causing a "rebuild" of the material document. The type is a Date. Shown below is
 
 
 
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
 {
-    "$date": 1550033642697
+    "$date": 1550033637941
 }
 ```
 

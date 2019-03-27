@@ -9,26 +9,31 @@
     "about": {
         "_db_ids": {
             "icsd_ids": [
-                "640182",
-                "640185",
-                "24517",
-                "41443",
-                "640184",
-                "600858",
-                "600506",
-                "53105",
-                "640191",
-                "190417",
-                "640186",
-                "181196",
-                "165466",
-                "188691",
-                "640192"
+                "40008",
+                "426980",
+                "653045",
+                "40042",
+                "23065",
+                "653047",
+                "161690",
+                "23067",
+                "23059",
+                "65692",
+                "23060",
+                "96502",
+                "76150",
+                "23058",
+                "23062",
+                "23061",
+                "23066",
+                "23064",
+                "40041",
+                "23063"
             ]
         },
         "_tags": [
-            "Indium phosphide (1/1)",
-            "Indium phosphide"
+            "High pressure experimental phase",
+            "Tellurium"
         ],
         "authors": [
             {
@@ -36,11 +41,11 @@
                 "name": "Materials Project"
             }
         ],
-        "created_at": "2017-07-18 08:30:54.844993",
+        "created_at": "2017-07-18 08:28:45.409455",
         "history": [
             {
                 "description": {
-                    "id": "640182"
+                    "id": "40008"
                 },
                 "name": "ICSD",
                 "url": "https://icsd.fiz-karlsruhe.de/"
@@ -54,80 +59,102 @@
         "projects": [
             "ICSD"
         ],
-        "references": "@article{Giesecke1958,\n    author = \"Giesecke, G. and Pfister, H.\",\n    title = \"Praezisionsbestimmung der Gitterkonstanten von A(III) B(V)-Verbindungen\",\n    journal = \"Acta Crystallographica (1,1948-23,1967)\",\n    year = \"1958\",\n    volume = \"11\",\n    pages = \"369-371\",\n    ASTM_id = \"ACCRA9\"\n}\n\n@article{Addamiano1960,\n    author = \"Addamiano, A.\",\n    title = \"On the preparation of the phosphides of aluminum, gallium and indium\",\n    journal = \"Journal of the American Chemical Society\",\n    year = \"1960\",\n    volume = \"82\",\n    pages = \"1537-1540\",\n    ASTM_id = \"JACSAT\"\n}\n\n@article{Iandelli1941,\n    author = \"Iandelli, A.\",\n    title = \"Sulla struttura dei composti In P, In As e In Sb\",\n    journal = \"Gazzetta Chimica Italiana\",\n    year = \"1941\",\n    volume = \"71\",\n    pages = \"58-62\",\n    ASTM_id = \"GCITA9\"\n}\n\n@article{Massidda1990,\n    author = \"Massidda, S. and Continenza, A. and Freeman, A.J. and de Pascale, T.M. and Meloni, F. and Serra, M.\",\n    title = \"Structural and electronic properties of narrow-band-gap semiconductors: In P, In As, and In Sb\",\n    journal = \"Physical Review, Serie 3. B - Condensed Matter (18,1978-)\",\n    year = \"1990\",\n    volume = \"41\",\n    pages = \"12079-12085\",\n    ASTM_id = \"PRBMDO\"\n}\n\n@article{Egorov1969,\n    author = \"Egorov, L.A. and Torbova, O.D.\",\n    title = \"Crystallization of solid solutions of In As1-x Px from the gas phase\",\n    journal = \"Inorganic Materials\",\n    year = \"1969\",\n    volume = \"5\",\n    pages = \"144-145\",\n    ASTM_id = \"INOMAF\"\n}\n\n@article{Antyukhov1986,\n    author = \"Antyukhov, A.M.\",\n    title = \"The Vegard law in the case of solid solutions of the P-In-As system\",\n    journal = \"Inorganic Materials\",\n    year = \"1986\",\n    volume = \"22\",\n    pages = \"426-428\",\n    ASTM_id = \"INOMAF\"\n}\n\n@article{Geist1984,\n    author = \"Geist, V. and Ascheron, C.\",\n    title = \"The proton-induced Kossel effect and its application to crystallographic studies\",\n    journal = \"Crystal Research and Technology\",\n    year = \"1984\",\n    volume = \"19\",\n    pages = \"1231-1244\",\n    ASTM_id = \"CRTEDF\"\n}\n\n@article{Menoni1987,\n    author = \"Menoni, C.S. and Spain, I.L.\",\n    title = \"Equation of state of In P to 19 GPa\",\n    journal = \"Physical Review, Serie 3. B - Condensed Matter (18,1978-)\",\n    year = \"1987\",\n    volume = \"35\",\n    pages = \"7520-7525\",\n    ASTM_id = \"PRBMDO\"\n}\n\n@article{Hahn1960,\n    author = \"Hahn, H. and Thiele, D.\",\n    title = \"Ueber die Systeme In2 Se3 / In P, In2 Se3 / In As, In Se / In As, und In Te, In As\",\n    journal = \"Zeitschrift fuer Anorganische und Allgemeine Chemie (1950) (DE)\",\n    year = \"1960\",\n    volume = \"303\",\n    pages = \"147-154\",\n    ASTM_id = \"ZAACAB\"\n}\n\n@article{Wang2002,\n    author = \"Wang, S.Q. and Ye, H.Q.\",\n    title = \"A plane-wave pseudopotential study on III-V zinc-blende and wurtzite semiconductors under pressure\",\n    journal = \"Journal of Physics: Condensed Matter\",\n    year = \"2002\",\n    volume = \"14\",\n    pages = \"9579-9587\",\n    ASTM_id = \"JCOMEL\"\n}\n\n@article{Thompson1969,\n    author = \"Thompson, A.G. and Rowe, J.E. and Rubenstein, M.\",\n    title = \"Preparation and optical properties of In As1-x Px\",\n    journal = \"Journal of Applied Physics\",\n    year = \"1969\",\n    volume = \"40\",\n    pages = \"3280-3288\",\n    ASTM_id = \"JAPIAU\"\n}\n\n@article{HouHaiJu2011,\n    author = \"Jun, Hou Hai and Jie, Kong Fan\",\n    title = \"Theoretical investigation on the structural, dynamical and thermodynamic properties of the zinc-blende In X (X = P, As, Sb)\",\n    journal = \"Physica Status Solidi B - Basic Solid State Physics\",\n    year = \"2011\",\n    volume = \"248\",\n    pages = \"1399-1404\",\n    ASTM_id = \"PSSBBD\"\n}\n\n@article{Breidi2009,\n    author = \"Breidi, A. and Amrani, B. and El haj Hassan, F.\",\n    title = \"First-principles calculations on the origins of the gap bowing in In As1-x Px alloys\",\n    journal = \"Physica B, Condensed Matter\",\n    year = \"2009\",\n    volume = \"404\",\n    pages = \"3435-3439\",\n    ASTM_id = \"PHYBE3\"\n}\n\n@article{Lopez-Perez2013,\n    author = \"Lopez-Perez, William and Simon-Olivera, Nicolas and Molina-Coronell, Javier and Gonzalez-Garcia, Alvaro and Gonzalez-Hernandez, Rafael\",\n    title = \"Structural parameters, band-gap bowings and phase diagrams of zinc-blende Sc1-x Inx P ternary alloys: A FP-LAPW study\",\n    journal = \"Journal of Alloys and Compounds\",\n    year = \"2013\",\n    volume = \"574\",\n    pages = \"124-130\",\n    ASTM_id = \"JALCEU\"\n}\n\n@article{Koester1958,\n    author = \"Koester, W. and Ulrich, W.\",\n    title = \"Zur Isomorphie der Verbindungen des Typs A(III) B(V)\",\n    journal = \"Zeitschrift fuer Metallkunde\",\n    year = \"1958\",\n    volume = \"49\",\n    pages = \"365-367\",\n    ASTM_id = \"ZEMTAE\"\n}\n",
+        "references": "@article{Cherin1967,\n    author = \"Cherin, P. and Unger, P.\",\n    title = \"Two-dimensional refinement of the crystal structure of tellurium\",\n    journal = \"Acta Crystallographica (1,1948-23,1967)\",\n    year = \"1967\",\n    volume = \"23\",\n    pages = \"670-671\",\n    ASTM_id = \"ACCRA9\"\n}\n\n@article{KurtLejaegher2014,\n    author = \"Lejaeghere, Kurt and Speybroeck, Veronique Van and Oost, Guido Van and Cottenier, Stefaan\",\n    title = \"Error estimates for solid-state density-functional theory predictions: an overview by means of the ground-state elemental crystals\",\n    journal = \"Critical Reviews in Solid State and Materials Sciences\",\n    year = \"2014\",\n    volume = \"39\",\n    pages = \"1-24\",\n    ASTM_id = \"CCRSDA\"\n}\n\n@article{Reddy1984,\n    author = \"Reddy, K.V. and Bhatnagar, A.K.\",\n    title = \"Semiconducting crystalline SexTe1-x alloys: X-ray and density measurements\",\n    journal = \"Indian Journal for Pure and Applied Physics\",\n    year = \"1984\",\n    volume = \"22\",\n    pages = \"596-598\",\n    ASTM_id = \"IJOPAU\"\n}\n\n@article{Bradley1924,\n    author = \"Bradley, A.J.\",\n    title = \"The crystal structure of tellurium\",\n    journal = \"Philosophical Magazine, Serie 6 (1901-1925)\",\n    year = \"1924\",\n    volume = \"48\",\n    pages = \"477-496\",\n    ASTM_id = \"PHMAA4\"\n}\n\n@article{Keller1977,\n    author = \"Keller, R. and Holzapfel, W.B. and Schulz, H.\",\n    title = \"Effect of pressure on the atom positions in Se and Te\",\n    journal = \"Physical Review, Serie 3. B - Solid State (1,1970-17,1977)\",\n    year = \"1977\",\n    volume = \"16\",\n    pages = \"4404-4412\",\n    ASTM_id = \"PLRBAQ\"\n}\n\n@article{Sodeck1979,\n    author = \"Sodeck, H. and Mikler, H. and Komarek, K.L.\",\n    title = \"Transition metal-chalcogen systems, VI: The zirconium-tellurium phase diagram\",\n    journal = \"Monatshefte fuer Chemie\",\n    year = \"1979\",\n    volume = \"110\",\n    pages = \"1-8\",\n    ASTM_id = \"MOCMB7\"\n}\n\n@article{Campos2008,\n    author = \"Campos, C.E.M. and Ersching, K. and de Lima, J.C. and Grandi, T.A. and Hoehn, H. and Pizani, P.S.\",\n    title = \"Influence of minor oxidation of the precursor powders to form nanocrystalline Cd Te by mechanical alloying\",\n    journal = \"Journal of Alloys and Compounds\",\n    year = \"2008\",\n    volume = \"466\",\n    pages = \"80-86\",\n    ASTM_id = \"JALCEU\"\n}\n\n@article{Adenis1989,\n    author = \"Adenis, C. and Langer, V. and Lindqvist, O.\",\n    title = \"Reinvestigation of the structure of tellurium\",\n    journal = \"Acta Crystallographica, Section C: Crystal Structure Communications\",\n    year = \"1989\",\n    volume = \"45\",\n    pages = \"941-942\",\n    ASTM_id = \"ACSCEE\"\n}\n\n@article{Bouad2003,\n    author = \"Bouad, N. and Chapon, L. and Marin-Ayral, R.M. and Bouree-Vigneron, F. and Tedenac, J.C.\",\n    title = \"Neutron powder diffraction study of strain and crystallite size in mechanically alloyed Pb Te\",\n    journal = \"Journal of Solid State Chemistry\",\n    year = \"2003\",\n    volume = \"173\",\n    pages = \"189-195\",\n    ASTM_id = \"JSSCBI\"\n}\n\n@article{Swanson1953,\n    author = \"Swanson, H.E. and Tatge, E.\",\n    title = \"Standard X-ray diffraction powder patterns I\",\n    journal = \"National Bureau of Standards (U.S.), Circular\",\n    year = \"1953\",\n    volume = \"539\",\n    pages = \"1-95\",\n    ASTM_id = \"NBSCAA\"\n}\n",
         "remarks": [
-            "Indium phosphide"
+            "Tellurium"
         ]
     },
     "charge": null,
     "lattice": {
-        "a": 4.212040679434068,
-        "alpha": 59.99999997418664,
-        "b": 4.212040676713186,
-        "beta": 59.999999995555385,
-        "c": 4.21204068,
-        "gamma": 59.99999997566818,
+        "a": 4.51237418,
+        "alpha": 90.0,
+        "b": 4.512374178907963,
+        "beta": 90.0,
+        "c": 5.95989883,
+        "gamma": 120.0000000080056,
         "matrix": [
             [
-                3.64773423,
+                4.51237418,
                 0.0,
-                2.10602034
+                0.0
             ],
             [
-                1.21591141,
-                3.43911681,
-                2.10602034
+                -2.25618709,
+                3.90783067,
+                0.0
             ],
             [
                 0.0,
                 0.0,
-                4.21204068
+                5.95989883
             ]
         ],
-        "volume": 52.83998339624193
+        "volume": 105.09443753138906
     },
     "sites": [
         {
             "abc": [
-                0.25,
-                0.25,
-                0.25
+                0.26895048,
+                0.0,
+                0.33333333
             ],
-            "label": "P",
+            "label": "Te",
             "properties": {
                 "magmom": 0.0
             },
             "species": [
                 {
-                    "element": "P",
+                    "element": "Te",
                     "occu": 1
                 }
             ],
             "xyz": [
-                1.21591141,
-                0.8597792025,
-                2.10602034
+                1.2136052016506065,
+                0.0,
+                1.986632923467004
             ]
         },
         {
             "abc": [
                 0.0,
-                0.0,
-                0.0
+                0.26895048,
+                0.66666667
             ],
-            "label": "In",
+            "label": "Te",
             "properties": {
                 "magmom": 0.0
             },
             "species": [
                 {
-                    "element": "In",
+                    "element": "Te",
                     "occu": 1
                 }
             ],
             "xyz": [
-                0.0,
-                0.0,
+                -0.6068026008253032,
+                1.0510129344552215,
+                3.9732659065329963
+            ]
+        },
+        {
+            "abc": [
+                0.73104952,
+                0.73104952,
+                0.0
+            ],
+            "label": "Te",
+            "properties": {
+                "magmom": 0.0
+            },
+            "species": [
+                {
+                    "element": "Te",
+                    "occu": 1
+                }
+            ],
+            "xyz": [
+                1.649384489174697,
+                2.8568177355447784,
                 0.0
             ]
         }

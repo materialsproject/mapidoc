@@ -38,6 +38,14 @@ A dict of the various input (crystal, incar, etc.) to the calculations.
 
 
 
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
@@ -46,67 +54,86 @@ A dict of the various input (crystal, incar, etc.) to the calculations.
         "@class": "Structure",
         "@module": "pymatgen.core.structure",
         "lattice": {
-            "a": 4.157787873394785,
-            "alpha": 59.99999993295936,
-            "b": 4.157787871573669,
-            "beta": 59.99999994744832,
-            "c": 4.15778787,
-            "gamma": 59.9999999964111,
+            "a": 4.4593,
+            "alpha": 90.0,
+            "b": 4.459299997318832,
+            "beta": 90.0,
+            "c": 5.9282,
+            "gamma": 120.0000000198893,
             "matrix": [
                 [
-                    3.60074992,
+                    4.4593,
                     0.0,
-                    2.07889394
+                    0.0
                 ],
                 [
-                    1.20024997,
-                    3.39481958,
-                    2.07889394
+                    -2.22965,
+                    3.86186708,
+                    0.0
                 ],
                 [
                     0.0,
                     0.0,
-                    4.15778787
+                    5.9282
                 ]
             ],
-            "volume": 50.82436788958273
+            "volume": 102.09085934520921
         },
         "sites": [
             {
                 "abc": [
-                    0.25,
-                    0.25,
-                    0.25
+                    0.261969,
+                    0.0,
+                    0.33333333
                 ],
-                "label": "P",
+                "label": "Te",
                 "species": [
                     {
-                        "element": "P",
+                        "element": "Te",
                         "occu": 1
                     }
                 ],
                 "xyz": [
-                    1.2002499725,
-                    0.848704895,
-                    2.0788939375
+                    1.1681983617,
+                    0.0,
+                    1.976066646906
                 ]
             },
             {
                 "abc": [
                     0.0,
-                    0.0,
-                    0.0
+                    0.261969,
+                    0.66666667
                 ],
-                "label": "In",
+                "label": "Te",
                 "species": [
                     {
-                        "element": "In",
+                        "element": "Te",
                         "occu": 1
                     }
                 ],
                 "xyz": [
-                    0.0,
-                    0.0,
+                    -0.58409918085,
+                    1.0116894570805202,
+                    3.952133353094
+                ]
+            },
+            {
+                "abc": [
+                    0.738031,
+                    0.738031,
+                    0.0
+                ],
+                "label": "Te",
+                "species": [
+                    {
+                        "element": "Te",
+                        "occu": 1
+                    }
+                ],
+                "xyz": [
+                    1.64555081915,
+                    2.85017762291948,
                     0.0
                 ]
             }
@@ -115,43 +142,40 @@ A dict of the various input (crystal, incar, etc.) to the calculations.
     "incar": {
         "@class": "Incar",
         "@module": "pymatgen.io.vasp.inputs",
-        "ALGO": "Normal",
-        "AMIX": 0.2,
-        "AMIX_MAG": 0.8,
-        "BMIX": 0.001,
-        "BMIX_MAG": 0.001,
+        "ALGO": "Fast",
+        "EDIFF": 2e-06,
         "ENCUT": 520,
         "IBRION": 2,
         "ICHARG": 1,
         "ISIF": 3,
-        "ISMEAR": 1,
+        "ISMEAR": -5,
         "ISPIN": 2,
         "LREAL": "Auto",
         "LWAVE": true,
         "MAGMOM": [
             0.6,
+            0.6,
             0.6
         ],
         "NELM": 100,
-        "NELMDL": 6,
         "NELMIN": 3,
         "NPAR": 1,
         "NSW": 200,
         "PREC": "Accurate",
-        "SIGMA": 0.2,
-        "SYSTEM": "Rubyvaspy :: p in"
+        "SIGMA": 0.05,
+        "SYSTEM": "Rubyvaspy :: te"
     },
     "kpoints": {
         "@class": "Kpoints",
         "@module": "pymatgen.io.vasp.inputs",
         "comment": "Automatic kpoint scheme",
         "coord_type": null,
-        "generation_style": "Monkhorst",
+        "generation_style": "Gamma",
         "kpoints": [
             [
                 8,
                 8,
-                8
+                6
             ]
         ],
         "kpts_weights": null,
@@ -168,12 +192,8 @@ A dict of the various input (crystal, incar, etc.) to the calculations.
     },
     "potcar_spec": [
         {
-            "hash": "7dc3393307131ae67785a0cdacb61d5f",
-            "titel": "PAW_PBE P 17Jan2003"
-        },
-        {
-            "hash": "b87558aef4b20a3c4a008ff3e8775108",
-            "titel": "PAW_PBE In_d 06Sep2000"
+            "hash": "72719856e22fb1d3032df6f96d98a0f2",
+            "titel": "PAW_PBE Te 08Apr2002"
         }
     ]
 }

@@ -38,9 +38,17 @@ For example, all stoichiometric perovskites have formula_anonymous ABC3.
 
 
 
+
+
+
+
+
+
+
+
 ## Example response in JSON
 
 ```json
-"AB"
+"A"
 ```
 

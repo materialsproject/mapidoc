@@ -4,14 +4,14 @@
 
 ```json
 {
-    "method": "BVAnalyzer",
+    "method": "oxi_state_guesses",
     "possible_species": [
-        "In3+",
-        "P3-"
+        "Te0+"
     ],
     "possible_valences": [
-        -3,
-        3
+        0.0,
+        0.0,
+        0.0
     ]
 }
 ```
