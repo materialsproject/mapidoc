@@ -1,0 +1,8723 @@
+_id:
+  $oid: 59e83f39380a4f7a902ce9f8
+analysis:
+  delta_volume: 0.5281361284814068
+  delta_volume_percent: 0.004104515581704414
+  errors: []
+  max_force: 0.11339992030496758
+  warnings: []
+calcs_reversed:
+- completed_at: '2014-02-15 05:04:06'
+  composition_reduced:
+    Co: 4.0
+    Li: 1.0
+    O: 8.0
+  composition_unit_cell:
+    Co: 4.0
+    Li: 1.0
+    O: 8.0
+  dir_name: /global/projecta/projectdirs/matgen/garden/block_2014-02-14-21-00-42-815377/launcher_2014-02-15-08-18-33-664652
+  elements:
+  - Co
+  - Li
+  - O
+  formula_anonymous: AB4C8
+  formula_pretty: Li(CoO2)4
+  formula_reduced_abc: Co4 Li1 O8
+  has_vasp_completed: true
+  hubbards:
+    Co: 3.32
+    Li: 0.0
+    O: 0.0
+  input:
+    incar:
+      ALGO: Fast
+      EDIFF: 0.00065
+      EFIELD_PEAD:
+      - 0.0
+      - 0.0
+      - 0.0
+      ENCUT: 520.0
+      IBRION: 2
+      ICHARG: 1
+      ISIF: 3
+      ISMEAR: 0
+      ISPIN: 2
+      ISTART: 1
+      LCALCEPS: false
+      LCALCPOL: false
+      LDAU: true
+      LDAUJ:
+      - 0.0
+      - 0.0
+      - 0.0
+      LDAUL:
+      - 0
+      - 2
+      - 0
+      LDAUTYPE:
+      - 2
+      LDAUU:
+      - 0.0
+      - 3.32
+      - 0.0
+      LEFG: false
+      LORBIT: false
+      LPEAD: false
+      LREAL: Auto
+      LWAVE: false
+      MAGMOM:
+      - 0.6
+      - 5.0
+      - 5.0
+      - 5.0
+      - 5.0
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      NELM: 100
+      NGY: 44
+      NSW: 99
+      PREC: accurate
+      SIGMA: 0.2
+    kpoints:
+      '@class': Kpoints
+      '@module': pymatgen.io.vasp.inputs
+      actual_points:
+      - abc:
+        - 0.0
+        - 0.0
+        - 0.0
+        weight: 0.015625
+      - abc:
+        - 0.25
+        - 0.0
+        - 0.0
+        weight: 0.03125
+      - abc:
+        - 0.5
+        - 0.0
+        - 0.0
+        weight: 0.015625
+      - abc:
+        - 0.0
+        - 0.25
+        - 0.0
+        weight: 0.09375
+      - abc:
+        - 0.25
+        - 0.25
+        - 0.0
+        weight: 0.09375
+      - abc:
+        - 0.5
+        - 0.25
+        - 0.0
+        weight: 0.09375
+      - abc:
+        - -0.25
+        - 0.25
+        - 0.0
+        weight: 0.09375
+      - abc:
+        - 0.0
+        - 0.5
+        - 0.0
+        weight: 0.046875
+      - abc:
+        - 0.25
+        - 0.5
+        - 0.0
+        weight: 0.09375
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.0
+        weight: 0.046875
+      - abc:
+        - 0.0
+        - 0.5
+        - 0.25
+        weight: 0.1875
+      - abc:
+        - 0.25
+        - 0.5
+        - 0.25
+        weight: 0.09375
+      - abc:
+        - -0.25
+        - 0.5
+        - 0.25
+        weight: 0.09375
+      comment: Kpoints from vasprun.xml
+      coord_type: null
+      generation_style: Gamma
+      genvec1:
+      - 0.25
+      - 0.0
+      - 0.0
+      genvec2:
+      - 0.0
+      - 0.25
+      - 0.0
+      genvec3:
+      - 0.0
+      - 0.0
+      - 0.25
+      kpoints:
+      - - 4
+        - 4
+        - 4
+      kpts_weights: null
+      labels: null
+      nkpoints: 0
+      shift:
+      - 0.0
+      - 0.0
+      - 0.0
+      tet_connections: null
+      tet_number: 0
+      tet_weight: 0
+      usershift:
+      - 0.0
+      - 0.0
+      - 0.0
+    lattice_rec:
+      '@class': Lattice
+      '@module': pymatgen.core.lattice
+      matrix:
+      - - -1.1226799844198359
+        - -0.6481795462826639
+        - 0.4583321485745933
+      - - -1.1073241274606829
+        - 0.630447971631585
+        - -0.44579403200789774
+      - - -0.0076777716200954575
+        - -1.2741945763059066
+        - -0.44579401638118665
+    parameters:
+      ADDGRID: false
+      AEXX: 0.0
+      AGGAC: 1.0
+      AGGAX: 1.0
+      ALDAC: 1.0
+      ALDAX: 1.0
+      AMIN: 0.1
+      AMIX: 0.4
+      AMIX_MAG: 1.6
+      ANTIRES: 0
+      APACO: 16.0
+      AVECCONST:
+      - 0.0
+      - 0.0
+      - 0.0
+      BMIX: 1.0
+      BMIX_MAG: 1.0
+      CSHIFT: 0.1
+      DEPER: 0.3
+      DIM: 3
+      DIPOL:
+      - -100.0
+      - -100.0
+      - -100.0
+      EBREAK: 2.5e-06
+      EDIFF: 0.00065
+      EDIFFG: 0.0065
+      EFERMI: 0.0
+      EFIELD: 0.0
+      EMAX: -10.0
+      EMIN: 10.0
+      ENAUG: 605.392
+      ENCUT4O: -1.0
+      ENCUTFOCK: 0.0
+      ENCUTGW: 346.66666667
+      ENCUTGWSOFT: -2.0
+      ENCUTLF: -1.0
+      ENINI: 520.0
+      ENMAX: 520.0
+      EPSILON: 1.0
+      EVENONLY: false
+      EVENONLYGW: false
+      EXXOEP: 0
+      FOURORBIT: 0
+      GGA: --
+      GGA_COMPAT: true
+      HFALPHA: 0.0
+      HFSCREEN: 0.0
+      HFSCREENC: 0.0
+      IALGO: 68
+      IBRION: 2
+      ICHARG: 1
+      ICORELEVEL: 0
+      IDIOT: 3
+      IDIPOL: 0
+      IMIX: 4
+      INIMIX: 1
+      INIWAV: 1
+      ISIF: 3
+      ISMEAR: 0
+      ISPIN: 2
+      ISTART: 0
+      ISYM: 2
+      IWAVPR: 11
+      I_CONSTRAINED_M: 0
+      KBLOCK: 99
+      KINTER: 0
+      L2ORDER: false
+      LASPH: false
+      LASYNC: false
+      LBERRY: false
+      LCHARG: true
+      LCHIMAG: false
+      LCOMPAT: false
+      LCORR: true
+      LDAU: true
+      LDAUJ:
+      - 0.0
+      LDAUL:
+      - 0
+      LDAUPRINT: 0
+      LDAUTYPE:
+      - 2
+      LDAUU:
+      - 0.0
+      LDIAG: true
+      LDIPOL: false
+      LELF: false
+      LEPSILON: false
+      LGAUGE: true
+      LGWLF: false
+      LHFCALC: false
+      LHFONE: false
+      LMAGBLOCH: false
+      LMAXFOCK: 0
+      LMAXMIX: 2
+      LMAXMP2: -1
+      LMAXPAW: -100
+      LMETAGGA: false
+      LMODELHF: false
+      LMONO: false
+      LMUSIC: false
+      LNABLA: false
+      LNONCOLLINEAR: false
+      LOPTICS: false
+      LORBIT: true
+      LPARD: false
+      LPLANE: true
+      LREAL: true
+      LREAL_COMPAT: false
+      LRHFCALC: false
+      LRPA: false
+      LSCAAWARE: false
+      LSCALAPACK: false
+      LSCALU: false
+      LSORBIT: false
+      LSPECTRAL: false
+      LSPIRAL: false
+      LTCTE: false
+      LTETE: false
+      LTHOMAS: false
+      LUSEW: false
+      LVEL: false
+      LVTOT: false
+      LWAVE: false
+      LZEROZ: false
+      MAGATOM: 0
+      MAGDIPOL:
+      - 0.0
+      - 0.0
+      - 0.0
+      MAGMOM:
+      - 0.6
+      - 5.0
+      - 5.0
+      - 5.0
+      - 5.0
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      MAXMEM: 1024
+      MAXMIX: -45
+      MIXPRE: 1
+      MODEL_ALPHA: 1.0
+      MODEL_EPS0: 5.9847224
+      MODEL_GW: 0
+      MREMOVE: 5
+      NBANDS: 66
+      NBANDSGW: -1
+      NBANDSLF: -1
+      NBLK: 32
+      NBLOCK: 1
+      NEDOS: 301
+      NELECT: 87.0
+      NELM: 100
+      NELMDL: 0
+      NELMIN: 2
+      NFREE: 1
+      NGX: 42
+      NGXF: 84
+      NGY: 48
+      NGYF: 96
+      NGZ: 48
+      NGZF: 96
+      NKREDLFX: 1
+      NKREDLFY: 1
+      NKREDLFZ: 1
+      NKREDX: 1
+      NKREDY: 1
+      NKREDZ: 1
+      NMAXFOCKAE: 0
+      NOMEGA: 0
+      NOMEGAR: 0
+      NPACO: 256
+      NPAR: 2
+      NRMM: 4
+      NSIM: 4
+      NSW: 99
+      NUPDOWN: -1.0
+      NWRITE: 2
+      ODDONLY: false
+      ODDONLYGW: false
+      OMEGAGRID: 0
+      OMEGAMAX: -1.0
+      OMEGATL: -200.0
+      ORBITALMAG: false
+      POMASS:
+      - 7.01
+      - 58.933
+      - 16.0
+      POTIM: 0.5
+      PREC: accura
+      PSTRESS: 0.0
+      QSPIRAL:
+      - 0.0
+      - 0.0
+      - 0.0
+      ROPT:
+      - -0.00025
+      - -0.00025
+      - -0.00025
+      RWIGS:
+      - -1.0
+      - -1.0
+      - -1.0
+      SAXIS:
+      - 0.0
+      - 0.0
+      - 1.0
+      SCISSOR: 0.0
+      SELFENERGY: false
+      SHIFTRED: false
+      SIGMA: 0.2
+      SMASS: -3.0
+      STM:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      SYMPREC: 1.0e-05
+      SYSTEM: unknown system
+      TEBEG: 0.0001
+      TEEND: 0.0001
+      TELESCOPE: 0
+      TIME: 0.4
+      VOSKOWN: 0
+      WC: 100.0
+      WEIMIN: 0.001
+    potcar:
+    - Li_sv
+    - Co
+    - O
+    potcar_spec:
+    - hash: 4799bab014a83a07c654d7196c8ecfa9
+      titel: PAW_PBE Li_sv 23Jan2001
+    - hash: b169bca4e137294d2ab3df8cbdd09083
+      titel: PAW_PBE Co 06Sep2000
+    - hash: 7a25bc5b9a5393f46600a4939d357982
+      titel: PAW_PBE O 08Apr2002
+    potcar_type:
+    - PAW_PBE
+    - PAW_PBE
+    - PAW_PBE
+    structure:
+      '@class': Structure
+      '@module': pymatgen.core.structure
+      lattice:
+        a: 5.643063284246428
+        alpha: 59.99999400575116
+        b: 5.720405332220518
+        beta: 120.45442232291929
+        c: 5.720405727668498
+        gamma: 120.45443251044877
+        matrix:
+        - - -2.7825935
+          - -1.60653176
+          - 4.63900769
+        - - -2.86020235
+          - 1.65133838
+          - -4.67069173
+        - - 0.0
+          - -3.30267777
+          - -4.67069173
+        volume: 129.66898528087174
+      sites:
+      - abc:
+        - 0.5
+        - 0.0
+        - 0.5
+        label: Li
+        species:
+        - element: Li
+          occu: 1
+        xyz:
+        - -1.39129675
+        - -2.454604765
+        - -0.015842020000000012
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.5
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -2.821397925
+        - -1.6289355749999999
+        - -2.351187885
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.0
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -2.821397925
+        - 0.022403310000000065
+        - -0.015842020000000012
+      - abc:
+        - 0.0
+        - 0.5
+        - 0.0
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -1.430101175
+        - 0.82566919
+        - -2.335345865
+      - abc:
+        - 0.5
+        - 0.0
+        - 0.0
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -1.39129675
+        - -0.80326588
+        - 2.319503845
+      - abc:
+        - 0.73124479
+        - 0.71073157
+        - 0.76025661
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -4.067593106296054
+        - -2.5119922653934332
+        - -3.4782821231713164
+      - abc:
+        - 0.70480297
+        - 0.73493466
+        - 0.23493466
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -4.063242004731146
+        - -0.6945760239815844
+        - -1.2603742143398842
+      - abc:
+        - 0.26875521
+        - 0.73974339
+        - 0.78926843
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.863652282912101
+        - -1.8168964275959625
+        - -5.894785376828683
+      - abc:
+        - 0.73124479
+        - 0.26025661
+        - 0.76025661
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.779143567087898
+        - -3.255878856070398
+        - -1.374252452927236
+      - abc:
+        - 0.26875521
+        - 0.73974339
+        - 0.23974339
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.863652282912101
+        - -0.0019922939296016517
+        - -3.328123317072764
+      - abc:
+        - 0.73124479
+        - 0.26025661
+        - 0.21073157
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.779143567087898
+        - -1.4409747224040372
+        - 1.1924096068286834
+      - abc:
+        - 0.29519703
+        - 0.26506534
+        - 0.76506534
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -1.579553845268854
+        - -2.5632951260184154
+        - -3.4420015556601156
+      - abc:
+        - 0.26875521
+        - 0.28926843
+        - 0.23974339
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -1.5752027437039455
+        - -0.7458788846065665
+        - -1.2240936468286836
+  is_hubbard: true
+  nelements: 3
+  nsites: 13
+  output:
+    bandgap: 0.8769999999999998
+    cbm: 2.4107
+    efermi: 1.96440526
+    energy: -73.91728207
+    energy_per_atom: -5.685944774615384
+    epsilon_ionic: []
+    epsilon_static: []
+    epsilon_static_wolfe: []
+    ionic_steps:
+    - e_0_energy: -0.11607954
+      e_fr_energy: -72.93247631
+      e_wo_entrp: -72.87443654
+      electronic_steps:
+      - XCdc: 310.68570671
+        alphaZ: 409.91096495
+        atom: 6915.86167471
+        bandstr: 728.20669681
+        e_0_energy: 1096.23066605
+        e_fr_energy: 1096.20898042
+        e_wo_entrp: 1096.25235167
+        eentropy: -0.04337125
+        ewald: -4867.83635098
+        hartreedc: -2198.43481874
+        pawaedc: -4752.19661397
+        pawpsdc: 4550.05509218
+      - e_0_energy: 84.76061206
+        e_fr_energy: 84.70383923
+        e_wo_entrp: 84.81738489
+      - e_0_energy: -100.08752413
+        e_fr_energy: -100.12292931
+        e_wo_entrp: -100.05211896
+      - e_0_energy: -109.27038331
+        e_fr_energy: -109.30767182
+        e_wo_entrp: -109.2330948
+      - e_0_energy: -109.43566975
+        e_fr_energy: -109.47307326
+        e_wo_entrp: -109.39826623
+      - e_0_energy: -109.61933333
+        e_fr_energy: -109.69101704
+        e_wo_entrp: -109.54764962
+      - e_0_energy: -70.22265635
+        e_fr_energy: -70.42484255
+        e_wo_entrp: -70.02047014
+      - e_0_energy: -70.14969263
+        e_fr_energy: -70.32060192
+        e_wo_entrp: -69.97878334
+      - e_0_energy: -70.67958998
+        e_fr_energy: -70.78240437
+        e_wo_entrp: -70.57677559
+      - e_0_energy: -71.95454652
+        e_fr_energy: -72.03877403
+        e_wo_entrp: -71.87031901
+      - e_0_energy: -71.84918995
+        e_fr_energy: -71.91886202
+        e_wo_entrp: -71.77951787
+      - e_0_energy: -72.1565618
+        e_fr_energy: -72.22249796
+        e_wo_entrp: -72.09062564
+      - e_0_energy: -72.44098126
+        e_fr_energy: -72.49318634
+        e_wo_entrp: -72.38877618
+      - e_0_energy: -72.7065693
+        e_fr_energy: -72.73563576
+        e_wo_entrp: -72.67750285
+      - e_0_energy: -72.76727175
+        e_fr_energy: -72.78783171
+        e_wo_entrp: -72.74671179
+      - e_0_energy: -72.79621852
+        e_fr_energy: -72.80615848
+        e_wo_entrp: -72.78627857
+      - e_0_energy: -72.72106549
+        e_fr_energy: -72.73112794
+        e_wo_entrp: -72.71100304
+      - e_0_energy: -72.64971901
+        e_fr_energy: -72.66390127
+        e_wo_entrp: -72.63553675
+      - e_0_energy: -72.68931055
+        e_fr_energy: -72.7021394
+        e_wo_entrp: -72.6764817
+      - e_0_energy: -72.69556891
+        e_fr_energy: -72.70676836
+        e_wo_entrp: -72.68436945
+      - e_0_energy: -72.75963429
+        e_fr_energy: -72.77500512
+        e_wo_entrp: -72.74426345
+      - e_0_energy: -72.80270747
+        e_fr_energy: -72.83498495
+        e_wo_entrp: -72.77043
+      - e_0_energy: -72.83537794
+        e_fr_energy: -72.87777665
+        e_wo_entrp: -72.79297922
+      - e_0_energy: -72.84654524
+        e_fr_energy: -72.89518143
+        e_wo_entrp: -72.79790905
+      - e_0_energy: -72.82965639
+        e_fr_energy: -72.87986942
+        e_wo_entrp: -72.77944336
+      - e_0_energy: -72.84096941
+        e_fr_energy: -72.89555821
+        e_wo_entrp: -72.78638061
+      - e_0_energy: -72.83622175
+        e_fr_energy: -72.89352018
+        e_wo_entrp: -72.77892332
+      - e_0_energy: -72.83998126
+        e_fr_energy: -72.9006073
+        e_wo_entrp: -72.77935521
+      - e_0_energy: -72.85085614
+        e_fr_energy: -72.91401711
+        e_wo_entrp: -72.78769518
+      - e_0_energy: -72.85470166
+        e_fr_energy: -72.91841595
+        e_wo_entrp: -72.79098738
+      - e_0_energy: -72.85965177
+        e_fr_energy: -72.92306228
+        e_wo_entrp: -72.79624127
+      - e_0_energy: -72.86538138
+        e_fr_energy: -72.9278367
+        e_wo_entrp: -72.80292606
+      - e_0_energy: -72.86860701
+        e_fr_energy: -72.9298709
+        e_wo_entrp: -72.80734312
+      - e_0_energy: -72.87102148
+        e_fr_energy: -72.93114197
+        e_wo_entrp: -72.81090099
+      - e_0_energy: -72.87307588
+        e_fr_energy: -72.93206592
+        e_wo_entrp: -72.81408583
+      - XCdc: 302.86736049
+        alphaZ: 409.91096495
+        atom: 6915.86167471
+        bandstr: -449.65872273
+        e_0_energy: -72.87443654
+        e_fr_energy: -72.93247631
+        e_wo_entrp: -72.81639677
+        eentropy: -0.11607954
+        ewald: -4867.83635098
+        hartreedc: -2169.34911978
+        pawaedc: -5289.89872612
+        pawpsdc: 5075.28652269
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.01466718
+        - 0.32098857
+        - -0.22697318
+      - - 0.41204375
+        - 0.23789367
+        - -0.16821615
+      - - -0.2853178
+        - 0.14779209
+        - 0.22697318
+      - - 0.2853178
+        - 0.16472838
+        - 0.21499751
+      - - -0.2853178
+        - -0.16472838
+        - -0.21499751
+      - - 0.2853178
+        - -0.14779209
+        - -0.22697318
+      - - -0.41204375
+        - -0.23789367
+        - 0.16821615
+      - - -0.01466718
+        - -0.32098857
+        - 0.22697318
+      stress:
+      - - 307.36233623
+        - 30.35885056
+        - -21.46689462
+      - - 30.35885056
+        - 272.3071124
+        - -12.3939207
+      - - -21.46689462
+        - -12.3939207
+        - 263.54326361
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.643063284246428
+          alpha: 59.99999400575116
+          b: 5.720405332220518
+          beta: 120.45442232291929
+          c: 5.720405727668498
+          gamma: 120.45443251044877
+          matrix:
+          - - -2.7825935
+            - -1.60653176
+            - 4.63900769
+          - - -2.86020235
+            - 1.65133838
+            - -4.67069173
+          - - 0.0
+            - -3.30267777
+            - -4.67069173
+          volume: 129.66898528087174
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.39129675
+          - -2.454604765
+          - -0.015842020000000012
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.821397925
+          - -1.6289355749999999
+          - -2.351187885
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.821397925
+          - 0.022403310000000065
+          - -0.015842020000000012
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.430101175
+          - 0.82566919
+          - -2.335345865
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.39129675
+          - -0.80326588
+          - 2.319503845
+        - abc:
+          - 0.73124479
+          - 0.71073157
+          - 0.76025661
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.067593106296054
+          - -2.5119922653934332
+          - -3.4782821231713164
+        - abc:
+          - 0.70480297
+          - 0.73493466
+          - 0.23493466
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.063242004731146
+          - -0.6945760239815844
+          - -1.2603742143398842
+        - abc:
+          - 0.26875521
+          - 0.73974339
+          - 0.78926843
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.863652282912101
+          - -1.8168964275959625
+          - -5.894785376828683
+        - abc:
+          - 0.73124479
+          - 0.26025661
+          - 0.76025661
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.779143567087898
+          - -3.255878856070398
+          - -1.374252452927236
+        - abc:
+          - 0.26875521
+          - 0.73974339
+          - 0.23974339
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.863652282912101
+          - -0.0019922939296016517
+          - -3.328123317072764
+        - abc:
+          - 0.73124479
+          - 0.26025661
+          - 0.21073157
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.779143567087898
+          - -1.4409747224040372
+          - 1.1924096068286834
+        - abc:
+          - 0.29519703
+          - 0.26506534
+          - 0.76506534
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.579553845268854
+          - -2.5632951260184154
+          - -3.4420015556601156
+        - abc:
+          - 0.26875521
+          - 0.28926843
+          - 0.23974339
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5752027437039455
+          - -0.7458788846065665
+          - -1.2240936468286836
+    - e_0_energy: -0.0220429
+      e_fr_energy: -70.17391984
+      e_wo_entrp: -70.16289839
+      electronic_steps:
+      - XCdc: 274.59643784
+        alphaZ: 321.49149584
+        atom: 6915.86167471
+        bandstr: -920.02132416
+        e_0_energy: -109.87845532
+        e_fr_energy: -110.0621802
+        e_wo_entrp: -109.69473045
+        eentropy: -0.36744975
+        ewald: -4479.10611219
+        hartreedc: -2007.89645457
+        pawaedc: -5289.89389739
+        pawpsdc: 5075.27344947
+      - e_0_energy: -162.84117968
+        e_fr_energy: -163.03080555
+        e_wo_entrp: -162.65155381
+      - e_0_energy: -125.84366688
+        e_fr_energy: -126.01207968
+        e_wo_entrp: -125.67525408
+      - e_0_energy: -70.20482079
+        e_fr_energy: -70.31108484
+        e_wo_entrp: -70.09855673
+      - e_0_energy: -71.18857981
+        e_fr_energy: -71.29459131
+        e_wo_entrp: -71.08256831
+      - e_0_energy: -69.09722552
+        e_fr_energy: -69.19126514
+        e_wo_entrp: -69.00318591
+      - e_0_energy: -69.31797898
+        e_fr_energy: -69.38112208
+        e_wo_entrp: -69.25483588
+      - e_0_energy: -69.67839445
+        e_fr_energy: -69.68536255
+        e_wo_entrp: -69.67142636
+      - e_0_energy: -69.83804031
+        e_fr_energy: -69.8384126
+        e_wo_entrp: -69.83766801
+      - e_0_energy: -69.88354327
+        e_fr_energy: -69.88360543
+        e_wo_entrp: -69.88348111
+      - e_0_energy: -69.76274549
+        e_fr_energy: -69.76281741
+        e_wo_entrp: -69.76267357
+      - e_0_energy: -69.9059655
+        e_fr_energy: -69.910093
+        e_wo_entrp: -69.90183801
+      - e_0_energy: -70.12919379
+        e_fr_energy: -70.14251669
+        e_wo_entrp: -70.11587088
+      - e_0_energy: -70.11273684
+        e_fr_energy: -70.12390799
+        e_wo_entrp: -70.10156568
+      - e_0_energy: -70.1402542
+        e_fr_energy: -70.15116895
+        e_wo_entrp: -70.12933945
+      - e_0_energy: -70.10852713
+        e_fr_energy: -70.12503846
+        e_wo_entrp: -70.09201579
+      - e_0_energy: -70.13031863
+        e_fr_energy: -70.14389528
+        e_wo_entrp: -70.11674198
+      - e_0_energy: -70.15144753
+        e_fr_energy: -70.16337048
+        e_wo_entrp: -70.13952457
+      - e_0_energy: -70.16303331
+        e_fr_energy: -70.17425554
+        e_wo_entrp: -70.15181107
+      - XCdc: 296.20647229
+        alphaZ: 321.49149584
+        atom: 6915.86167471
+        bandstr: -562.47895723
+        e_0_energy: -70.16289839
+        e_fr_energy: -70.17391984
+        e_wo_entrp: -70.15187694
+        eentropy: -0.0220429
+        ewald: -4479.10611219
+        hartreedc: -2353.96188896
+        pawaedc: -4976.60817821
+        pawpsdc: 4768.44361681
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 1.38182386
+        - -0.84334809
+        - 0.59633738
+      - - 1.37858238
+        - 0.79592527
+        - -0.56280387
+      - - 0.03944897
+        - -1.61836897
+        - -0.59633737
+      - - -0.03944901
+        - -0.02277592
+        - -1.72459199
+      - - 0.03944901
+        - 0.02277592
+        - 1.72459199
+      - - -0.03944897
+        - 1.61836897
+        - 0.59633737
+      - - -1.37858238
+        - -0.79592527
+        - 0.56280387
+      - - -1.38182386
+        - 0.84334809
+        - -0.59633738
+      stress:
+      - - -74.71755384
+        - 6.78554129
+        - -4.79811721
+      - - 6.78554129
+        - -82.5528651
+        - -2.77019614
+      - - -4.79811721
+        - -2.77019614
+        - -84.51168806
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 6.1630895568221575
+          alpha: 59.999993145688876
+          b: 6.158133514770746
+          beta: 119.97339849724608
+          c: 6.158133987908978
+          gamma: 119.97341037598837
+          matrix:
+          - - -3.08402146
+            - -1.78056141
+            - 5.03011785
+          - - -3.07906637
+            - 1.77769956
+            - -5.02809536
+          - - -8.0e-08
+            - -3.55540031
+            - -5.02809535
+          volume: 165.33171043678612
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.54201077
+          - -2.66798086
+          - 0.001011249999999908
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -3.0815439550000003
+          - -1.77913108
+          - -2.51303643
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -3.081543915
+          - -0.0014309249999999718
+          - 0.0010112449999999384
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.539533185
+          - 0.88884978
+          - -2.51404768
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.54201073
+          - -0.890280705
+          - 2.515058925
+        - abc:
+          - 0.72872546
+          - 0.71293514
+          - 0.75789516
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.442579631285226
+          - -2.72477663468546
+          - -3.7299000551029957
+        - abc:
+          - 0.69948228
+          - 0.73316109
+          - 0.23316109
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.41467003707416
+          - -0.7711120193106323
+          - -1.3402817648047758
+        - abc:
+          - 0.27127454
+          - 0.74210484
+          - 0.78706486
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -3.121606621735048
+          - -1.9621121771317376
+          - -6.324268159447405
+        - abc:
+          - 0.72872546
+          - 0.25789516
+          - 0.75789516
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -3.041481331861754
+          - -3.533701006913869
+          - -1.4419156430505025
+        - abc:
+          - 0.27127454
+          - 0.74210484
+          - 0.24210484
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -3.121606578138247
+          - -0.02456115308613116
+          - -3.5841572169494977
+        - abc:
+          - 0.72872546
+          - 0.25789516
+          - 0.21293514
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -3.041481288264953
+          - -1.5961499828682624
+          - 1.2981952994474049
+        - abc:
+          - 0.30051772
+          - 0.26683891
+          - 0.76683891
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.7484178729258406
+          - -2.7871501406893677
+          - -3.685791095195224
+        - abc:
+          - 0.27127454
+          - 0.28706486
+          - 0.24210484
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.7205082787147739
+          - -0.8334855253145401
+          - -1.2961728048970045
+    - e_0_energy: -0.00316256
+      e_fr_energy: -71.74013682
+      e_wo_entrp: -71.73855554
+      electronic_steps:
+      - XCdc: 303.68908009
+        alphaZ: 341.97932817
+        atom: 6915.86167471
+        bandstr: -450.97469099
+        e_0_energy: -73.89604675
+        e_fr_energy: -73.90429007
+        e_wo_entrp: -73.88780343
+        eentropy: -0.01648664
+        ewald: -4575.09463173
+        hartreedc: -2401.06570865
+        pawaedc: -4977.03280808
+        pawpsdc: 4768.74995305
+      - e_0_energy: -72.90963778
+        e_fr_energy: -72.91471837
+        e_wo_entrp: -72.90455719
+      - e_0_energy: -71.98885703
+        e_fr_energy: -72.01070057
+        e_wo_entrp: -71.96701349
+      - e_0_energy: -71.9513312
+        e_fr_energy: -71.95177677
+        e_wo_entrp: -71.95088563
+      - e_0_energy: -71.69050106
+        e_fr_energy: -71.69191096
+        e_wo_entrp: -71.68909116
+      - e_0_energy: -71.69394803
+        e_fr_energy: -71.69542076
+        e_wo_entrp: -71.69247529
+      - e_0_energy: -71.69361821
+        e_fr_energy: -71.69521607
+        e_wo_entrp: -71.69202036
+      - e_0_energy: -71.70164155
+        e_fr_energy: -71.70318614
+        e_wo_entrp: -71.70009695
+      - e_0_energy: -71.70924812
+        e_fr_energy: -71.7108915
+        e_wo_entrp: -71.70760473
+      - e_0_energy: -71.71486889
+        e_fr_energy: -71.71650656
+        e_wo_entrp: -71.71323122
+      - e_0_energy: -71.70671049
+        e_fr_energy: -71.70845718
+        e_wo_entrp: -71.70496381
+      - e_0_energy: -71.70811608
+        e_fr_energy: -71.70984646
+        e_wo_entrp: -71.70638571
+      - e_0_energy: -71.70986603
+        e_fr_energy: -71.71158634
+        e_wo_entrp: -71.70814572
+      - e_0_energy: -71.71614293
+        e_fr_energy: -71.71784415
+        e_wo_entrp: -71.7144417
+      - e_0_energy: -71.7241298
+        e_fr_energy: -71.72575752
+        e_wo_entrp: -71.72250208
+      - e_0_energy: -71.73088106
+        e_fr_energy: -71.73244801
+        e_wo_entrp: -71.7293141
+      - e_0_energy: -71.73507414
+        e_fr_energy: -71.73664939
+        e_wo_entrp: -71.73349889
+      - e_0_energy: -71.73819497
+        e_fr_energy: -71.73975969
+        e_wo_entrp: -71.73663025
+      - XCdc: 296.92073249
+        alphaZ: 341.97932817
+        atom: 6915.86167471
+        bandstr: -533.45275957
+        e_0_energy: -71.73855554
+        e_fr_energy: -71.74013682
+        e_wo_entrp: -71.73697425
+        eentropy: -0.00316256
+        ewald: -4575.09463173
+        hartreedc: -2308.48252857
+        pawaedc: -5040.04792095
+        pawpsdc: 4830.5791312
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 1.23633746
+        - -0.70124701
+        - 0.49585671
+      - - 1.24888025
+        - 0.72104167
+        - -0.5098532
+      - - -0.01087096
+        - -1.42132346
+        - -0.49585671
+      - - 0.01087094
+        - 0.00627633
+        - -1.50532215
+      - - -0.01087094
+        - -0.00627633
+        - 1.50532215
+      - - 0.01087096
+        - 1.42132346
+        - 0.49585671
+      - - -1.24888025
+        - -0.72104167
+        - 0.5098532
+      - - -1.23633746
+        - 0.70124701
+        - -0.49585671
+      stress:
+      - - -213.38293094
+        - -1.83869651
+        - 1.30011328
+      - - -1.83869651
+        - -211.25990697
+        - 0.75061958
+      - - 1.30011328
+        - 0.75061958
+        - -210.7291275
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 6.026721351262495
+          alpha: 59.999993327764265
+          b: 6.043396384240434
+          beta: 120.09156504421368
+          c: 6.043396835253611
+          gamma: 120.09157652441064
+          matrix:
+          - - -3.00501129
+            - -1.73494483
+            - 4.92760021
+          - - -3.02169782
+            - 1.74457782
+            - -4.93441287
+          - - -6.0e-08
+            - -3.48915678
+            - -4.93441286
+          volume: 155.42675985549627
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.502505675
+          - -2.612050805
+          - -0.0034063250000002654
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -3.013354585
+          - -1.739761895
+          - -2.4706127600000003
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -3.0133545550000003
+          - 0.004816494999999921
+          - -0.003406330000000235
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.51084891
+          - 0.87228891
+          - -2.467206435
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.502505645
+          - -0.867472415
+          - 2.463800105
+        - abc:
+          - 0.72932568
+          - 0.7123942
+          - 0.75846574
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.344271949115515
+          - -2.6689185766043075
+          - -3.664004836392378
+        - abc:
+          - 0.70074991
+          - 0.73358364
+          - 0.23358364
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.322429490807167
+          - -0.7509786272216797
+          - -1.3193872678655767
+        - abc:
+          - 0.27067432
+          - 0.74153426
+          - 0.7876058
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -3.054071891666734
+          - -1.9240209063689766
+          - -6.2116335481469065
+        - abc:
+          - 0.72932568
+          - 0.25846574
+          - 0.75846574
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.9726373110975586
+          - -3.4608320997870647
+          - -1.4241344013090975
+        - abc:
+          - 0.27067432
+          - 0.74153426
+          - 0.24153426
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -3.0540718589024416
+          - -0.018691690212935264
+          - -3.517091118690902
+        - abc:
+          - 0.72932568
+          - 0.25846574
+          - 0.2123942
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.972637278333266
+          - -1.5555028836310236
+          - 1.2704080281469068
+        - abc:
+          - 0.29925009
+          - 0.26641636
+          - 0.76641636
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.7042796791928332
+          - -2.72854516277832
+          - -3.621838252134424
+        - abc:
+          - 0.27067432
+          - 0.2876058
+          - 0.24153426
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.6824372208844847
+          - -0.8106052133956925
+          - -1.2772206836076225
+    - e_0_energy: -0.00047967
+      e_fr_energy: -73.22513791
+      e_wo_entrp: -73.22489807
+      electronic_steps:
+      - XCdc: 307.15410198
+        alphaZ: 371.76388764
+        atom: 6915.86167471
+        bandstr: -384.09391057
+        e_0_energy: -77.58766928
+        e_fr_energy: -77.58808709
+        e_wo_entrp: -77.58725147
+        eentropy: -0.00083562
+        ewald: -4707.79166531
+        hartreedc: -2371.01493912
+        pawaedc: -5040.04471908
+        pawpsdc: 4830.57831829
+      - e_0_energy: -75.57779302
+        e_fr_energy: -75.61504457
+        e_wo_entrp: -75.54054147
+      - e_0_energy: -73.68134801
+        e_fr_energy: -73.68146947
+        e_wo_entrp: -73.68122655
+      - e_0_energy: -73.34465392
+        e_fr_energy: -73.34520578
+        e_wo_entrp: -73.34410206
+      - e_0_energy: -73.25243747
+        e_fr_energy: -73.25250123
+        e_wo_entrp: -73.25237371
+      - e_0_energy: -73.18095512
+        e_fr_energy: -73.18112558
+        e_wo_entrp: -73.18078467
+      - e_0_energy: -73.19804562
+        e_fr_energy: -73.1983318
+        e_wo_entrp: -73.19775943
+      - e_0_energy: -73.19844919
+        e_fr_energy: -73.19870417
+        e_wo_entrp: -73.19819422
+      - e_0_energy: -73.20599436
+        e_fr_energy: -73.20621541
+        e_wo_entrp: -73.20577332
+      - e_0_energy: -73.20980168
+        e_fr_energy: -73.21002761
+        e_wo_entrp: -73.20957574
+      - e_0_energy: -73.21427737
+        e_fr_energy: -73.21449803
+        e_wo_entrp: -73.21405672
+      - e_0_energy: -73.21885673
+        e_fr_energy: -73.21907885
+        e_wo_entrp: -73.2186346
+      - e_0_energy: -73.22234619
+        e_fr_energy: -73.22257879
+        e_wo_entrp: -73.2221136
+      - e_0_energy: -73.2243725
+        e_fr_energy: -73.22460921
+        e_wo_entrp: -73.22413579
+      - XCdc: 298.86785588
+        alphaZ: 371.76388764
+        atom: 6915.86167471
+        bandstr: -495.92323092
+        e_0_energy: -73.22489807
+        e_fr_energy: -73.22513791
+        e_wo_entrp: -73.22465824
+        eentropy: -0.00047967
+        ewald: -4707.79166531
+        hartreedc: -2245.28016078
+        pawaedc: -5144.84498124
+        pawpsdc: 4934.12196179
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.80061132
+        - -0.42692528
+        - 0.30188189
+      - - 0.78111735
+        - 0.45097851
+        - -0.31888981
+      - - -0.03057748
+        - -0.90681257
+        - -0.30188189
+      - - 0.03057747
+        - 0.01765391
+        - -0.95557836
+      - - -0.03057747
+        - -0.01765391
+        - 0.95557836
+      - - 0.03057748
+        - 0.90681257
+        - 0.30188189
+      - - -0.78111735
+        - -0.45097851
+        - 0.31888981
+      - - -0.80061132
+        - 0.42692528
+        - -0.30188189
+      stress:
+      - - -141.83386313
+        - -1.47546493
+        - 1.04328499
+      - - -1.47546493
+        - -140.13021882
+        - 0.60234011
+      - - 1.04328499
+        - 0.60234011
+        - -139.70429292
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.846925221869141
+          alpha: 59.99999370371388
+          b: 5.892067809554078
+          beta: 120.2557267928008
+          c: 5.892068237739226
+          gamma: 120.2557375946107
+          matrix:
+          - - -2.90080355
+            - -1.67478041
+            - 4.79238812
+          - - -2.94603356
+            - 1.70089305
+            - -4.81085358
+          - - -3.0e-08
+            - -3.40178717
+            - -4.81085358
+          volume: 142.97445436946313
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.45040179
+          - -2.53828379
+          - -0.009232729999999911
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.92341857
+          - -1.6878372650000002
+          - -2.41465952
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.923418555
+          - 0.013056319999999899
+          - -0.009232729999999911
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.47301678
+          - 0.850446525
+          - -2.40542679
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.450401775
+          - -0.837390205
+          - 2.39619406
+        - abc:
+          - 0.73013668
+          - 0.71166863
+          - 0.75923402
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.214582763685457
+          - -2.5950989298799407
+          - -3.577198928375745
+        - abc:
+          - 0.7024627
+          - 0.73415457
+          - 0.23415457
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.200550302374591
+          - -0.7242963749998356
+          - -1.291919594492597
+        - abc:
+          - 0.26986332
+          - 0.74076598
+          - 0.78833137
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.965141937507016
+          - -1.873733634829645
+          - -6.062973691624254
+        - abc:
+          - 0.73013668
+          - 0.25923402
+          - 0.75923402
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.881695218919946
+          - -3.364641813608401
+          - -1.400602265141341
+        - abc:
+          - 0.26986332
+          - 0.74076598
+          - 0.24076598
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.9651419210800545
+          - -0.011032716391598751
+          - -3.4287167748586587
+        - abc:
+          - 0.73013668
+          - 0.25923402
+          - 0.21166863
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.881695202492984
+          - -1.501940895170355
+          - 1.2336546516242548
+        - abc:
+          - 0.2975373
+          - 0.26584543
+          - 0.76584543
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.646286837625409
+          - -2.651378155000165
+          - -3.5373994455074027
+        - abc:
+          - 0.26986332
+          - 0.28833137
+          - 0.24076598
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.6322543763145425
+          - -0.7805756001200594
+          - -1.2521201116242544
+    - e_0_energy: -0.00014097
+      e_fr_energy: -73.72133643
+      e_wo_entrp: -73.72126594
+      electronic_steps:
+      - XCdc: 304.78536924
+        alphaZ: 390.21395633
+        atom: 6915.86167471
+        bandstr: -408.47491428
+        e_0_energy: -75.15972864
+        e_fr_energy: -75.15979863
+        e_wo_entrp: -75.15965865
+        eentropy: -0.00013998
+        ewald: -4786.35079366
+        hartreedc: -2280.4649956
+        pawaedc: -5144.86800604
+        pawpsdc: 4934.13805066
+      - e_0_energy: -74.54250985
+        e_fr_energy: -74.54724316
+        e_wo_entrp: -74.53777655
+      - e_0_energy: -73.85350015
+        e_fr_energy: -73.85353114
+        e_wo_entrp: -73.85346915
+      - e_0_energy: -73.7634717
+        e_fr_energy: -73.76359869
+        e_wo_entrp: -73.76334472
+      - e_0_energy: -73.73746772
+        e_fr_energy: -73.73750414
+        e_wo_entrp: -73.7374313
+      - e_0_energy: -73.71850006
+        e_fr_energy: -73.71856679
+        e_wo_entrp: -73.71843334
+      - e_0_energy: -73.7217398
+        e_fr_energy: -73.72182021
+        e_wo_entrp: -73.72165938
+      - XCdc: 300.15162352
+        alphaZ: 390.21395633
+        atom: 6915.86167471
+        bandstr: -473.0133874
+        e_0_energy: -73.72126594
+        e_fr_energy: -73.72133643
+        e_wo_entrp: -73.72119546
+        eentropy: -0.00014097
+        ewald: -4786.35079366
+        hartreedc: -2208.67177519
+        pawaedc: -5218.79375685
+        pawpsdc: 5006.88126308
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.46658826
+        - -0.22326906
+        - 0.15787514
+      - - 0.41886183
+        - 0.2418301
+        - -0.17099962
+      - - -0.03993742
+        - -0.51571193
+        - -0.15787514
+      - - 0.03993742
+        - 0.02305788
+        - -0.5388429
+      - - -0.03993742
+        - -0.02305788
+        - 0.5388429
+      - - 0.03993742
+        - 0.51571193
+        - 0.15787514
+      - - -0.41886183
+        - -0.2418301
+        - 0.17099962
+      - - -0.46658826
+        - 0.22326906
+        - -0.15787514
+      stress:
+      - - -91.79818285
+        - -1.2858288
+        - 0.90920175
+      - - -1.2858288
+        - -90.31348328
+        - 0.52492743
+      - - 0.90920175
+        - 0.52492743
+        - -89.94229898
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.744981255419608
+          alpha: 59.99999379714034
+          b: 5.806236576026406
+          beta: 120.35333722686352
+          c: 5.80623697862138
+          gamma: 120.35334777179025
+          matrix:
+          - - -2.84169853
+            - -1.64065609
+            - 4.7156979
+          - - -2.90311796
+            - 1.67611571
+            - -4.74077266
+          - - -2.0e-08
+            - -3.35223247
+            - -4.74077265
+          volume: 136.2143463819345
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.420849275
+          - -2.49644428
+          - -0.012537374999999962
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.872408255
+          - -1.6583864250000002
+          - -2.382923705
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.872408245
+          - 0.017729809999999957
+          - -0.012537379999999931
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.45155898
+          - 0.838057855
+          - -2.37038633
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.420849265
+          - -0.820328045
+          - 2.35784895
+        - abc:
+          - 0.730612
+          - 0.71124771
+          - 0.75968214
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.141015062503874
+          - -2.553180703381642
+          - -3.5279985359462795
+        - abc:
+          - 0.70346655
+          - 0.73448918
+          - 0.23448918
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.131348595612628
+          - -0.7091200690054464
+          - -1.2763703823195003
+        - abc:
+          - 0.269388
+          - 0.74031786
+          - 0.78875229
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.914749574849451
+          - -1.8451957045581961
+          - -5.978621528569376
+        - abc:
+          - 0.730612
+          - 0.25968214
+          - 0.75968214
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.8300669461192376
+          - -3.3100568493537463
+          - -1.3872288274929634
+        - abc:
+          - 0.269388
+          - 0.74031786
+          - 0.24031786
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.9147495638807626
+          - -0.0067160006462537725
+          - -3.3786185825070363
+        - abc:
+          - 0.730612
+          - 0.25968214
+          - 0.21124771
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.830066935150549
+          - -1.4715771454418045
+          - 1.2127741185693763
+        - abc:
+          - 0.29653345
+          - 0.26551082
+          - 0.76551082
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.6134679143873718
+          - -2.607652780994554
+          - -3.4894770276804996
+        - abc:
+          - 0.269388
+          - 0.28875229
+          - 0.24031786
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.6038014474961257
+          - -0.7635921466183583
+          - -1.2378488740537203
+    - e_0_energy: -8.868e-05
+      e_fr_energy: -73.86043155
+      e_wo_entrp: -73.8603872
+      electronic_steps:
+      - XCdc: 303.12544527
+        alphaZ: 399.90011615
+        atom: 6915.86167471
+        bandstr: -428.67021527
+        e_0_energy: -74.22071165
+        e_fr_energy: -74.22074027
+        e_wo_entrp: -74.22068302
+        eentropy: -5.726e-05
+        ewald: -4826.57124609
+        hartreedc: -2226.15922713
+        pawaedc: -5218.2229296
+        pawpsdc: 5006.51569894
+      - e_0_energy: -74.10990096
+        e_fr_energy: -74.11067416
+        e_wo_entrp: -74.10912776
+      - e_0_energy: -73.88173971
+        e_fr_energy: -73.88176366
+        e_wo_entrp: -73.88171576
+      - e_0_energy: -73.87288654
+        e_fr_energy: -73.87295199
+        e_wo_entrp: -73.87282109
+      - e_0_energy: -73.86449022
+        e_fr_energy: -73.86451908
+        e_wo_entrp: -73.86446137
+      - e_0_energy: -73.85982062
+        e_fr_energy: -73.85986072
+        e_wo_entrp: -73.85978051
+      - XCdc: 300.90848271
+        alphaZ: 399.90011615
+        atom: 6915.86167471
+        bandstr: -460.75199356
+        e_0_energy: -73.8603872
+        e_fr_energy: -73.86043155
+        e_wo_entrp: -73.86034286
+        eentropy: -8.868e-05
+        ewald: -4826.57124609
+        hartreedc: -2191.02412065
+        pawaedc: -5255.88358774
+        pawpsdc: 5043.7003316
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.25061899
+        - -0.09499578
+        - 0.0671722
+      - - 0.17880562
+        - 0.10323352
+        - -0.07299708
+      - - -0.04304072
+        - -0.26454036
+        - -0.0671722
+      - - 0.04304072
+        - 0.02484958
+        - -0.27180176
+      - - -0.04304072
+        - -0.02484958
+        - 0.27180176
+      - - 0.04304072
+        - 0.26454036
+        - 0.0671722
+      - - -0.17880562
+        - -0.10323352
+        - 0.07299708
+      - - -0.25061899
+        - 0.09499578
+        - -0.0671722
+      stress:
+      - - -36.6793759
+        - -1.6665355
+        - 1.17841202
+      - - -1.6665355
+        - -34.75504531
+        - 0.68035653
+      - - 1.17841202
+        - 0.68035653
+        - -34.27395842
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.6940189334324955
+          alpha: 59.999993979873246
+          b: 5.763320953984354
+          beta: 120.40343414251524
+          c: 5.7633213531449385
+          gamma: 120.40344443027853
+          matrix:
+          - - -2.81214601
+            - -1.62359392
+            - 4.6773528
+          - - -2.88166016
+            - 1.66372705
+            - -4.70573219
+          - - -1.0e-08
+            - -3.32745512
+            - -4.70573219
+          volume: 132.91503752692108
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.40607301
+          - -2.47552452
+          - -0.01418969499999978
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.84690309
+          - -1.643660995
+          - -2.3670557899999998
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.846903085
+          - 0.020066565000000036
+          - -0.01418969499999978
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.44083008
+          - 0.831863525
+          - -2.352866095
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.406073005
+          - -0.81179696
+          - 2.3386764
+        - abc:
+          - 0.73085424
+          - 0.71103449
+          - 0.75990987
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.104228604725599
+          - -2.5322091736443006
+          - -3.503407098695076
+        - abc:
+          - 0.70397814
+          - 0.73465971
+          - 0.23465971
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.096728937338972
+          - -0.7015210493419687
+          - -1.268603472818337
+        - abc:
+          - 0.26914576
+          - 0.74009013
+          - 0.78896551
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.8895654254122936
+          - -1.8309227765636744
+          - -5.936436671304923
+        - abc:
+          - 0.73085424
+          - 0.25990987
+          - 0.75990987
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.8042407600764605
+          - -3.2827574068592718
+          - -1.3805354526595583
+        - abc:
+          - 0.26914576
+          - 0.74009013
+          - 0.24009013
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.8895654199235397
+          - -0.004564583140728495
+          - -3.3535761273404416
+        - abc:
+          - 0.73085424
+          - 0.25990987
+          - 0.21103449
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.8042407545877066
+          - -1.4563992134363262
+          - 1.202325091304924
+        - abc:
+          - 0.29602186
+          - 0.26534029
+          - 0.76534029
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5970772426610278
+          - -2.585800940658032
+          - -3.465508107181662
+        - abc:
+          - 0.26914576
+          - 0.28896551
+          - 0.24009013
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5895775752744004
+          - -0.7551128163556995
+          - -1.2307044813049235
+    - e_0_energy: -7.723e-05
+      e_fr_energy: -73.89858373
+      e_wo_entrp: -73.89854511
+      electronic_steps:
+      - XCdc: 302.34991528
+        alphaZ: 404.77045032
+        atom: 6915.86167471
+        bandstr: -438.89704499
+        e_0_energy: -73.98399468
+        e_fr_energy: -73.98402035
+        e_wo_entrp: -73.98396901
+        eentropy: -5.134e-05
+        ewald: -4846.54080638
+        hartreedc: -2199.25591586
+        pawaedc: -5257.77334822
+        pawpsdc: 5045.50110613
+      - e_0_energy: -73.94998352
+        e_fr_energy: -73.95014752
+        e_wo_entrp: -73.94981952
+      - e_0_energy: -73.90474925
+        e_fr_energy: -73.90477252
+        e_wo_entrp: -73.90472598
+      - e_0_energy: -73.90117161
+        e_fr_energy: -73.9012157
+        e_wo_entrp: -73.90112752
+      - e_0_energy: -73.89935592
+        e_fr_energy: -73.89938597
+        e_wo_entrp: -73.89932586
+      - e_0_energy: -73.89835376
+        e_fr_energy: -73.89839176
+        e_wo_entrp: -73.89831576
+      - XCdc: 301.25997325
+        alphaZ: 404.77045032
+        atom: 6915.86167471
+        bandstr: -454.74856618
+        e_0_energy: -73.89854511
+        e_fr_energy: -73.89858373
+        e_wo_entrp: -73.8985065
+        eentropy: -7.723e-05
+        ewald: -4846.54080638
+        hartreedc: -2182.03643166
+        pawaedc: -5277.60619961
+        pawpsdc: 5065.14139906
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.1514219
+        - -0.02785838
+        - 0.01969887
+      - - 0.06951345
+        - 0.04013363
+        - -0.02837875
+      - - -0.05158487
+        - -0.14506444
+        - -0.01969887
+      - - 0.05158487
+        - 0.02978255
+        - -0.14333434
+      - - -0.05158487
+        - -0.02978255
+        - 0.14333434
+      - - 0.05158487
+        - 0.14506444
+        - 0.01969887
+      - - -0.06951345
+        - -0.04013363
+        - 0.02837875
+      - - -0.1514219
+        - 0.02785838
+        - -0.01969887
+      stress:
+      - - -24.15532405
+        - -1.95657382
+        - 1.38350232
+      - - -1.95657382
+        - -21.89607961
+        - 0.79876562
+      - - 1.38350232
+        - 0.79876562
+        - -21.33126532
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.6690170856997435
+          alpha: 59.999993963770756
+          b: 5.742264737383051
+          beta: 120.42833824354875
+          c: 5.7422651311822674
+          gamma: 120.42834846414388
+          matrix:
+          - - -2.7976463
+            - -1.6152225
+            - 4.65853906
+          - - -2.87113205
+            - 1.65764865
+            - -4.68853986
+          - - -1.0e-08
+            - -3.3152983
+            - -4.68853986
+          volume: 131.315758872195
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.3988231549999999
+          - -2.4652604
+          - -0.015000399999999914
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.83438918
+          - -1.6364360749999998
+          - -2.3592703299999997
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.834389175
+          - 0.021213075000000026
+          - -0.015000399999999914
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.435566025
+          - 0.828824325
+          - -2.34426993
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.39882315
+          - -0.80761125
+          - 2.32926953
+        - abc:
+          - 0.73097425
+          - 0.71092919
+          - 0.76002253
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.08617899619754
+          - -2.5219166451422304
+          - -3.491343675876353
+        - abc:
+          - 0.7042316
+          - 0.7347442
+          - 0.2347442
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.079738553602132
+          - -0.6977900415005298
+          - -1.264794591321328
+        - abc:
+          - 0.26902575
+          - 0.73997747
+          - 0.78907081
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.8772119323778464
+          - -1.8239189052760825
+          - -5.915736844123646
+        - abc:
+          - 0.73097425
+          - 0.26002253
+          - 0.76002253
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.7915664331130867
+          - -3.2693614613672395
+          - -1.3772498273268856
+        - abc:
+          - 0.26902575
+          - 0.73997747
+          - 0.23997747
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.877211926886913
+          - -0.0035106886327603837
+          - -3.3412908326731134
+        - abc:
+          - 0.73097425
+          - 0.26002253
+          - 0.21092919
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.7915664276221532
+          - -1.4489532447239175
+          - 1.1971961841236465
+        - abc:
+          - 0.2957684
+          - 0.2652558
+          - 0.7652558
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.589039806397868
+          - -2.57508210849947
+          - -3.453746068678672
+        - abc:
+          - 0.26902575
+          - 0.28907081
+          - 0.23997747
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.58259936380246
+          - -0.7509555048577694
+          - -1.2271969841236456
+    - e_0_energy: -6.874e-05
+      e_fr_energy: -73.9104531
+      e_wo_entrp: -73.91041873
+      electronic_steps:
+      - XCdc: 302.00717324
+        alphaZ: 407.32984851
+        atom: 6915.86167471
+        bandstr: -443.42218081
+        e_0_energy: -73.93310152
+        e_fr_energy: -73.93313035
+        e_wo_entrp: -73.93307268
+        eentropy: -5.767e-05
+        ewald: -4856.96845103
+        hartreedc: -2186.26449778
+        pawaedc: -5278.12939713
+        pawpsdc: 5065.65275761
+      - e_0_energy: -73.9240349
+        e_fr_energy: -73.92411942
+        e_wo_entrp: -73.92395037
+      - e_0_energy: -73.91182191
+        e_fr_energy: -73.91185081
+        e_wo_entrp: -73.91179301
+      - e_0_energy: -73.91089739
+        e_fr_energy: -73.91093945
+        e_wo_entrp: -73.91085533
+      - XCdc: 301.44366908
+        alphaZ: 407.32984851
+        atom: 6915.86167471
+        bandstr: -451.81929673
+        e_0_energy: -73.91041873
+        e_fr_energy: -73.9104531
+        e_wo_entrp: -73.91038436
+        eentropy: -6.874e-05
+        ewald: -4856.96845103
+        hartreedc: -2177.43023906
+        pawaedc: -5283.6780101
+        pawpsdc: 5071.35042027
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.10947756
+        - 0.00758998
+        - -0.00536691
+      - - 0.02379359
+        - 0.01373724
+        - -0.00971369
+      - - -0.06131188
+        - -0.09101539
+        - 0.00536691
+      - - 0.06131188
+        - 0.03539844
+        - -0.08402115
+      - - -0.06131188
+        - -0.03539844
+        - 0.08402115
+      - - 0.06131188
+        - 0.09101539
+        - -0.00536691
+      - - -0.02379359
+        - -0.01373724
+        - 0.00971369
+      - - -0.10947756
+        - -0.00758998
+        - 0.00536691
+      stress:
+      - - -25.10993063
+        - -2.44121713
+        - 1.72619672
+      - - -2.44121713
+        - -22.29106879
+        - 0.99662041
+      - - 1.72619672
+        - 0.99662041
+        - -21.58634983
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.656039968293158
+          alpha: 59.99999393860259
+          b: 5.731335037440893
+          beta: 120.44135086430913
+          c: 5.731335422456149
+          gamma: 120.44136104561723
+          matrix:
+          - - -2.7901199
+            - -1.61087713
+            - 4.64877338
+          - - -2.8656672
+            - 1.65449351
+            - -4.6796158
+          - - 0.0
+            - -3.30898803
+            - -4.67961579
+          volume: 130.4906551782025
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.39505995
+          - -2.4599325800000003
+          - -0.015421204999999993
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.8278935499999998
+          - -1.632685825
+          - -2.355229105
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.8278935499999998
+          - 0.021808190000000005
+          - -0.015421209999999963
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.4328336
+          - 0.827246755
+          - -2.3398079
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.39505995
+          - -0.805438565
+          - 2.32438669
+        - abc:
+          - 0.73103684
+          - 0.71087435
+          - 0.76008124
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.0768097430334365
+          - -2.5165732532305585
+          - -3.4850824108701897
+        - abc:
+          - 0.70436379
+          - 0.73478826
+          - 0.23478826
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.070918042945493
+          - -0.6958526550414581
+          - -1.2628179631652228
+        - abc:
+          - 0.26896316
+          - 0.73991876
+          - 0.78912565
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.870800386279556
+          - -1.8202831469252527
+          - -5.904991593637741
+        - abc:
+          - 0.73103684
+          - 0.26008124
+          - 0.76008124
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.784986713720444
+          - -3.262407528078274
+          - -1.375543850783052
+        - abc:
+          - 0.26896316
+          - 0.73991876
+          - 0.23991876
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.870800386279556
+          - -0.002964121921726015
+          - -3.3349143592169472
+        - abc:
+          - 0.73103684
+          - 0.26008124
+          - 0.21087435
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.784986713720444
+          - -1.4450885030747473
+          - 1.194533383637741
+        - abc:
+          - 0.29563621
+          - 0.26521174
+          - 0.76521174
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5848690570545068
+          - -2.5695189949585426
+          - -3.4476402468347764
+        - abc:
+          - 0.26896316
+          - 0.28912565
+          - 0.23991876
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.578977356966564
+          - -0.7487983967694422
+          - -1.2253757991298098
+    - e_0_energy: -8.429e-05
+      e_fr_energy: -73.91409095
+      e_wo_entrp: -73.91404881
+      electronic_steps:
+      - XCdc: 301.83454154
+        alphaZ: 408.61767752
+        atom: 6915.86167471
+        bandstr: -445.91080149
+        e_0_energy: -73.92001781
+        e_fr_energy: -73.920052
+        e_wo_entrp: -73.91998361
+        eentropy: -6.839e-05
+        ewald: -4862.19827574
+        hartreedc: -2179.65635014
+        pawaedc: -5286.43253983
+        pawpsdc: 5073.96408981
+      - e_0_energy: -73.91742692
+        e_fr_energy: -73.91748753
+        e_wo_entrp: -73.91736631
+      - e_0_energy: -73.91440571
+        e_fr_energy: -73.91444004
+        e_wo_entrp: -73.91437138
+      - XCdc: 301.53957802
+        alphaZ: 408.61767752
+        atom: 6915.86167471
+        bandstr: -450.13266182
+        e_0_energy: -73.91404881
+        e_fr_energy: -73.91409095
+        e_wo_entrp: -73.91400666
+        eentropy: -8.429e-05
+        ewald: -4862.19827574
+        hartreedc: -2175.10656752
+        pawaedc: -5290.7804003
+        pawpsdc: 5078.28496847
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.07781254
+        - 0.02404045
+        - -0.01699915
+      - - -0.01270399
+        - -0.00733465
+        - 0.00518638
+      - - -0.05972589
+        - -0.05536744
+        - 0.01699915
+      - - 0.05972589
+        - 0.03448278
+        - -0.04653453
+      - - -0.05972589
+        - -0.03448278
+        - 0.04653453
+      - - 0.05972589
+        - 0.05536744
+        - -0.01699915
+      - - 0.01270399
+        - 0.00733465
+        - -0.00518638
+      - - -0.07781254
+        - -0.02404045
+        - 0.01699915
+      stress:
+      - - -20.32115748
+        - -1.50483344
+        - 1.06407434
+      - - -1.50483344
+        - -18.58353586
+        - 0.61434373
+      - - 1.06407434
+        - 0.61434373
+        - -18.14912786
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.6495515681962205
+          alpha: 59.99999405186707
+          b: 5.725870184691597
+          beta: 120.44787913262012
+          c: 5.7258705750623236
+          gamma: 120.44788930899117
+          matrix:
+          - - -2.7863567
+            - -1.60870445
+            - 4.64389053
+          - - -2.86293478
+            - 1.65291595
+            - -4.67515376
+          - - 0.0
+            - -3.3058329
+            - -4.67515376
+          volume: 130.07939163996062
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.39317835
+          - -2.457268675
+          - -0.015631614999999766
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.82464574
+          - -1.6308107
+          - -2.3532084949999996
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.82464574
+          - 0.022105749999999924
+          - -0.015631614999999766
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.43146739
+          - 0.826457975
+          - -2.33757688
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.39317835
+          - -0.804352225
+          - 2.321945265
+        - abc:
+          - 0.73106821
+          - 0.71084689
+          - 0.76011066
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.072125089726341
+          - -2.513901347660353
+          - -3.4819519834798363
+        - abc:
+          - 0.70443005
+          - 0.73481035
+          - 0.23481035
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.066507497217808
+          - -0.6948837886991551
+          - -1.2618298231364045
+        - abc:
+          - 0.26893179
+          - 0.73988934
+          - 0.78915311
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.8675948197467376
+          - -1.8184651901738116
+          - -5.899618766520163
+        - abc:
+          - 0.73106821
+          - 0.26011066
+          - 0.76011066
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.781696660253261
+          - -3.2589304514702215
+          - -1.3746908030271117
+        - abc:
+          - 0.26893179
+          - 0.73988934
+          - 0.23988934
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.8675948197467376
+          - -0.0026909485297786917
+          - -3.3317261869728876
+        - abc:
+          - 0.73106821
+          - 0.26011066
+          - 0.21084689
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.781696660253261
+          - -1.4431562098261885
+          - 1.1932017765201635
+        - abc:
+          - 0.29556995
+          - 0.26518965
+          - 0.76518965
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5827839827821921
+          - -2.5667376113008453
+          - -3.4445871668635943
+        - abc:
+          - 0.26893179
+          - 0.28915311
+          - 0.23988934
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5771663902736588
+          - -0.747720052339647
+          - -1.2244650065201632
+    - e_0_energy: -0.00011983
+      e_fr_energy: -73.91276546
+      e_wo_entrp: -73.91270554
+      electronic_steps:
+      - XCdc: 303.24569842
+        alphaZ: 414.30681986
+        atom: 6915.86167471
+        bandstr: -425.44519369
+        e_0_energy: -74.02500646
+        e_fr_energy: -74.02502663
+        e_wo_entrp: -74.0249863
+        eentropy: -4.033e-05
+        ewald: -4881.35556857
+        hartreedc: -2188.1247506
+        pawaedc: -5291.26867967
+        pawpsdc: 5078.75501324
+      - e_0_energy: -73.98532033
+        e_fr_energy: -73.98564478
+        e_wo_entrp: -73.98499588
+      - e_0_energy: -73.92121778
+        e_fr_energy: -73.92124257
+        e_wo_entrp: -73.92119299
+      - e_0_energy: -73.91676249
+        e_fr_energy: -73.91682596
+        e_wo_entrp: -73.91669902
+      - e_0_energy: -73.91409801
+        e_fr_energy: -73.91413729
+        e_wo_entrp: -73.91405873
+      - e_0_energy: -73.91258797
+        e_fr_energy: -73.91264577
+        e_wo_entrp: -73.91253016
+      - XCdc: 302.00560287
+        alphaZ: 414.30681986
+        atom: 6915.86167471
+        bandstr: -443.16220476
+        e_0_energy: -73.91270554
+        e_fr_energy: -73.91276546
+        e_wo_entrp: -73.91264563
+        eentropy: -0.00011983
+        ewald: -4881.35556857
+        hartreedc: -2168.55633621
+        pawaedc: -5320.24500345
+        pawpsdc: 5107.23236992
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - -0.11549622
+        - 0.07599936
+        - -0.05373968
+      - - -0.17868876
+        - -0.10316605
+        - 0.07294938
+      - - -0.00806927
+        - 0.13802237
+        - 0.05373968
+      - - 0.00806927
+        - 0.0046588
+        - 0.14804196
+      - - -0.00806927
+        - -0.0046588
+        - -0.14804196
+      - - 0.00806927
+        - -0.13802237
+        - -0.05373968
+      - - 0.17868876
+        - 0.10316605
+        - -0.07294938
+      - - 0.11549622
+        - -0.07599936
+        - 0.05373968
+      stress:
+      - - 19.08599614
+        - -2.05154259
+        - 1.4506629
+      - - -2.05154259
+        - 21.45492273
+        - 0.83754114
+      - - 1.4506629
+        - 0.83754114
+        - 22.04715364
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.621842336359328
+          alpha: 59.99999406058857
+          b: 5.7013454182577945
+          beta: 120.46891741710357
+          c: 5.701345807237602
+          gamma: 120.4689274862461
+          matrix:
+          - - -2.77088627
+            - -1.59977258
+            - 4.62255646
+          - - -2.8506724
+            - 1.64583626
+            - -4.65512937
+          - - 0.0
+            - -3.29167352
+            - -4.65512937
+          volume: 128.29317876640653
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.385443135
+          - -2.44572305
+          - -0.016286454999999922
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.8107793350000003
+          - -1.6228049199999999
+          - -2.34385114
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.8107793350000003
+          - 0.023031840000000026
+          - -0.016286454999999922
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.4253362
+          - 0.82291813
+          - -2.327564685
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.385443135
+          - -0.79988629
+          - 2.31127823
+        - abc:
+          - 0.73038767
+          - 0.71045699
+          - 0.75996534
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.049101299360367
+          - -2.500716077719428
+          - -3.468747932423984
+        - abc:
+          - 0.70456153
+          - 0.73485418
+          - 0.23485418
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.0470883987978254
+          - -0.690751846727594
+          - -1.2572424150015495
+        - abc:
+          - 0.26961233
+          - 0.74003466
+          - 0.78954301
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.8566614837250928
+          - -1.8122603545972351
+          - -5.874083717576015
+        - abc:
+          - 0.73038767
+          - 0.25996534
+          - 0.75996534
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.764897186274907
+          - -3.2421515701166572
+          - -1.3716510215692232
+        - abc:
+          - 0.26961233
+          - 0.74003466
+          - 0.24003466
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.8566614837250928
+          - -0.003458269883343079
+          - -3.316051258430776
+        - abc:
+          - 0.73038767
+          - 0.25996534
+          - 0.21045699
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.764897186274907
+          - -1.433349485402765
+          - 1.1863814375760164
+        - abc:
+          - 0.29543847
+          - 0.26514582
+          - 0.76514582
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.574470271202175
+          - -2.5548579932724054
+          - -3.4304598649984506
+        - abc:
+          - 0.26961233
+          - 0.28954301
+          - 0.24003466
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5724573706396332
+          - -0.744893762280572
+          - -1.2189543475760158
+    - e_0_energy: -9.185e-05
+      e_fr_energy: -73.917328
+      e_wo_entrp: -73.91728207
+      electronic_steps:
+      - XCdc: 301.12298282
+        alphaZ: 411.39855249
+        atom: 6915.86167471
+        bandstr: -455.92606904
+        e_0_energy: -73.94651881
+        e_fr_energy: -73.94659879
+        e_wo_entrp: -73.94643884
+        eentropy: -0.00015995
+        ewald: -4871.59388014
+        hartreedc: -2161.76861594
+        pawaedc: -5321.02517464
+        pawpsdc: 5107.9840909
+      - e_0_energy: -73.93726616
+        e_fr_energy: -73.93728495
+        e_wo_entrp: -73.93724736
+      - e_0_energy: -73.91915923
+        e_fr_energy: -73.91922815
+        e_wo_entrp: -73.91909031
+      - e_0_energy: -73.91840099
+        e_fr_energy: -73.91844486
+        e_wo_entrp: -73.91835713
+      - e_0_energy: -73.91766375
+        e_fr_energy: -73.91771913
+        e_wo_entrp: -73.91760837
+      - XCdc: 301.74252458
+        alphaZ: 411.39855249
+        atom: 6915.86167471
+        bandstr: -446.78643847
+        e_0_energy: -73.91728207
+        e_fr_energy: -73.917328
+        e_wo_entrp: -73.91723615
+        eentropy: -9.185e-05
+        ewald: -4871.59388014
+        hartreedc: -2171.61532704
+        pawaedc: -5309.99162763
+        pawpsdc: 5097.06728535
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - -0.01231219
+        - 0.04964473
+        - -0.03510413
+      - - -0.09259064
+        - -0.05345725
+        - 0.03779997
+      - - -0.0368375
+        - 0.03548503
+        - 0.03510413
+      - - 0.0368375
+        - 0.02126815
+        - 0.04515699
+      - - -0.0368375
+        - -0.02126815
+        - -0.04515699
+      - - 0.0368375
+        - -0.03548503
+        - -0.03510413
+      - - 0.09259064
+        - 0.05345725
+        - -0.03779997
+      - - 0.01231219
+        - -0.04964473
+        - 0.03510413
+      stress:
+      - - -2.84791684
+        - -1.86190016
+        - 1.31656167
+      - - -1.86190016
+        - -0.69798135
+        - 0.76011756
+      - - 1.31656167
+        - 0.76011756
+        - -0.16049632
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.63594306426955
+          alpha: 59.99999398978655
+          b: 5.713825761284814
+          beta: 120.4581857560946
+          c: 5.713826138783394
+          gamma: 120.4581957769372
+          matrix:
+          - - -2.77875898
+            - -1.60431789
+            - 4.63341309
+          - - -2.85691257
+            - 1.64943902
+            - -4.66531953
+          - - 0.0
+            - -3.29887904
+            - -4.66531952
+          volume: 129.2001116560043
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.38937949
+          - -2.451598465
+          - -0.015953214999999688
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.817835775
+          - -1.626878955
+          - -2.3486129799999995
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.817835775
+          - 0.022560565000000032
+          - -0.015953219999999657
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.428456285
+          - 0.82471951
+          - -2.332659765
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.38937949
+          - -0.802158945
+          - 2.316706545
+        - abc:
+          - 0.73073581
+          - 0.71065636
+          - 0.76003972
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.060821781879519
+          - -2.5074273047269426
+          - -3.475466269732291
+        - abc:
+          - 0.70449427
+          - 0.73483176
+          - 0.23483176
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.056969871100268
+          - -0.6928541536745255
+          - -1.2595771825882331
+        - abc:
+          - 0.26926419
+          - 0.73996028
+          - 0.78934364
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.862222111187646
+          - -1.815415187424539
+          - -5.887079214773873
+        - abc:
+          - 0.73073581
+          - 0.26003972
+          - 0.76003972
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.7734494388123543
+          - -3.2506919738042352
+          - -1.3731956585973122
+        - abc:
+          - 0.26926419
+          - 0.73996028
+          - 0.23996028
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.862222111187646
+          - -0.0030659361957646736
+          - -3.3240303014026864
+        - abc:
+          - 0.73073581
+          - 0.26003972
+          - 0.21065636
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.7734494388123543
+          - -1.4383427225754608
+          - 1.1898532547738747
+        - abc:
+          - 0.29550573
+          - 0.26516824
+          - 0.76516824
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5787016788997323
+          - -2.560903756325475
+          - -3.4376487774117663
+        - abc:
+          - 0.26926419
+          - 0.28934364
+          - 0.23996028
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5748497681204812
+          - -0.7463306052730575
+          - -1.2217596902677075
+    is_gap_direct: false
+    is_metal: false
+    outcar:
+      '@class': Outcar
+      '@module': pymatgen.io.vasp.outputs
+      charge:
+      - d: 0.0
+        p: 0.19
+        s: 2.07
+        tot: 2.259
+      - d: 7.174
+        p: 0.737
+        s: 0.463
+        tot: 8.374
+      - d: 7.182
+        p: 0.735
+        s: 0.464
+        tot: 8.381
+      - d: 7.29
+        p: 0.629
+        s: 0.412
+        tot: 8.331
+      - d: 7.177
+        p: 0.731
+        s: 0.467
+        tot: 8.375
+      - d: 0.0
+        p: 3.374
+        s: 1.579
+        tot: 4.952
+      - d: 0.0
+        p: 3.345
+        s: 1.588
+        tot: 4.933
+      - d: 0.0
+        p: 3.392
+        s: 1.578
+        tot: 4.97
+      - d: 0.0
+        p: 3.388
+        s: 1.578
+        tot: 4.967
+      - d: 0.0
+        p: 3.388
+        s: 1.578
+        tot: 4.967
+      - d: 0.0
+        p: 3.392
+        s: 1.578
+        tot: 4.97
+      - d: 0.0
+        p: 3.345
+        s: 1.588
+        tot: 4.933
+      - d: 0.0
+        p: 3.374
+        s: 1.579
+        tot: 4.952
+      efermi: 1.9644
+      is_stopped: false
+      magnetization:
+      - d: 0.0
+        p: -0.001
+        s: -0.001
+        tot: -0.002
+      - d: -1.166
+        p: -0.013
+        s: -0.012
+        tot: -1.191
+      - d: -1.164
+        p: -0.014
+        s: -0.011
+        tot: -1.189
+      - d: 0.026
+        p: -0.006
+        s: -0.005
+        tot: 0.014
+      - d: -1.153
+        p: -0.017
+        s: -0.011
+        tot: -1.181
+      - d: 0.0
+        p: 0.066
+        s: -0.001
+        tot: 0.066
+      - d: 0.0
+        p: 0.073
+        s: -0.002
+        tot: 0.071
+      - d: 0.0
+        p: 0.055
+        s: -0.001
+        tot: 0.054
+      - d: 0.0
+        p: 0.057
+        s: -0.001
+        tot: 0.057
+      - d: 0.0
+        p: 0.057
+        s: -0.001
+        tot: 0.057
+      - d: 0.0
+        p: 0.055
+        s: -0.001
+        tot: 0.054
+      - d: 0.0
+        p: 0.073
+        s: -0.002
+        tot: 0.071
+      - d: 0.0
+        p: 0.066
+        s: -0.001
+        tot: 0.066
+      nelect: 86.9999992
+      total_magnetization: -2.9998463
+    structure:
+      '@class': Structure
+      '@module': pymatgen.core.structure
+      lattice:
+        a: 5.63594306426955
+        alpha: 59.99999398978655
+        b: 5.713825761284814
+        beta: 120.4581857560946
+        c: 5.713826138783394
+        gamma: 120.4581957769372
+        matrix:
+        - - -2.77875898
+          - -1.60431789
+          - 4.63341309
+        - - -2.85691257
+          - 1.64943902
+          - -4.66531953
+        - - 0.0
+          - -3.29887904
+          - -4.66531952
+        volume: 129.2001116560043
+      sites:
+      - abc:
+        - 0.5
+        - 0.0
+        - 0.5
+        label: Li
+        species:
+        - element: Li
+          occu: 1
+        xyz:
+        - -1.38937949
+        - -2.451598465
+        - -0.015953214999999688
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.5
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -2.817835775
+        - -1.626878955
+        - -2.3486129799999995
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.0
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -2.817835775
+        - 0.022560565000000032
+        - -0.015953219999999657
+      - abc:
+        - 0.0
+        - 0.5
+        - 0.0
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -1.428456285
+        - 0.82471951
+        - -2.332659765
+      - abc:
+        - 0.5
+        - 0.0
+        - 0.0
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -1.38937949
+        - -0.802158945
+        - 2.316706545
+      - abc:
+        - 0.73073581
+        - 0.71065636
+        - 0.76003972
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -4.060821781879519
+        - -2.5074273047269426
+        - -3.475466269732291
+      - abc:
+        - 0.70449427
+        - 0.73483176
+        - 0.23483176
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -4.056969871100268
+        - -0.6928541536745255
+        - -1.2595771825882331
+      - abc:
+        - 0.26926419
+        - 0.73996028
+        - 0.78934364
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.862222111187646
+        - -1.815415187424539
+        - -5.887079214773873
+      - abc:
+        - 0.73073581
+        - 0.26003972
+        - 0.76003972
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.7734494388123543
+        - -3.2506919738042352
+        - -1.3731956585973122
+      - abc:
+        - 0.26926419
+        - 0.73996028
+        - 0.23996028
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.862222111187646
+        - -0.0030659361957646736
+        - -3.3240303014026864
+      - abc:
+        - 0.73073581
+        - 0.26003972
+        - 0.21065636
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.7734494388123543
+        - -1.4383427225754608
+        - 1.1898532547738747
+      - abc:
+        - 0.29550573
+        - 0.26516824
+        - 0.76516824
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -1.5787016788997323
+        - -2.560903756325475
+        - -3.4376487774117663
+      - abc:
+        - 0.26926419
+        - 0.28934364
+        - 0.23996028
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -1.5748497681204812
+        - -0.7463306052730575
+        - -1.2217596902677075
+    vbm: 1.5337
+  output_file_paths: {}
+  run_type: GGA+U
+  task:
+    name: relax2
+    type: relax2
+  vasp_version: 5.2.2
+- completed_at: '2014-02-15 05:04:08'
+  composition_reduced:
+    Co: 4.0
+    Li: 1.0
+    O: 8.0
+  composition_unit_cell:
+    Co: 4.0
+    Li: 1.0
+    O: 8.0
+  density: 4.746781282152725
+  dir_name: /global/projecta/projectdirs/matgen/garden/block_2014-02-14-21-00-42-815377/launcher_2014-02-15-08-18-33-664652
+  elements:
+  - Co
+  - Li
+  - O
+  formula_anonymous: AB4C8
+  formula_pretty: Li(CoO2)4
+  formula_reduced_abc: Co4 Li1 O8
+  has_vasp_completed: true
+  input:
+    incar:
+      ALGO: Fast
+      EDIFF: 0.00065
+      EFIELD_PEAD:
+      - 0.0
+      - 0.0
+      - 0.0
+      ENCUT: 520.0
+      IBRION: 2
+      ICHARG: 1
+      ISIF: 3
+      ISMEAR: 0
+      ISPIN: 2
+      ISTART: 1
+      LCALCEPS: false
+      LCALCPOL: false
+      LDAU: true
+      LDAUJ:
+      - 0.0
+      - 0.0
+      - 0.0
+      LDAUL:
+      - 0
+      - 2
+      - 0
+      LDAUTYPE:
+      - 2
+      LDAUU:
+      - 0.0
+      - 3.32
+      - 0.0
+      LEFG: false
+      LORBIT: false
+      LPEAD: false
+      LREAL: Auto
+      LWAVE: false
+      MAGMOM:
+      - 0.6
+      - 5.0
+      - 5.0
+      - 5.0
+      - 5.0
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      NELM: 100
+      NGY: 44
+      NSW: 99
+      PREC: accurate
+      SIGMA: 0.2
+    kpoints:
+      '@class': Kpoints
+      '@module': pymatgen.io.vasp.inputs
+      actual_points:
+      - abc:
+        - 0.0
+        - 0.0
+        - 0.0
+        weight: 0.015625
+      - abc:
+        - 0.25
+        - 0.0
+        - 0.0
+        weight: 0.03125
+      - abc:
+        - 0.5
+        - 0.0
+        - 0.0
+        weight: 0.015625
+      - abc:
+        - 0.0
+        - 0.25
+        - 0.0
+        weight: 0.09375
+      - abc:
+        - 0.25
+        - 0.25
+        - 0.0
+        weight: 0.09375
+      - abc:
+        - 0.5
+        - 0.25
+        - 0.0
+        weight: 0.09375
+      - abc:
+        - -0.25
+        - 0.25
+        - 0.0
+        weight: 0.09375
+      - abc:
+        - 0.0
+        - 0.5
+        - 0.0
+        weight: 0.046875
+      - abc:
+        - 0.25
+        - 0.5
+        - 0.0
+        weight: 0.09375
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.0
+        weight: 0.046875
+      - abc:
+        - 0.0
+        - 0.5
+        - 0.25
+        weight: 0.1875
+      - abc:
+        - 0.25
+        - 0.5
+        - 0.25
+        weight: 0.09375
+      - abc:
+        - -0.25
+        - 0.5
+        - 0.25
+        weight: 0.09375
+      comment: Kpoints from vasprun.xml
+      coord_type: null
+      generation_style: Gamma
+      genvec1:
+      - 0.25
+      - 0.0
+      - 0.0
+      genvec2:
+      - 0.0
+      - 0.25
+      - 0.0
+      genvec3:
+      - 0.0
+      - 0.0
+      - 0.25
+      kpoints:
+      - - 4
+        - 4
+        - 4
+      kpts_weights: null
+      labels: null
+      nkpoints: 0
+      shift:
+      - 0.0
+      - 0.0
+      - 0.0
+      tet_connections: null
+      tet_number: 0
+      tet_weight: 0
+      usershift:
+      - 0.0
+      - 0.0
+      - 0.0
+    lattice_rec:
+      '@class': Lattice
+      '@module': pymatgen.core.lattice
+      matrix:
+      - - -1.1211981654807965
+        - -0.6473240156320167
+        - 0.4577271975975589
+      - - -1.1059869871447372
+        - 0.6297594987611796
+        - -0.4453072087043712
+      - - -0.007605433924616665
+        - -1.2726923361288485
+        - -0.44530719234546234
+    parameters:
+      ADDGRID: false
+      AEXX: 0.0
+      AGGAC: 1.0
+      AGGAX: 1.0
+      ALDAC: 1.0
+      ALDAX: 1.0
+      AMIN: 0.1
+      AMIX: 0.4
+      AMIX_MAG: 1.6
+      ANTIRES: 0
+      APACO: 16.0
+      AVECCONST:
+      - 0.0
+      - 0.0
+      - 0.0
+      BMIX: 1.0
+      BMIX_MAG: 1.0
+      CSHIFT: 0.1
+      DEPER: 0.3
+      DIM: 3
+      DIPOL:
+      - -100.0
+      - -100.0
+      - -100.0
+      EBREAK: 2.5e-06
+      EDIFF: 0.00065
+      EDIFFG: 0.0065
+      EFERMI: 0.0
+      EFIELD: 0.0
+      EMAX: -10.0
+      EMIN: 10.0
+      ENAUG: 605.392
+      ENCUT4O: -1.0
+      ENCUTFOCK: 0.0
+      ENCUTGW: 346.66666667
+      ENCUTGWSOFT: -2.0
+      ENCUTLF: -1.0
+      ENINI: 520.0
+      ENMAX: 520.0
+      EPSILON: 1.0
+      EVENONLY: false
+      EVENONLYGW: false
+      EXXOEP: 0
+      FOURORBIT: 0
+      GGA: --
+      GGA_COMPAT: true
+      HFALPHA: 0.0
+      HFSCREEN: 0.0
+      HFSCREENC: 0.0
+      IALGO: 68
+      IBRION: 2
+      ICHARG: 1
+      ICORELEVEL: 0
+      IDIOT: 3
+      IDIPOL: 0
+      IMIX: 4
+      INIMIX: 1
+      INIWAV: 1
+      ISIF: 3
+      ISMEAR: 0
+      ISPIN: 2
+      ISTART: 0
+      ISYM: 2
+      IWAVPR: 11
+      I_CONSTRAINED_M: 0
+      KBLOCK: 99
+      KINTER: 0
+      L2ORDER: false
+      LASPH: false
+      LASYNC: false
+      LBERRY: false
+      LCHARG: true
+      LCHIMAG: false
+      LCOMPAT: false
+      LCORR: true
+      LDAU: true
+      LDAUJ:
+      - 0.0
+      LDAUL:
+      - 0
+      LDAUPRINT: 0
+      LDAUTYPE:
+      - 2
+      LDAUU:
+      - 0.0
+      LDIAG: true
+      LDIPOL: false
+      LELF: false
+      LEPSILON: false
+      LGAUGE: true
+      LGWLF: false
+      LHFCALC: false
+      LHFONE: false
+      LMAGBLOCH: false
+      LMAXFOCK: 0
+      LMAXMIX: 2
+      LMAXMP2: -1
+      LMAXPAW: -100
+      LMETAGGA: false
+      LMODELHF: false
+      LMONO: false
+      LMUSIC: false
+      LNABLA: false
+      LNONCOLLINEAR: false
+      LOPTICS: false
+      LORBIT: true
+      LPARD: false
+      LPLANE: true
+      LREAL: true
+      LREAL_COMPAT: false
+      LRHFCALC: false
+      LRPA: false
+      LSCAAWARE: false
+      LSCALAPACK: false
+      LSCALU: false
+      LSORBIT: false
+      LSPECTRAL: false
+      LSPIRAL: false
+      LTCTE: false
+      LTETE: false
+      LTHOMAS: false
+      LUSEW: false
+      LVEL: false
+      LVTOT: false
+      LWAVE: false
+      LZEROZ: false
+      MAGATOM: 0
+      MAGDIPOL:
+      - 0.0
+      - 0.0
+      - 0.0
+      MAGMOM:
+      - 0.6
+      - 5.0
+      - 5.0
+      - 5.0
+      - 5.0
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      MAXMEM: 1024
+      MAXMIX: -45
+      MIXPRE: 1
+      MODEL_ALPHA: 1.0
+      MODEL_EPS0: 5.93870656
+      MODEL_GW: 0
+      MREMOVE: 5
+      NBANDS: 66
+      NBANDSGW: -1
+      NBANDSLF: -1
+      NBLK: 32
+      NBLOCK: 1
+      NEDOS: 301
+      NELECT: 87.0
+      NELM: 100
+      NELMDL: 0
+      NELMIN: 2
+      NFREE: 1
+      NGX: 42
+      NGXF: 84
+      NGY: 48
+      NGYF: 96
+      NGZ: 42
+      NGZF: 84
+      NKREDLFX: 1
+      NKREDLFY: 1
+      NKREDLFZ: 1
+      NKREDX: 1
+      NKREDY: 1
+      NKREDZ: 1
+      NMAXFOCKAE: 0
+      NOMEGA: 0
+      NOMEGAR: 0
+      NPACO: 256
+      NPAR: 2
+      NRMM: 4
+      NSIM: 4
+      NSW: 99
+      NUPDOWN: -1.0
+      NWRITE: 2
+      ODDONLY: false
+      ODDONLYGW: false
+      OMEGAGRID: 0
+      OMEGAMAX: -1.0
+      OMEGATL: -200.0
+      ORBITALMAG: false
+      POMASS:
+      - 7.01
+      - 58.933
+      - 16.0
+      POTIM: 0.5
+      PREC: accura
+      PSTRESS: 0.0
+      QSPIRAL:
+      - 0.0
+      - 0.0
+      - 0.0
+      ROPT:
+      - -0.00025
+      - -0.00025
+      - -0.00025
+      RWIGS:
+      - -1.0
+      - -1.0
+      - -1.0
+      SAXIS:
+      - 0.0
+      - 0.0
+      - 1.0
+      SCISSOR: 0.0
+      SELFENERGY: false
+      SHIFTRED: false
+      SIGMA: 0.2
+      SMASS: -3.0
+      STM:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      SYMPREC: 1.0e-05
+      SYSTEM: unknown system
+      TEBEG: 0.0001
+      TEEND: 0.0001
+      TELESCOPE: 0
+      TIME: 0.4
+      VOSKOWN: 0
+      WC: 100.0
+      WEIMIN: 0.001
+    potcar:
+    - Li_sv
+    - Co
+    - O
+    potcar_spec:
+    - hash: 4799bab014a83a07c654d7196c8ecfa9
+      titel: PAW_PBE Li_sv 23Jan2001
+    - hash: b169bca4e137294d2ab3df8cbdd09083
+      titel: PAW_PBE Co 06Sep2000
+    - hash: 7a25bc5b9a5393f46600a4939d357982
+      titel: PAW_PBE O 08Apr2002
+    potcar_type:
+    - PAW_PBE
+    - PAW_PBE
+    - PAW_PBE
+    structure:
+      '@class': Structure
+      '@module': pymatgen.core.structure
+      lattice:
+        a: 5.628663445527658
+        alpha: 59.99999402933882
+        b: 5.705601822396734
+        beta: 120.45320422914749
+        c: 5.705602208337178
+        gamma: 120.4532142941995
+        matrix:
+        - - -2.77559753
+          - -1.60249263
+          - 4.62708633
+        - - -2.8528006
+          - 1.64706498
+          - -4.65860471
+        - - 0.0
+          - -3.29413095
+          - -4.65860471
+        volume: 128.6719755275229
+      sites:
+      - abc:
+        - 0.5
+        - 0.0
+        - 0.5
+        label: Li
+        species:
+        - element: Li
+          occu: 1
+        xyz:
+        - -1.387798765
+        - -2.44831179
+        - -0.015759189999999812
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.5
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -2.8141990650000004
+        - -1.6247793000000001
+        - -2.3450615449999996
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.0
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -2.8141990650000004
+        - 0.022286174999999964
+        - -0.015759189999999812
+      - abc:
+        - 0.0
+        - 0.5
+        - 0.0
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -1.4264003
+        - 0.82353249
+        - -2.329302355
+      - abc:
+        - 0.5
+        - 0.0
+        - 0.0
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -1.387798765
+        - -0.801246315
+        - 2.313543165
+      - abc:
+        - 0.73334708
+        - 0.70718649
+        - 0.76308029
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -4.052938386864607
+        - -2.524087589547876
+        - -3.4561314972511163
+      - abc:
+        - 0.7045282
+        - 0.73484307
+        - 0.23484307
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -4.051847482737188
+        - -0.6922707870144938
+        - -1.2574716157062127
+      - abc:
+        - 0.26665292
+        - 0.73691971
+        - 0.79281351
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.842406176959114
+        - -1.8251862125243585
+        - -5.892596302748882
+      - abc:
+        - 0.73334708
+        - 0.26308029
+        - 0.76308029
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.7859919530408868
+        - -3.255559358968752
+        - -1.3872162621909143
+      - abc:
+        - 0.26665292
+        - 0.73691971
+        - 0.23691971
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.842406176959114
+        - 0.006000758968751518
+        - -3.3029068278090845
+      - abc:
+        - 0.73334708
+        - 0.26308029
+        - 0.20718649
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.7859919530408868
+        - -1.4243723874756418
+        - 1.2024732127488833
+      - abc:
+        - 0.2954718
+        - 0.26515693
+        - 0.76515693
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -1.5765506472628121
+        - -2.5572878129855057
+        - -3.4326514742937864
+      - abc:
+        - 0.26665292
+        - 0.29281351
+        - 0.23691971
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -1.5754597431353936
+        - -0.7254710104521244
+        - -1.2339915927488823
+  nelements: 3
+  nsites: 13
+  output:
+    bandgap: 0.8805000000000001
+    cbm: 2.3868
+    efermi: 1.93583397
+    energy: -73.91447549
+    energy_per_atom: -5.685728883846154
+    epsilon_ionic: []
+    epsilon_static: []
+    epsilon_static_wolfe: []
+    ionic_steps:
+    - e_0_energy: -0.0019371
+      e_fr_energy: -73.77567801
+      e_wo_entrp: -73.77470946
+      electronic_steps:
+      - XCdc: 301.21381093
+        alphaZ: 413.08714426
+        atom: 6915.86167471
+        bandstr: 615.18294754
+        e_0_energy: 981.76973383
+        e_fr_energy: 981.74241005
+        e_wo_entrp: 981.79705762
+        eentropy: -0.05464757
+        ewald: -4851.22568787
+        hartreedc: -2195.58892075
+        pawaedc: -5322.05861043
+        pawpsdc: 5105.32469923
+      - e_0_energy: 81.68653161
+        e_fr_energy: 81.63940437
+        e_wo_entrp: 81.73365884
+      - e_0_energy: -63.92466738
+        e_fr_energy: -64.01055771
+        e_wo_entrp: -63.83877704
+      - e_0_energy: -71.39684447
+        e_fr_energy: -71.48587967
+        e_wo_entrp: -71.30780928
+      - e_0_energy: -71.49916309
+        e_fr_energy: -71.58827413
+        e_wo_entrp: -71.41005205
+      - e_0_energy: -74.56045833
+        e_fr_energy: -74.66008403
+        e_wo_entrp: -74.46083264
+      - e_0_energy: -73.27131459
+        e_fr_energy: -73.35454018
+        e_wo_entrp: -73.18808901
+      - e_0_energy: -73.37868538
+        e_fr_energy: -73.44651059
+        e_wo_entrp: -73.31086018
+      - e_0_energy: -73.52112331
+        e_fr_energy: -73.56560925
+        e_wo_entrp: -73.47663737
+      - e_0_energy: -73.65402055
+        e_fr_energy: -73.67065062
+        e_wo_entrp: -73.63739048
+      - e_0_energy: -73.69168494
+        e_fr_energy: -73.69817466
+        e_wo_entrp: -73.68519522
+      - e_0_energy: -73.65369991
+        e_fr_energy: -73.65855526
+        e_wo_entrp: -73.64884456
+      - e_0_energy: -73.65088037
+        e_fr_energy: -73.65465064
+        e_wo_entrp: -73.6471101
+      - e_0_energy: -73.64667441
+        e_fr_energy: -73.65005355
+        e_wo_entrp: -73.64329528
+      - e_0_energy: -73.62663581
+        e_fr_energy: -73.63028058
+        e_wo_entrp: -73.62299104
+      - e_0_energy: -73.68105456
+        e_fr_energy: -73.68461047
+        e_wo_entrp: -73.67749865
+      - e_0_energy: -73.71706075
+        e_fr_energy: -73.7205573
+        e_wo_entrp: -73.7135642
+      - e_0_energy: -73.7108109
+        e_fr_energy: -73.71590507
+        e_wo_entrp: -73.70571672
+      - e_0_energy: -73.73351356
+        e_fr_energy: -73.73962004
+        e_wo_entrp: -73.72740707
+      - e_0_energy: -73.72204815
+        e_fr_energy: -73.72853386
+        e_wo_entrp: -73.71556245
+      - e_0_energy: -73.7462712
+        e_fr_energy: -73.75244616
+        e_wo_entrp: -73.74009624
+      - e_0_energy: -73.73723897
+        e_fr_energy: -73.74302449
+        e_wo_entrp: -73.73145345
+      - e_0_energy: -73.73518112
+        e_fr_energy: -73.74031868
+        e_wo_entrp: -73.73004357
+      - e_0_energy: -73.74020721
+        e_fr_energy: -73.74510003
+        e_wo_entrp: -73.73531438
+      - e_0_energy: -73.74482824
+        e_fr_energy: -73.74982418
+        e_wo_entrp: -73.7398323
+      - e_0_energy: -73.74079709
+        e_fr_energy: -73.74445946
+        e_wo_entrp: -73.73713471
+      - e_0_energy: -73.74768816
+        e_fr_energy: -73.75122822
+        e_wo_entrp: -73.7441481
+      - e_0_energy: -73.75273387
+        e_fr_energy: -73.75589555
+        e_wo_entrp: -73.7495722
+      - e_0_energy: -73.75575245
+        e_fr_energy: -73.7584899
+        e_wo_entrp: -73.75301501
+      - e_0_energy: -73.75741572
+        e_fr_energy: -73.75979832
+        e_wo_entrp: -73.75503312
+      - e_0_energy: -73.75927484
+        e_fr_energy: -73.76142196
+        e_wo_entrp: -73.75712772
+      - e_0_energy: -73.76179436
+        e_fr_energy: -73.76358646
+        e_wo_entrp: -73.76000227
+      - e_0_energy: -73.76461856
+        e_fr_energy: -73.76610469
+        e_wo_entrp: -73.76313243
+      - e_0_energy: -73.76669973
+        e_fr_energy: -73.76802765
+        e_wo_entrp: -73.7653718
+      - e_0_energy: -73.76866467
+        e_fr_energy: -73.76986917
+        e_wo_entrp: -73.76746017
+      - e_0_energy: -73.77028051
+        e_fr_energy: -73.77140942
+        e_wo_entrp: -73.7691516
+      - e_0_energy: -73.77177059
+        e_fr_energy: -73.77284739
+        e_wo_entrp: -73.77069379
+      - e_0_energy: -73.77323736
+        e_fr_energy: -73.77427492
+        e_wo_entrp: -73.7721998
+      - e_0_energy: -73.77420716
+        e_fr_energy: -73.77519377
+        e_wo_entrp: -73.77322055
+      - XCdc: 302.05307336
+        alphaZ: 413.08714426
+        atom: 6915.86167471
+        bandstr: -444.58899654
+        e_0_energy: -73.77470946
+        e_fr_energy: -73.77567801
+        e_wo_entrp: -73.77374092
+        eentropy: -0.0019371
+        ewald: -4851.22568787
+        hartreedc: -2195.80159072
+        pawaedc: -5330.80032535
+        pawpsdc: 5117.64096724
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - -0.17193134
+        - 0.31449996
+        - -0.22238507
+      - - -0.10167858
+        - -0.05870418
+        - 0.0415101
+      - - -0.18639927
+        - 0.3061469
+        - 0.22238507
+      - - 0.18639927
+        - 0.10761772
+        - 0.36276646
+      - - -0.18639927
+        - -0.10761772
+        - -0.36276646
+      - - 0.18639927
+        - -0.3061469
+        - -0.22238507
+      - - 0.10167858
+        - 0.05870418
+        - -0.0415101
+      - - 0.17193134
+        - -0.31449996
+        - 0.22238507
+      stress:
+      - - 22.43958829
+        - 3.617041
+        - -2.55763021
+      - - 3.617041
+        - 18.26300068
+        - -1.47664899
+      - - -2.55763021
+        - -1.47664899
+        - 17.21884999
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.628663445527658
+          alpha: 59.99999402933882
+          b: 5.705601822396734
+          beta: 120.45320422914749
+          c: 5.705602208337178
+          gamma: 120.4532142941995
+          matrix:
+          - - -2.77559753
+            - -1.60249263
+            - 4.62708633
+          - - -2.8528006
+            - 1.64706498
+            - -4.65860471
+          - - 0.0
+            - -3.29413095
+            - -4.65860471
+          volume: 128.6719755275229
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.387798765
+          - -2.44831179
+          - -0.015759189999999812
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.8141990650000004
+          - -1.6247793000000001
+          - -2.3450615449999996
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.8141990650000004
+          - 0.022286174999999964
+          - -0.015759189999999812
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.4264003
+          - 0.82353249
+          - -2.329302355
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.387798765
+          - -0.801246315
+          - 2.313543165
+        - abc:
+          - 0.73334708
+          - 0.70718649
+          - 0.76308029
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.052938386864607
+          - -2.524087589547876
+          - -3.4561314972511163
+        - abc:
+          - 0.7045282
+          - 0.73484307
+          - 0.23484307
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.051847482737188
+          - -0.6922707870144938
+          - -1.2574716157062127
+        - abc:
+          - 0.26665292
+          - 0.73691971
+          - 0.79281351
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.842406176959114
+          - -1.8251862125243585
+          - -5.892596302748882
+        - abc:
+          - 0.73334708
+          - 0.26308029
+          - 0.76308029
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.7859919530408868
+          - -3.255559358968752
+          - -1.3872162621909143
+        - abc:
+          - 0.26665292
+          - 0.73691971
+          - 0.23691971
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.842406176959114
+          - 0.006000758968751518
+          - -3.3029068278090845
+        - abc:
+          - 0.73334708
+          - 0.26308029
+          - 0.20718649
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.7859919530408868
+          - -1.4243723874756418
+          - 1.2024732127488833
+        - abc:
+          - 0.2954718
+          - 0.26515693
+          - 0.76515693
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5765506472628121
+          - -2.5572878129855057
+          - -3.4326514742937864
+        - abc:
+          - 0.26665292
+          - 0.29281351
+          - 0.23691971
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5754597431353936
+          - -0.7254710104521244
+          - -1.2339915927488823
+    - e_0_energy: -0.00024905
+      e_fr_energy: -73.8481192
+      e_wo_entrp: -73.84799468
+      electronic_steps:
+      - XCdc: 299.77408579
+        alphaZ: 406.03861109
+        atom: 6915.86167471
+        bandstr: -472.67501875
+        e_0_energy: -73.89792825
+        e_fr_energy: -73.89932175
+        e_wo_entrp: -73.89653474
+        eentropy: -0.002787
+        ewald: -4857.88033613
+        hartreedc: -2151.85824733
+        pawaedc: -5330.7825135
+        pawpsdc: 5117.62520938
+      - e_0_energy: -73.95596953
+        e_fr_energy: -73.95597983
+        e_wo_entrp: -73.95595923
+      - e_0_energy: -73.8030314
+        e_fr_energy: -73.80365823
+        e_wo_entrp: -73.80240457
+      - e_0_energy: -73.81596971
+        e_fr_energy: -73.81614781
+        e_wo_entrp: -73.81579161
+      - e_0_energy: -73.8087832
+        e_fr_energy: -73.8091886
+        e_wo_entrp: -73.8083778
+      - e_0_energy: -73.81166466
+        e_fr_energy: -73.81187835
+        e_wo_entrp: -73.81145097
+      - e_0_energy: -73.8178744
+        e_fr_energy: -73.81804014
+        e_wo_entrp: -73.81770867
+      - e_0_energy: -73.82409227
+        e_fr_energy: -73.82427528
+        e_wo_entrp: -73.82390927
+      - e_0_energy: -73.82994528
+        e_fr_energy: -73.83012294
+        e_wo_entrp: -73.82976762
+      - e_0_energy: -73.83285791
+        e_fr_energy: -73.8330289
+        e_wo_entrp: -73.83268691
+      - e_0_energy: -73.83576321
+        e_fr_energy: -73.8359184
+        e_wo_entrp: -73.83560802
+      - e_0_energy: -73.83887219
+        e_fr_energy: -73.83901709
+        e_wo_entrp: -73.83872729
+      - e_0_energy: -73.84148563
+        e_fr_energy: -73.84162433
+        e_wo_entrp: -73.84134693
+      - e_0_energy: -73.83950143
+        e_fr_energy: -73.83963798
+        e_wo_entrp: -73.83936489
+      - e_0_energy: -73.84448108
+        e_fr_energy: -73.8446124
+        e_wo_entrp: -73.84434975
+      - e_0_energy: -73.84635157
+        e_fr_energy: -73.84647956
+        e_wo_entrp: -73.84622357
+      - e_0_energy: -73.84780018
+        e_fr_energy: -73.84792549
+        e_wo_entrp: -73.84767488
+      - XCdc: 301.28763723
+        alphaZ: 406.03861109
+        atom: 6915.86167471
+        bandstr: -452.75351976
+        e_0_energy: -73.84799468
+        e_fr_energy: -73.8481192
+        e_wo_entrp: -73.84787015
+        eentropy: -0.00024905
+        ewald: -4857.88033613
+        hartreedc: -2173.91275813
+        pawaedc: -5281.14982161
+        pawpsdc: 5068.66064245
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.14325111
+        - 0.00400931
+        - -0.00283498
+      - - 0.21240453
+        - 0.12263187
+        - -0.08671378
+      - - -0.0750977
+        - -0.12205449
+        - 0.00283498
+      - - 0.0750977
+        - 0.04335769
+        - -0.11412906
+      - - -0.0750977
+        - -0.04335769
+        - 0.11412906
+      - - 0.0750977
+        - 0.12205449
+        - -0.00283498
+      - - -0.21240453
+        - -0.12263187
+        - 0.08671378
+      - - -0.14325111
+        - -0.00400931
+        - 0.00283498
+      stress:
+      - - -28.46237294
+        - 0.24426614
+        - -0.17272721
+      - - 0.24426614
+        - -28.74444151
+        - -0.09972436
+      - - -0.17272721
+        - -0.09972436
+        - -28.81495613
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.666166508547395
+          alpha: 59.99999392012721
+          b: 5.733106018772724
+          beta: 120.39157282681411
+          c: 5.733106405615413
+          gamma: 120.39158310322208
+          matrix:
+          - - -2.79941434
+            - -1.61624328
+            - 4.65365232
+          - - -2.86655269
+            - 1.65500475
+            - -4.6810618
+          - - -1.0e-08
+            - -3.31001051
+            - -4.68106179
+          volume: 130.90562671418866
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.3997071749999999
+          - -2.4631268950000003
+          - -0.013704735000000134
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.8329835199999995
+          - -1.63562452
+          - -2.354235635
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.8329835149999996
+          - 0.019380735000000038
+          - -0.013704740000000104
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.433276345
+          - 0.827502375
+          - -2.3405309
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.39970717
+          - -0.80812164
+          - 2.32682616
+        - abc:
+          - 0.73248029
+          - 0.71093729
+          - 0.7607715
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.088455036271884
+          - -2.5254234152512893
+          - -3.480451189072735
+        - abc:
+          - 0.7058445
+          - 0.73528183
+          - 0.23528183
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.083675325157571
+          - -0.7027068387233006
+          - -1.2585135759571298
+        - abc:
+          - 0.26751971
+          - 0.7392285
+          - 0.78906271
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.8679359654969336
+          - -1.820756117868756
+          - -5.909081875428924
+        - abc:
+          - 0.73248029
+          - 0.2607715
+          - 0.7607715
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.7980310800014085
+          - -3.2704499359887915
+          - -1.3731973058369125
+        - abc:
+          - 0.26751971
+          - 0.7392285
+          - 0.2392285
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.8679359599985914
+          - -0.0007991040112089731
+          - -3.335273964163088
+        - abc:
+          - 0.73248029
+          - 0.2607715
+          - 0.21093729
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.7980310745030668
+          - -1.4504929221312441
+          - 1.2006106054289238
+        - abc:
+          - 0.2941555
+          - 0.26471817
+          - 0.76471817
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.582291714842429
+          - -2.568542201276699
+          - -3.4499576940428707
+        - abc:
+          - 0.26751971
+          - 0.28906271
+          - 0.2392285
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5775120037281163
+          - -0.7458256247487114
+          - -1.228020080927266
+    - e_0_energy: -0.00015736
+      e_fr_energy: -73.88540775
+      e_wo_entrp: -73.88532907
+      electronic_steps:
+      - XCdc: 301.55193933
+        alphaZ: 406.84492092
+        atom: 6915.86167471
+        bandstr: -449.53448334
+        e_0_energy: -73.86027899
+        e_fr_energy: -73.86038661
+        e_wo_entrp: -73.86017138
+        eentropy: -0.00021523
+        ewald: -4857.20759384
+        hartreedc: -2178.89131513
+        pawaedc: -5281.07853663
+        pawpsdc: 5068.59322259
+      - e_0_energy: -73.86583218
+        e_fr_energy: -73.86599273
+        e_wo_entrp: -73.86567163
+      - e_0_energy: -73.86749699
+        e_fr_energy: -73.86759819
+        e_wo_entrp: -73.86739578
+      - e_0_energy: -73.87081548
+        e_fr_energy: -73.87092085
+        e_wo_entrp: -73.87071011
+      - e_0_energy: -73.87315049
+        e_fr_energy: -73.87324492
+        e_wo_entrp: -73.87305606
+      - e_0_energy: -73.86501974
+        e_fr_energy: -73.86510853
+        e_wo_entrp: -73.86493094
+      - e_0_energy: -73.8761445
+        e_fr_energy: -73.87623846
+        e_wo_entrp: -73.87605055
+      - e_0_energy: -73.8797491
+        e_fr_energy: -73.87983761
+        e_wo_entrp: -73.87966058
+      - e_0_energy: -73.88215962
+        e_fr_energy: -73.88224339
+        e_wo_entrp: -73.88207585
+      - e_0_energy: -73.88410795
+        e_fr_energy: -73.88418826
+        e_wo_entrp: -73.88402764
+      - e_0_energy: -73.88575599
+        e_fr_energy: -73.88583371
+        e_wo_entrp: -73.88567827
+      - XCdc: 301.38764108
+        alphaZ: 406.84492092
+        atom: 6915.86167471
+        bandstr: -451.961128
+        e_0_energy: -73.88532907
+        e_fr_energy: -73.88540775
+        e_wo_entrp: -73.88525039
+        eentropy: -0.00015736
+        ewald: -4857.20759384
+        hartreedc: -2176.27360573
+        pawaedc: -5286.50542902
+        pawpsdc: 5073.96826948
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.12718078
+        - 0.0796894
+        - -0.05634889
+      - - 0.15665828
+        - 0.09044674
+        - -0.06395547
+      - - -0.1326034
+        - -0.07029713
+        - 0.05634889
+      - - 0.1326034
+        - 0.07655864
+        - -0.04749377
+      - - -0.1326034
+        - -0.07655864
+        - 0.04749377
+      - - 0.1326034
+        - 0.07029713
+        - -0.05634889
+      - - -0.15665828
+        - -0.09044674
+        - 0.06395547
+      - - -0.12718078
+        - -0.0796894
+        - 0.05634889
+      stress:
+      - - -23.28355268
+        - -2.5272095
+        - 1.78700282
+      - - -2.5272095
+        - -20.3653945
+        - 1.03172686
+      - - 1.78700282
+        - 1.03172686
+        - -19.63585158
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.661831486292588
+          alpha: 59.999993932885495
+          b: 5.729927148613052
+          beta: 120.39865531074324
+          c: 5.729927541748667
+          gamma: 120.39866547800499
+          matrix:
+          - - -2.79666165
+            - -1.61465401
+            - 4.65058188
+          - - -2.86496326
+            - 1.65408709
+            - -4.67846626
+          - - -1.0e-08
+            - -3.30817519
+            - -4.67846626
+          volume: 130.6461902323988
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.39833083
+          - -2.4614146
+          - -0.013942190000000299
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.83081246
+          - -1.634371055
+          - -2.3531753200000005
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.8308124550000002
+          - 0.019716540000000005
+          - -0.013942190000000299
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.43248163
+          - 0.827043545
+          - -2.33923313
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.398330825
+          - -0.807327005
+          - 2.32529094
+        - abc:
+          - 0.73257971
+          - 0.71050577
+          - 0.76103697
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.084350515203503
+          - -2.525267967695402
+          - -3.4776411342562987
+        - abc:
+          - 0.70569351
+          - 0.7352315
+          - 0.2352315
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.079997213517896
+          - -0.7015009356476251
+          - -1.258392951638782
+        - abc:
+          - 0.26742029
+          - 0.73896303
+          - 0.78949423
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.864986008818099
+          - -1.821267260027734
+          - -5.907175765743704
+        - abc:
+          - 0.73257971
+          - 0.26103697
+          - 0.76103697
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.7966389166872134
+          - -3.268728507133194
+          - -1.3748165185336103
+        - abc:
+          - 0.26742029
+          - 0.73896303
+          - 0.23896303
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.864986003312787
+          - -1.3602866805961789e-05
+          - -3.331534121466391
+        - abc:
+          - 0.73257971
+          - 0.26103697
+          - 0.21050577
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.7966389111819017
+          - -1.447474849972266
+          - 1.2008251257437021
+        - abc:
+          - 0.29430649
+          - 0.2647685
+          - 0.7647685
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5816277064821034
+          - -2.567241174352375
+          - -3.4479576883612193
+        - abc:
+          - 0.26742029
+          - 0.28949423
+          - 0.23896303
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5772744047964986
+          - -0.7434741423045979
+          - -1.2287095057437027
+    - e_0_energy: -0.00016146
+      e_fr_energy: -73.90265553
+      e_wo_entrp: -73.9025748
+      electronic_steps:
+      - XCdc: 303.75189742
+        alphaZ: 414.55243344
+        atom: 6915.86167471
+        bandstr: -419.13970084
+        e_0_energy: -74.08877068
+        e_fr_energy: -74.08880638
+        e_wo_entrp: -74.08873497
+        eentropy: -7.142e-05
+        ewald: -4876.15121499
+        hartreedc: -2200.41589599
+        pawaedc: -5286.28706509
+        pawpsdc: 5073.73913636
+      - e_0_energy: -74.02100352
+        e_fr_energy: -74.02182852
+        e_wo_entrp: -74.02017852
+      - e_0_energy: -73.91223008
+        e_fr_energy: -73.91226804
+        e_wo_entrp: -73.91219213
+      - e_0_energy: -73.90444958
+        e_fr_energy: -73.90457523
+        e_wo_entrp: -73.90432394
+      - e_0_energy: -73.90106269
+        e_fr_energy: -73.90112503
+        e_wo_entrp: -73.90100035
+      - e_0_energy: -73.89951165
+        e_fr_energy: -73.89960707
+        e_wo_entrp: -73.89941623
+      - e_0_energy: -73.90059007
+        e_fr_energy: -73.90068751
+        e_wo_entrp: -73.90049263
+      - e_0_energy: -73.90135501
+        e_fr_energy: -73.90144276
+        e_wo_entrp: -73.90126726
+      - e_0_energy: -73.90201818
+        e_fr_energy: -73.90210156
+        e_wo_entrp: -73.90193481
+      - XCdc: 302.04777394
+        alphaZ: 414.55243344
+        atom: 6915.86167471
+        bandstr: -443.18501026
+        e_0_energy: -73.9025748
+        e_fr_energy: -73.90265553
+        e_wo_entrp: -73.90249407
+        eentropy: -0.00016146
+        ewald: -4876.15121499
+        hartreedc: -2173.97193028
+        pawaedc: -5326.2914392
+        pawpsdc: 5113.23521858
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - -0.14889999
+        - 0.12238564
+        - -0.08653974
+      - - -0.18690822
+        - -0.10791156
+        - 0.07630496
+      - - -0.03153909
+        - 0.19014402
+        - 0.08653974
+      - - 0.03153909
+        - 0.01820911
+        - 0.20811609
+      - - -0.03153909
+        - -0.01820911
+        - -0.20811609
+      - - 0.03153909
+        - -0.19014402
+        - -0.08653974
+      - - 0.18690822
+        - 0.10791156
+        - -0.07630496
+      - - 0.14889999
+        - -0.12238564
+        - 0.08653974
+      stress:
+      - - 11.34574143
+        - -1.96233909
+        - 1.38758516
+      - - -1.96233909
+        - 13.61166085
+        - 0.80112311
+      - - 1.38758516
+        - 0.80112311
+        - 14.17814062
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.622953167272183
+          alpha: 59.999994086000285
+          b: 5.697903336281186
+          beta: 120.44191549093023
+          c: 5.697903722005276
+          gamma: 120.44192559467133
+          matrix:
+          - - -2.77374979
+            - -1.60142584
+            - 4.62161765
+          - - -2.84895136
+            - 1.64484262
+            - -4.65231892
+          - - 0.0
+            - -3.28968623
+            - -4.65231892
+          volume: 128.217168057883
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.386874895
+          - -2.445556035
+          - -0.01535063499999989
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.811350575
+          - -1.6231347250000001
+          - -2.341510095
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.811350575
+          - 0.02170838999999991
+          - -0.01535063499999989
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.42447568
+          - 0.82242131
+          - -2.32615946
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.386874895
+          - -0.80071292
+          - 2.310808825
+        - abc:
+          - 0.73093668
+          - 0.71001756
+          - 0.76045956
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.050240955839179
+          - -2.5043470861232633
+          - -3.463018665482709
+        - abc:
+          - 0.7037256
+          - 0.73457553
+          - 0.23457553
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.044728690433844
+          - -0.6903831116923675
+          - -1.2564491590592148
+        - abc:
+          - 0.26906332
+          - 0.73954044
+          - 0.78998244
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.853229069659701
+          - -1.813251673128437
+          - -5.872320444517291
+        - abc:
+          - 0.73093668
+          - 0.26045956
+          - 0.76045956
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.769472080340299
+          - -3.2437992446852233
+          - -1.3715314764453486
+        - abc:
+          - 0.26906332
+          - 0.73954044
+          - 0.23954044
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.853229069659701
+          - -0.002470205314777152
+          - -3.311488713554651
+        - abc:
+          - 0.73093668
+          - 0.26045956
+          - 0.21001756
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.769472080340299
+          - -1.433017776871563
+          - 1.1893002545172915
+        - abc:
+          - 0.2962744
+          - 0.26542447
+          - 0.76542447
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5779724595661553
+          - -2.5558863383076327
+          - -3.426571030940785
+        - abc:
+          - 0.26906332
+          - 0.28998244
+          - 0.23954044
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5724601941608212
+          - -0.7419223638767372
+          - -1.2200015245172915
+    - e_0_energy: -0.00013276
+      e_fr_energy: -73.90990079
+      e_wo_entrp: -73.9098344
+      electronic_steps:
+      - XCdc: 301.49394195
+        alphaZ: 412.70983081
+        atom: 6915.86167471
+        bandstr: -451.01505157
+        e_0_energy: -73.91974066
+        e_fr_energy: -73.91983922
+        e_wo_entrp: -73.91964209
+        eentropy: -0.00019713
+        ewald: -4871.67538462
+        hartreedc: -2168.28214934
+        pawaedc: -5325.68496405
+        pawpsdc: 5112.67246002
+      - e_0_energy: -73.91598486
+        e_fr_energy: -73.91602673
+        e_wo_entrp: -73.915943
+      - e_0_energy: -73.91005167
+        e_fr_energy: -73.9101431
+        e_wo_entrp: -73.90996024
+      - XCdc: 301.88957772
+        alphaZ: 412.70983081
+        atom: 6915.86167471
+        bandstr: -445.21197545
+        e_0_energy: -73.9098344
+        e_fr_energy: -73.90990079
+        e_wo_entrp: -73.90976802
+        eentropy: -0.00013276
+        ewald: -4871.67538462
+        hartreedc: -2174.37218869
+        pawaedc: -5320.51866004
+        pawpsdc: 5107.40735753
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - -0.08005278
+        - 0.12205516
+        - -0.08630604
+      - - -0.12391084
+        - -0.07153999
+        - 0.05058638
+      - - -0.06567648
+        - 0.13035533
+        - 0.08630604
+      - - 0.06567648
+        - 0.03791835
+        - 0.15166887
+      - - -0.06567648
+        - -0.03791835
+        - -0.15166887
+      - - 0.06567648
+        - -0.13035533
+        - -0.08630604
+      - - 0.12391084
+        - 0.07153999
+        - -0.05058638
+      - - 0.08005278
+        - -0.12205516
+        - 0.08630604
+      stress:
+      - - 17.12840323
+        - -3.53002401
+        - 2.49610675
+      - - -3.53002401
+        - 21.20453201
+        - 1.44112869
+      - - 2.49610675
+        - 1.44112869
+        - 22.22356433
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.632158577512391
+          alpha: 59.99999400798379
+          b: 5.705486129380206
+          beta: 120.43161900422682
+          c: 5.705486520845665
+          gamma: 120.43162919401925
+          matrix:
+          - - -2.779175
+            - -1.60455809
+            - 4.62847598
+          - - -2.85274275
+            - 1.64703158
+            - -4.65851025
+          - - 0.0
+            - -3.29406416
+            - -4.65851025
+          volume: 128.78961190283997
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.3895875
+          - -2.449311125
+          - -0.015017134999999904
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.8159588749999998
+          - -1.625795335
+          - -2.34427226
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.8159588749999998
+          - 0.021236744999999946
+          - -0.015017134999999904
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.426371375
+          - 0.82351579
+          - -2.329255125
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.3895875
+          - -0.802279045
+          - 2.31423799
+        - abc:
+          - 0.73132868
+          - 0.71013407
+          - 0.7605973
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.058320203959492
+          - -2.5093024167418587
+          - -3.4664799332764358
+        - abc:
+          - 0.70419511
+          - 0.73473204
+          - 0.23473204
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.0530829451369605
+          - -0.6930174881388032
+          - -1.2569082018183624
+        - abc:
+          - 0.26867132
+          - 0.7394027
+          - 0.78986593
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.856010307516425
+          - -1.815148194037782
+          - -5.880574836723564
+        - abc:
+          - 0.73132868
+          - 0.2605973
+          - 0.7605973
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.775907442483575
+          - -3.2497036733030553
+          - -1.3723082824795436
+        - abc:
+          - 0.26867132
+          - 0.7394027
+          - 0.2394027
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.856010307516425
+          - -0.0018869966969449203
+          - -3.316236237520456
+        - abc:
+          - 0.73132868
+          - 0.2605973
+          - 0.21013407
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.775907442483575
+          - -1.4364424759622185
+          - 1.1920303167235637
+        - abc:
+          - 0.29580489
+          - 0.26526796
+          - 0.76526796
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.57883480486304
+          - -2.5585731818611968
+          - -3.4316363181816376
+        - abc:
+          - 0.26867132
+          - 0.28986593
+          - 0.2394027
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5735975460405074
+          - -0.7422882532581414
+          - -1.2220645867235638
+    - e_0_energy: -7.269e-05
+      e_fr_energy: -73.89870597
+      e_wo_entrp: -73.89866963
+      electronic_steps:
+      - XCdc: 299.77084769
+        alphaZ: 405.84969269
+        atom: 6915.86167471
+        bandstr: -473.65961569
+        e_0_energy: -74.05022384
+        e_fr_energy: -74.05034466
+        e_wo_entrp: -74.05010303
+        eentropy: -0.00024163
+        ewald: -4862.04008922
+        hartreedc: -2146.74556991
+        pawaedc: -5319.80905777
+        pawpsdc: 5106.72201448
+      - e_0_energy: -74.02433758
+        e_fr_energy: -74.02435184
+        e_wo_entrp: -74.02432331
+      - e_0_energy: -73.90581624
+        e_fr_energy: -73.90588951
+        e_wo_entrp: -73.90574297
+      - e_0_energy: -73.90490464
+        e_fr_energy: -73.90493384
+        e_wo_entrp: -73.90487543
+      - e_0_energy: -73.90059959
+        e_fr_energy: -73.90065577
+        e_wo_entrp: -73.90054341
+      - e_0_energy: -73.89841051
+        e_fr_energy: -73.89844862
+        e_wo_entrp: -73.8983724
+      - XCdc: 301.23082399
+        alphaZ: 405.84969269
+        atom: 6915.86167471
+        bandstr: -453.15137282
+        e_0_energy: -73.89866963
+        e_fr_energy: -73.89870597
+        e_wo_entrp: -73.89863328
+        eentropy: -7.269e-05
+        ewald: -4862.04008922
+        hartreedc: -2169.28151105
+        pawaedc: -5278.04786377
+        pawpsdc: 5065.68001219
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.19110933
+        - -0.05534405
+        - 0.03913418
+      - - 0.13084091
+        - 0.07554106
+        - -0.05341557
+      - - -0.0476253
+        - -0.19317761
+        - -0.03913418
+      - - 0.0476253
+        - 0.02749649
+        - -0.19517431
+      - - -0.0476253
+        - -0.02749649
+        - 0.19517431
+      - - 0.0476253
+        - 0.19317761
+        - 0.03913418
+      - - -0.13084091
+        - -0.07554106
+        - 0.05341557
+      - - -0.19110933
+        - 0.05534405
+        - -0.03913418
+      stress:
+      - - -34.94290532
+        - -0.5050976
+        - 0.35715181
+      - - -0.5050976
+        - -34.35968652
+        - 0.20620152
+      - - 0.35715181
+        - 0.20620152
+        - -34.21387836
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.659068718840592
+          alpha: 59.99999398607091
+          b: 5.74229975163916
+          beta: 120.48772289470402
+          c: 5.74230014884196
+          gamma: 120.48773307492795
+          matrix:
+          - - -2.78761026
+            - -1.60942819
+            - 4.65446331
+          - - -2.87114956
+            - 1.65765875
+            - -4.68856845
+          - - 0.0
+            - -3.31531852
+            - -4.68856845
+          volume: 130.9665619294507
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.39380513
+          - -2.462373355
+          - -0.017052570000000156
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.82937991
+          - -1.63354398
+          - -2.361336795
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.82937991
+          - 0.02411527999999996
+          - -0.017052570000000156
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.43557478
+          - 0.828829375
+          - -2.344284225
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.39380513
+          - -0.804714095
+          - 2.327231655
+        - abc:
+          - 0.73112286
+          - 0.71159442
+          - 0.75976422
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.081179591738
+          - -2.515969413872603
+          - -3.495581171166641
+        - abc:
+          - 0.70568651
+          - 0.73522917
+          - 0.23522917
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.078131863564258
+          - -0.6968523193362078
+          - -1.2654683858064244
+        - abc:
+          - 0.26887714
+          - 0.74023578
+          - 0.78840558
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.8748523081867132
+          - -1.8194957516278434
+          - -5.915660868833359
+        - abc:
+          - 0.73112286
+          - 0.25976422
+          - 0.75976422
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.783907511813287
+          - -3.264949698416853
+          - -1.3771443506894512
+        - abc:
+          - 0.26887714
+          - 0.74023578
+          - 0.24023578
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.8748523081867132
+          - -0.0021382615831473384
+          - -3.3455292393105487
+        - abc:
+          - 0.73112286
+          - 0.25976422
+          - 0.21159442
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.783907511813287
+          - -1.4475922083721569
+          - 1.1929872788333586
+        - abc:
+          - 0.29431349
+          - 0.26477083
+          - 0.76477083
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5806279564357424
+          - -2.570235640663792
+          - -3.4572052041935755
+        - abc:
+          - 0.26887714
+          - 0.28840558
+          - 0.24023578
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5775802282620013
+          - -0.7511185461273973
+          - -1.2270924188333585
+    - e_0_energy: -9.336e-05
+      e_fr_energy: -73.91452217
+      e_wo_entrp: -73.91447549
+      electronic_steps:
+      - XCdc: 302.51587696
+        alphaZ: 409.91096495
+        atom: 6915.86167471
+        bandstr: -436.20010368
+        e_0_energy: -73.96792943
+        e_fr_energy: -73.96795957
+        e_wo_entrp: -73.96789928
+        eentropy: -6.029e-05
+        ewald: -4867.83635098
+        hartreedc: -2185.91309506
+        pawaedc: -5276.47159011
+        pawpsdc: 5064.16472393
+      - e_0_energy: -73.95229767
+        e_fr_energy: -73.95242608
+        e_wo_entrp: -73.95216927
+      - e_0_energy: -73.91844333
+        e_fr_energy: -73.91847507
+        e_wo_entrp: -73.91841159
+      - e_0_energy: -73.91640978
+        e_fr_energy: -73.91646234
+        e_wo_entrp: -73.91635722
+      - e_0_energy: -73.91519274
+        e_fr_energy: -73.91522896
+        e_wo_entrp: -73.91515653
+      - e_0_energy: -73.91440677
+        e_fr_energy: -73.91445372
+        e_wo_entrp: -73.91435982
+      - XCdc: 301.6403749
+        alphaZ: 409.91096495
+        atom: 6915.86167471
+        bandstr: -448.34875151
+        e_0_energy: -73.91447549
+        e_fr_energy: -73.91452217
+        e_wo_entrp: -73.91442881
+        eentropy: -9.336e-05
+        ewald: -4867.83635098
+        hartreedc: -2172.41193224
+        pawaedc: -5299.47032799
+        pawpsdc: 5086.73991936
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.04344938
+        - 0.05369665
+        - -0.03796925
+      - - -0.0274535
+        - -0.01585029
+        - 0.01120785
+      - - -0.06822734
+        - -0.01077996
+        - 0.03796925
+      - - 0.06822734
+        - 0.03939109
+        - 0.00249299
+      - - -0.06822734
+        - -0.03939109
+        - -0.00249299
+      - - 0.06822734
+        - 0.01077996
+        - -0.03796925
+      - - 0.0274535
+        - 0.01585029
+        - -0.01120785
+      - - -0.04344938
+        - -0.05369665
+        - 0.03796925
+      stress:
+      - - -4.94021411
+        - -2.17639305
+        - 1.53894135
+      - - -2.17639305
+        - -2.42713459
+        - 0.88850857
+      - - 1.53894135
+        - 0.88850857
+        - -1.79886321
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 5.643063284246428
+          alpha: 59.99999400575116
+          b: 5.720405332220518
+          beta: 120.45442232291929
+          c: 5.720405727668498
+          gamma: 120.45443251044877
+          matrix:
+          - - -2.7825935
+            - -1.60653176
+            - 4.63900769
+          - - -2.86020235
+            - 1.65133838
+            - -4.67069173
+          - - 0.0
+            - -3.30267777
+            - -4.67069173
+          volume: 129.66898528087174
+        sites:
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.5
+          label: Li
+          species:
+          - element: Li
+            occu: 1
+          xyz:
+          - -1.39129675
+          - -2.454604765
+          - -0.015842020000000012
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.5
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.821397925
+          - -1.6289355749999999
+          - -2.351187885
+        - abc:
+          - 0.5
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -2.821397925
+          - 0.022403310000000065
+          - -0.015842020000000012
+        - abc:
+          - 0.0
+          - 0.5
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.430101175
+          - 0.82566919
+          - -2.335345865
+        - abc:
+          - 0.5
+          - 0.0
+          - 0.0
+          label: Co
+          species:
+          - element: Co
+            occu: 1
+          xyz:
+          - -1.39129675
+          - -0.80326588
+          - 2.319503845
+        - abc:
+          - 0.73124479
+          - 0.71073157
+          - 0.76025661
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.067593106296054
+          - -2.5119922653934332
+          - -3.4782821231713164
+        - abc:
+          - 0.70480297
+          - 0.73493466
+          - 0.23493466
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -4.063242004731146
+          - -0.6945760239815844
+          - -1.2603742143398842
+        - abc:
+          - 0.26875521
+          - 0.73974339
+          - 0.78926843
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.863652282912101
+          - -1.8168964275959625
+          - -5.894785376828683
+        - abc:
+          - 0.73124479
+          - 0.26025661
+          - 0.76025661
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.779143567087898
+          - -3.255878856070398
+          - -1.374252452927236
+        - abc:
+          - 0.26875521
+          - 0.73974339
+          - 0.23974339
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.863652282912101
+          - -0.0019922939296016517
+          - -3.328123317072764
+        - abc:
+          - 0.73124479
+          - 0.26025661
+          - 0.21073157
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -2.779143567087898
+          - -1.4409747224040372
+          - 1.1924096068286834
+        - abc:
+          - 0.29519703
+          - 0.26506534
+          - 0.76506534
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.579553845268854
+          - -2.5632951260184154
+          - -3.4420015556601156
+        - abc:
+          - 0.26875521
+          - 0.28926843
+          - 0.23974339
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.5752027437039455
+          - -0.7458788846065665
+          - -1.2240936468286836
+    is_gap_direct: false
+    is_metal: false
+    outcar:
+      '@class': Outcar
+      '@module': pymatgen.io.vasp.outputs
+      charge:
+      - d: 0.0
+        p: 0.187
+        s: 2.069
+        tot: 2.256
+      - d: 7.17
+        p: 0.73
+        s: 0.461
+        tot: 8.361
+      - d: 7.178
+        p: 0.728
+        s: 0.462
+        tot: 8.368
+      - d: 7.289
+        p: 0.628
+        s: 0.412
+        tot: 8.33
+      - d: 7.172
+        p: 0.724
+        s: 0.465
+        tot: 8.361
+      - d: 0.0
+        p: 3.371
+        s: 1.579
+        tot: 4.95
+      - d: 0.0
+        p: 3.342
+        s: 1.588
+        tot: 4.93
+      - d: 0.0
+        p: 3.388
+        s: 1.578
+        tot: 4.967
+      - d: 0.0
+        p: 3.385
+        s: 1.579
+        tot: 4.964
+      - d: 0.0
+        p: 3.385
+        s: 1.579
+        tot: 4.964
+      - d: 0.0
+        p: 3.388
+        s: 1.578
+        tot: 4.967
+      - d: 0.0
+        p: 3.342
+        s: 1.588
+        tot: 4.93
+      - d: 0.0
+        p: 3.371
+        s: 1.579
+        tot: 4.95
+      efermi: 1.9358
+      is_stopped: false
+      magnetization:
+      - d: 0.0
+        p: 0.001
+        s: 0.001
+        tot: 0.002
+      - d: 1.174
+        p: 0.013
+        s: 0.012
+        tot: 1.199
+      - d: 1.172
+        p: 0.014
+        s: 0.012
+        tot: 1.198
+      - d: -0.028
+        p: 0.006
+        s: 0.005
+        tot: -0.017
+      - d: 1.161
+        p: 0.017
+        s: 0.011
+        tot: 1.189
+      - d: 0.0
+        p: -0.069
+        s: 0.001
+        tot: -0.069
+      - d: 0.0
+        p: -0.075
+        s: 0.002
+        tot: -0.073
+      - d: 0.0
+        p: -0.058
+        s: 0.001
+        tot: -0.057
+      - d: 0.0
+        p: -0.06
+        s: 0.001
+        tot: -0.059
+      - d: 0.0
+        p: -0.06
+        s: 0.001
+        tot: -0.059
+      - d: 0.0
+        p: -0.058
+        s: 0.001
+        tot: -0.057
+      - d: 0.0
+        p: -0.075
+        s: 0.002
+        tot: -0.073
+      - d: 0.0
+        p: -0.069
+        s: 0.001
+        tot: -0.069
+      nelect: 86.9999983
+      total_magnetization: 2.9998811
+    structure:
+      '@class': Structure
+      '@module': pymatgen.core.structure
+      lattice:
+        a: 5.643063284246428
+        alpha: 59.99999400575116
+        b: 5.720405332220518
+        beta: 120.45442232291929
+        c: 5.720405727668498
+        gamma: 120.45443251044877
+        matrix:
+        - - -2.7825935
+          - -1.60653176
+          - 4.63900769
+        - - -2.86020235
+          - 1.65133838
+          - -4.67069173
+        - - 0.0
+          - -3.30267777
+          - -4.67069173
+        volume: 129.66898528087174
+      sites:
+      - abc:
+        - 0.5
+        - 0.0
+        - 0.5
+        label: Li
+        species:
+        - element: Li
+          occu: 1
+        xyz:
+        - -1.39129675
+        - -2.454604765
+        - -0.015842020000000012
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.5
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -2.821397925
+        - -1.6289355749999999
+        - -2.351187885
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.0
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -2.821397925
+        - 0.022403310000000065
+        - -0.015842020000000012
+      - abc:
+        - 0.0
+        - 0.5
+        - 0.0
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -1.430101175
+        - 0.82566919
+        - -2.335345865
+      - abc:
+        - 0.5
+        - 0.0
+        - 0.0
+        label: Co
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -1.39129675
+        - -0.80326588
+        - 2.319503845
+      - abc:
+        - 0.73124479
+        - 0.71073157
+        - 0.76025661
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -4.067593106296054
+        - -2.5119922653934332
+        - -3.4782821231713164
+      - abc:
+        - 0.70480297
+        - 0.73493466
+        - 0.23493466
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -4.063242004731146
+        - -0.6945760239815844
+        - -1.2603742143398842
+      - abc:
+        - 0.26875521
+        - 0.73974339
+        - 0.78926843
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.863652282912101
+        - -1.8168964275959625
+        - -5.894785376828683
+      - abc:
+        - 0.73124479
+        - 0.26025661
+        - 0.76025661
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.779143567087898
+        - -3.255878856070398
+        - -1.374252452927236
+      - abc:
+        - 0.26875521
+        - 0.73974339
+        - 0.23974339
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.863652282912101
+        - -0.0019922939296016517
+        - -3.328123317072764
+      - abc:
+        - 0.73124479
+        - 0.26025661
+        - 0.21073157
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.779143567087898
+        - -1.4409747224040372
+        - 1.1924096068286834
+      - abc:
+        - 0.29519703
+        - 0.26506534
+        - 0.76506534
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -1.579553845268854
+        - -2.5632951260184154
+        - -3.4420015556601156
+      - abc:
+        - 0.26875521
+        - 0.28926843
+        - 0.23974339
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -1.5752027437039455
+        - -0.7458788846065665
+        - -1.2240936468286836
+    vbm: 1.5063
+  output_file_paths: {}
+  run_type: GGA+U
+  task:
+    name: relax1
+    type: relax1
+  vasp_version: 5.2.2
+chemsys: Co-Li-O
+completed_at: '2014-02-15 05:04:06'
+composition_reduced:
+  Co: 4.0
+  Li: 1.0
+  O: 8.0
+composition_unit_cell:
+  Co: 4.0
+  Li: 1.0
+  O: 8.0
+custodian:
+- corrections: []
+  job:
+    '@class': VaspJob
+    '@module': custodian.vasp.jobs
+    auto_gamma: true
+    auto_npar: false
+    backup: true
+    default_vasp_input_set:
+      '@class': DictVaspInputSet
+      '@module': pymatgen.io.vaspio_set
+      config_dict:
+        INCAR:
+          ALGO: FAST
+          EDIFF: 5.0e-05
+          ENCUT: 520
+          IBRION: 2
+          ICHARG: 1
+          ISIF: 3
+          ISMEAR: -5
+          ISPIN: 2
+          LDAU: true
+          LDAUJ:
+            F:
+              Ag: 0
+              Co: 0
+              Cr: 0
+              Cu: 0
+              Fe: 0
+              Mn: 0
+              Mo: 0
+              Nb: 0
+              Ni: 0
+              Re: 0
+              Ta: 0
+              V: 0
+              W: 0
+            O:
+              Ag: 0
+              Co: 0
+              Cr: 0
+              Cu: 0
+              Fe: 0
+              Mn: 0
+              Mo: 0
+              Nb: 0
+              Ni: 0
+              Re: 0
+              Ta: 0
+              V: 0
+              W: 0
+            S:
+              Fe: 0
+              Mn: 0
+          LDAUL:
+            F:
+              Ag: 2
+              Co: 2
+              Cr: 2
+              Cu: 2
+              Fe: 2
+              Mn: 2
+              Mo: 2
+              Nb: 2
+              Ni: 2
+              Re: 2
+              Ta: 2
+              V: 2
+              W: 2
+            O:
+              Ag: 2
+              Co: 2
+              Cr: 2
+              Cu: 2
+              Fe: 2
+              Mn: 2
+              Mo: 2
+              Nb: 2
+              Ni: 2
+              Re: 2
+              Ta: 2
+              V: 2
+              W: 2
+            S:
+              Fe: 2
+              Mn: 2.5
+          LDAUTYPE: 2
+          LDAUU:
+            F:
+              Ag: 1.5
+              Co: 3.4
+              Cr: 3.5
+              Cu: 4
+              Fe: 4.0
+              Mn: 3.9
+              Mo: 4.38
+              Nb: 1.5
+              Ni: 6
+              Re: 2
+              Ta: 2
+              V: 3.1
+              W: 4.0
+            O:
+              Ag: 1.5
+              Co: 3.4
+              Cr: 3.5
+              Cu: 4
+              Fe: 4.0
+              Mn: 3.9
+              Mo: 4.38
+              Nb: 1.5
+              Ni: 6
+              Re: 2
+              Ta: 2
+              V: 3.1
+              W: 4.0
+            S:
+              Fe: 1.9
+              Mn: 2.5
+          LORBIT: '11'
+          LREAL: AUTO
+          LWAVE: false
+          MAGMOM:
+            Co: 5
+            Co3+: 0.6
+            Co4+: 1
+            Cr: 5
+            Fe: 5
+            Fe2+: 4
+            Fe3+: 5
+            Fe4+: 4
+            Mn: 5
+            Mn2+: 5
+            Mn3+: 4
+            Mn4+: 3
+            Mo: 5
+            Ni: 2
+            Ni3+: 1
+            Ni4+: 0.6
+            Ta: 5
+            V: 5
+            W: 5
+          NELM: 100
+          NELMIN: 6
+          NPAR: 1
+          NSW: 99
+          PREC: Accurate
+          SIGMA: 0.05
+        KPOINTS:
+          grid_density: 1000
+        POTCAR:
+          Ac: Ac
+          Ag: Ag
+          Al: Al
+          Ar: Ar
+          As: As
+          Au: Au
+          B: B
+          Ba: Ba_sv
+          Be: Be
+          Bi: Bi
+          Br: Br
+          C: C
+          Ca: Ca_sv
+          Cd: Cd
+          Ce: Ce
+          Cl: Cl
+          Co: Co
+          Cr: Cr
+          Cs: Cs_sv
+          Cu: Cu
+          Dy: Dy_3
+          Er: Er_3
+          Eu: Eu
+          F: F
+          Fe: Fe
+          Ga: Ga
+          Gd: Gd
+          Ge: Ge
+          H: H
+          He: He
+          Hf: Hf
+          Hg: Hg
+          Ho: Ho_3
+          I: I
+          In: In
+          Ir: Ir
+          K: K_sv
+          Kr: Kr
+          La: La
+          Li: Li
+          Lu: Lu_3
+          Mg: Mg
+          Mn: Mn
+          Mo: Mo_pv
+          N: N
+          Na: Na
+          Nb: Nb_pv
+          Nd: Nd
+          Ne: Ne
+          Ni: Ni
+          Np: Np
+          O: O
+          Os: Os
+          P: P
+          Pa: Pa
+          Pb: Pb
+          Pd: Pd
+          Pm: Pm
+          Pr: Pr
+          Pt: Pt
+          Pu: Pu
+          Rb: Rb_pv
+          Re: Re
+          Rh: Rh
+          Ru: Ru_pv
+          S: S
+          Sb: Sb
+          Sc: Sc_sv
+          Se: Se
+          Si: Si
+          Sm: Sm_3
+          Sn: Sn_d
+          Sr: Sr_sv
+          Ta: Ta
+          Tb: Tb_3
+          Tc: Tc
+          Te: Te
+          Th: Th
+          Ti: Ti
+          Tl: Tl
+          Tm: Tm_3
+          U: U
+          V: V_pv
+          W: W_pv
+          Xe: Xe
+          Y: Y_sv
+          Yb: Yb
+          Zn: Zn
+          Zr: Zr
+      constrain_total_magmom: false
+      hubbard_off: false
+      name: MIT
+      sort_structure: true
+    final: false
+    gamma_vasp_cmd:
+    - mpirun
+    - -n
+    - '32'
+    - gvasp
+    gzipped: false
+    output_file: vasp.out
+    settings_override: null
+    suffix: .relax1
+    vasp_cmd:
+    - mpirun
+    - -n
+    - '32'
+    - vasp
+- corrections: []
+  job:
+    '@class': VaspJob
+    '@module': custodian.vasp.jobs
+    auto_gamma: true
+    auto_npar: false
+    backup: false
+    default_vasp_input_set:
+      '@class': DictVaspInputSet
+      '@module': pymatgen.io.vaspio_set
+      config_dict:
+        INCAR:
+          ALGO: FAST
+          EDIFF: 5.0e-05
+          ENCUT: 520
+          IBRION: 2
+          ICHARG: 1
+          ISIF: 3
+          ISMEAR: -5
+          ISPIN: 2
+          LDAU: true
+          LDAUJ:
+            F:
+              Ag: 0
+              Co: 0
+              Cr: 0
+              Cu: 0
+              Fe: 0
+              Mn: 0
+              Mo: 0
+              Nb: 0
+              Ni: 0
+              Re: 0
+              Ta: 0
+              V: 0
+              W: 0
+            O:
+              Ag: 0
+              Co: 0
+              Cr: 0
+              Cu: 0
+              Fe: 0
+              Mn: 0
+              Mo: 0
+              Nb: 0
+              Ni: 0
+              Re: 0
+              Ta: 0
+              V: 0
+              W: 0
+            S:
+              Fe: 0
+              Mn: 0
+          LDAUL:
+            F:
+              Ag: 2
+              Co: 2
+              Cr: 2
+              Cu: 2
+              Fe: 2
+              Mn: 2
+              Mo: 2
+              Nb: 2
+              Ni: 2
+              Re: 2
+              Ta: 2
+              V: 2
+              W: 2
+            O:
+              Ag: 2
+              Co: 2
+              Cr: 2
+              Cu: 2
+              Fe: 2
+              Mn: 2
+              Mo: 2
+              Nb: 2
+              Ni: 2
+              Re: 2
+              Ta: 2
+              V: 2
+              W: 2
+            S:
+              Fe: 2
+              Mn: 2.5
+          LDAUTYPE: 2
+          LDAUU:
+            F:
+              Ag: 1.5
+              Co: 3.4
+              Cr: 3.5
+              Cu: 4
+              Fe: 4.0
+              Mn: 3.9
+              Mo: 4.38
+              Nb: 1.5
+              Ni: 6
+              Re: 2
+              Ta: 2
+              V: 3.1
+              W: 4.0
+            O:
+              Ag: 1.5
+              Co: 3.4
+              Cr: 3.5
+              Cu: 4
+              Fe: 4.0
+              Mn: 3.9
+              Mo: 4.38
+              Nb: 1.5
+              Ni: 6
+              Re: 2
+              Ta: 2
+              V: 3.1
+              W: 4.0
+            S:
+              Fe: 1.9
+              Mn: 2.5
+          LORBIT: '11'
+          LREAL: AUTO
+          LWAVE: false
+          MAGMOM:
+            Co: 5
+            Co3+: 0.6
+            Co4+: 1
+            Cr: 5
+            Fe: 5
+            Fe2+: 4
+            Fe3+: 5
+            Fe4+: 4
+            Mn: 5
+            Mn2+: 5
+            Mn3+: 4
+            Mn4+: 3
+            Mo: 5
+            Ni: 2
+            Ni3+: 1
+            Ni4+: 0.6
+            Ta: 5
+            V: 5
+            W: 5
+          NELM: 100
+          NELMIN: 6
+          NPAR: 1
+          NSW: 99
+          PREC: Accurate
+          SIGMA: 0.05
+        KPOINTS:
+          grid_density: 1000
+        POTCAR:
+          Ac: Ac
+          Ag: Ag
+          Al: Al
+          Ar: Ar
+          As: As
+          Au: Au
+          B: B
+          Ba: Ba_sv
+          Be: Be
+          Bi: Bi
+          Br: Br
+          C: C
+          Ca: Ca_sv
+          Cd: Cd
+          Ce: Ce
+          Cl: Cl
+          Co: Co
+          Cr: Cr
+          Cs: Cs_sv
+          Cu: Cu
+          Dy: Dy_3
+          Er: Er_3
+          Eu: Eu
+          F: F
+          Fe: Fe
+          Ga: Ga
+          Gd: Gd
+          Ge: Ge
+          H: H
+          He: He
+          Hf: Hf
+          Hg: Hg
+          Ho: Ho_3
+          I: I
+          In: In
+          Ir: Ir
+          K: K_sv
+          Kr: Kr
+          La: La
+          Li: Li
+          Lu: Lu_3
+          Mg: Mg
+          Mn: Mn
+          Mo: Mo_pv
+          N: N
+          Na: Na
+          Nb: Nb_pv
+          Nd: Nd
+          Ne: Ne
+          Ni: Ni
+          Np: Np
+          O: O
+          Os: Os
+          P: P
+          Pa: Pa
+          Pb: Pb
+          Pd: Pd
+          Pm: Pm
+          Pr: Pr
+          Pt: Pt
+          Pu: Pu
+          Rb: Rb_pv
+          Re: Re
+          Rh: Rh
+          Ru: Ru_pv
+          S: S
+          Sb: Sb
+          Sc: Sc_sv
+          Se: Se
+          Si: Si
+          Sm: Sm_3
+          Sn: Sn_d
+          Sr: Sr_sv
+          Ta: Ta
+          Tb: Tb_3
+          Tc: Tc
+          Te: Te
+          Th: Th
+          Ti: Ti
+          Tl: Tl
+          Tm: Tm_3
+          U: U
+          V: V_pv
+          W: W_pv
+          Xe: Xe
+          Y: Y_sv
+          Yb: Yb
+          Zn: Zn
+          Zr: Zr
+      constrain_total_magmom: false
+      hubbard_off: false
+      name: MIT
+      sort_structure: true
+    final: true
+    gamma_vasp_cmd:
+    - mpirun
+    - -n
+    - '32'
+    - gvasp
+    gzipped: false
+    output_file: vasp.out
+    settings_override:
+    - action:
+        _set:
+          ISTART: 1
+      dict: INCAR
+    - action:
+        _file_copy:
+          dest: POSCAR
+      filename: CONTCAR
+    suffix: .relax2
+    vasp_cmd:
+    - mpirun
+    - -n
+    - '32'
+    - vasp
+dir_name: mc0662.nersc.gov:/global/projecta/projectdirs/matgen/garden/block_2014-02-14-21-00-42-815377/launcher_2014-02-15-08-18-33-664652
+elements:
+- Co
+- Li
+- O
+formula_anonymous: AB4C8
+formula_pretty: Li(CoO2)4
+formula_reduced_abc: Co4 Li1 O8
+input:
+  hubbards:
+    Co: 3.32
+    Li: 0.0
+    O: 0.0
+  incar:
+    ALGO: Fast
+    EDIFF: 0.00065
+    EFIELD_PEAD:
+    - 0.0
+    - 0.0
+    - 0.0
+    ENCUT: 520.0
+    IBRION: 2
+    ICHARG: 1
+    ISIF: 3
+    ISMEAR: 0
+    ISPIN: 2
+    ISTART: 1
+    LCALCEPS: false
+    LCALCPOL: false
+    LDAU: true
+    LDAUJ:
+    - 0.0
+    - 0.0
+    - 0.0
+    LDAUL:
+    - 0
+    - 2
+    - 0
+    LDAUTYPE:
+    - 2
+    LDAUU:
+    - 0.0
+    - 3.32
+    - 0.0
+    LEFG: false
+    LORBIT: false
+    LPEAD: false
+    LREAL: Auto
+    LWAVE: false
+    MAGMOM:
+    - 0.6
+    - 5.0
+    - 5.0
+    - 5.0
+    - 5.0
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    NELM: 100
+    NGY: 44
+    NSW: 99
+    PREC: accurate
+    SIGMA: 0.2
+  is_hubbard: true
+  is_lasph: false
+  parameters:
+    ADDGRID: false
+    AEXX: 0.0
+    AGGAC: 1.0
+    AGGAX: 1.0
+    ALDAC: 1.0
+    ALDAX: 1.0
+    AMIN: 0.1
+    AMIX: 0.4
+    AMIX_MAG: 1.6
+    ANTIRES: 0
+    APACO: 16.0
+    AVECCONST:
+    - 0.0
+    - 0.0
+    - 0.0
+    BMIX: 1.0
+    BMIX_MAG: 1.0
+    CSHIFT: 0.1
+    DEPER: 0.3
+    DIM: 3
+    DIPOL:
+    - -100.0
+    - -100.0
+    - -100.0
+    EBREAK: 2.5e-06
+    EDIFF: 0.00065
+    EDIFFG: 0.0065
+    EFERMI: 0.0
+    EFIELD: 0.0
+    EMAX: -10.0
+    EMIN: 10.0
+    ENAUG: 605.392
+    ENCUT4O: -1.0
+    ENCUTFOCK: 0.0
+    ENCUTGW: 346.66666667
+    ENCUTGWSOFT: -2.0
+    ENCUTLF: -1.0
+    ENINI: 520.0
+    ENMAX: 520.0
+    EPSILON: 1.0
+    EVENONLY: false
+    EVENONLYGW: false
+    EXXOEP: 0
+    FOURORBIT: 0
+    GGA: --
+    GGA_COMPAT: true
+    HFALPHA: 0.0
+    HFSCREEN: 0.0
+    HFSCREENC: 0.0
+    IALGO: 68
+    IBRION: 2
+    ICHARG: 1
+    ICORELEVEL: 0
+    IDIOT: 3
+    IDIPOL: 0
+    IMIX: 4
+    INIMIX: 1
+    INIWAV: 1
+    ISIF: 3
+    ISMEAR: 0
+    ISPIN: 2
+    ISTART: 0
+    ISYM: 2
+    IWAVPR: 11
+    I_CONSTRAINED_M: 0
+    KBLOCK: 99
+    KINTER: 0
+    L2ORDER: false
+    LASPH: false
+    LASYNC: false
+    LBERRY: false
+    LCHARG: true
+    LCHIMAG: false
+    LCOMPAT: false
+    LCORR: true
+    LDAU: true
+    LDAUJ:
+    - 0.0
+    LDAUL:
+    - 0
+    LDAUPRINT: 0
+    LDAUTYPE:
+    - 2
+    LDAUU:
+    - 0.0
+    LDIAG: true
+    LDIPOL: false
+    LELF: false
+    LEPSILON: false
+    LGAUGE: true
+    LGWLF: false
+    LHFCALC: false
+    LHFONE: false
+    LMAGBLOCH: false
+    LMAXFOCK: 0
+    LMAXMIX: 2
+    LMAXMP2: -1
+    LMAXPAW: -100
+    LMETAGGA: false
+    LMODELHF: false
+    LMONO: false
+    LMUSIC: false
+    LNABLA: false
+    LNONCOLLINEAR: false
+    LOPTICS: false
+    LORBIT: true
+    LPARD: false
+    LPLANE: true
+    LREAL: true
+    LREAL_COMPAT: false
+    LRHFCALC: false
+    LRPA: false
+    LSCAAWARE: false
+    LSCALAPACK: false
+    LSCALU: false
+    LSORBIT: false
+    LSPECTRAL: false
+    LSPIRAL: false
+    LTCTE: false
+    LTETE: false
+    LTHOMAS: false
+    LUSEW: false
+    LVEL: false
+    LVTOT: false
+    LWAVE: false
+    LZEROZ: false
+    MAGATOM: 0
+    MAGDIPOL:
+    - 0.0
+    - 0.0
+    - 0.0
+    MAGMOM:
+    - 0.6
+    - 5.0
+    - 5.0
+    - 5.0
+    - 5.0
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    MAXMEM: 1024
+    MAXMIX: -45
+    MIXPRE: 1
+    MODEL_ALPHA: 1.0
+    MODEL_EPS0: 5.93870656
+    MODEL_GW: 0
+    MREMOVE: 5
+    NBANDS: 66
+    NBANDSGW: -1
+    NBANDSLF: -1
+    NBLK: 32
+    NBLOCK: 1
+    NEDOS: 301
+    NELECT: 87.0
+    NELM: 100
+    NELMDL: 0
+    NELMIN: 2
+    NFREE: 1
+    NGX: 42
+    NGXF: 84
+    NGY: 48
+    NGYF: 96
+    NGZ: 42
+    NGZF: 84
+    NKREDLFX: 1
+    NKREDLFY: 1
+    NKREDLFZ: 1
+    NKREDX: 1
+    NKREDY: 1
+    NKREDZ: 1
+    NMAXFOCKAE: 0
+    NOMEGA: 0
+    NOMEGAR: 0
+    NPACO: 256
+    NPAR: 2
+    NRMM: 4
+    NSIM: 4
+    NSW: 99
+    NUPDOWN: -1.0
+    NWRITE: 2
+    ODDONLY: false
+    ODDONLYGW: false
+    OMEGAGRID: 0
+    OMEGAMAX: -1.0
+    OMEGATL: -200.0
+    ORBITALMAG: false
+    POMASS:
+    - 7.01
+    - 58.933
+    - 16.0
+    POTIM: 0.5
+    PREC: accura
+    PSTRESS: 0.0
+    QSPIRAL:
+    - 0.0
+    - 0.0
+    - 0.0
+    ROPT:
+    - -0.00025
+    - -0.00025
+    - -0.00025
+    RWIGS:
+    - -1.0
+    - -1.0
+    - -1.0
+    SAXIS:
+    - 0.0
+    - 0.0
+    - 1.0
+    SCISSOR: 0.0
+    SELFENERGY: false
+    SHIFTRED: false
+    SIGMA: 0.2
+    SMASS: -3.0
+    STM:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    SYMPREC: 1.0e-05
+    SYSTEM: unknown system
+    TEBEG: 0.0001
+    TEEND: 0.0001
+    TELESCOPE: 0
+    TIME: 0.4
+    VOSKOWN: 0
+    WC: 100.0
+    WEIMIN: 0.001
+  potcar_spec:
+  - hash: 4799bab014a83a07c654d7196c8ecfa9
+    titel: PAW_PBE Li_sv 23Jan2001
+  - hash: b169bca4e137294d2ab3df8cbdd09083
+    titel: PAW_PBE Co 06Sep2000
+  - hash: 7a25bc5b9a5393f46600a4939d357982
+    titel: PAW_PBE O 08Apr2002
+  pseudo_potential:
+    functional: pbe
+    labels:
+    - Li_sv
+    - Co
+    - O
+    pot_type: paw
+  structure:
+    '@class': Structure
+    '@module': pymatgen.core.structure
+    lattice:
+      a: 5.628663445527658
+      alpha: 59.99999402933882
+      b: 5.705601822396734
+      beta: 120.45320422914749
+      c: 5.705602208337178
+      gamma: 120.4532142941995
+      matrix:
+      - - -2.77559753
+        - -1.60249263
+        - 4.62708633
+      - - -2.8528006
+        - 1.64706498
+        - -4.65860471
+      - - 0.0
+        - -3.29413095
+        - -4.65860471
+      volume: 128.6719755275229
+    sites:
+    - abc:
+      - 0.5
+      - 0.0
+      - 0.5
+      label: Li
+      species:
+      - element: Li
+        occu: 1
+      xyz:
+      - -1.387798765
+      - -2.44831179
+      - -0.015759189999999812
+    - abc:
+      - 0.5
+      - 0.5
+      - 0.5
+      label: Co
+      species:
+      - element: Co
+        occu: 1
+      xyz:
+      - -2.8141990650000004
+      - -1.6247793000000001
+      - -2.3450615449999996
+    - abc:
+      - 0.5
+      - 0.5
+      - 0.0
+      label: Co
+      species:
+      - element: Co
+        occu: 1
+      xyz:
+      - -2.8141990650000004
+      - 0.022286174999999964
+      - -0.015759189999999812
+    - abc:
+      - 0.0
+      - 0.5
+      - 0.0
+      label: Co
+      species:
+      - element: Co
+        occu: 1
+      xyz:
+      - -1.4264003
+      - 0.82353249
+      - -2.329302355
+    - abc:
+      - 0.5
+      - 0.0
+      - 0.0
+      label: Co
+      species:
+      - element: Co
+        occu: 1
+      xyz:
+      - -1.387798765
+      - -0.801246315
+      - 2.313543165
+    - abc:
+      - 0.73334708
+      - 0.70718649
+      - 0.76308029
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -4.052938386864607
+      - -2.524087589547876
+      - -3.4561314972511163
+    - abc:
+      - 0.7045282
+      - 0.73484307
+      - 0.23484307
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -4.051847482737188
+      - -0.6922707870144938
+      - -1.2574716157062127
+    - abc:
+      - 0.26665292
+      - 0.73691971
+      - 0.79281351
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -2.842406176959114
+      - -1.8251862125243585
+      - -5.892596302748882
+    - abc:
+      - 0.73334708
+      - 0.26308029
+      - 0.76308029
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -2.7859919530408868
+      - -3.255559358968752
+      - -1.3872162621909143
+    - abc:
+      - 0.26665292
+      - 0.73691971
+      - 0.23691971
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -2.842406176959114
+      - 0.006000758968751518
+      - -3.3029068278090845
+    - abc:
+      - 0.73334708
+      - 0.26308029
+      - 0.20718649
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -2.7859919530408868
+      - -1.4243723874756418
+      - 1.2024732127488833
+    - abc:
+      - 0.2954718
+      - 0.26515693
+      - 0.76515693
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -1.5765506472628121
+      - -2.5572878129855057
+      - -3.4326514742937864
+    - abc:
+      - 0.26665292
+      - 0.29281351
+      - 0.23691971
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -1.5754597431353936
+      - -0.7254710104521244
+      - -1.2339915927488823
+  xc_override: null
+last_updated:
+  $date: 1508367510364
+nelements: 3
+nsites: 13
+orig_inputs:
+  incar:
+    '@class': Incar
+    '@module': pymatgen.io.vasp.inputs
+    ALGO: Fast
+    EDIFF: 0.00065
+    ENCUT: 520
+    IBRION: 2
+    ICHARG: 1
+    ISIF: 3
+    ISMEAR: 0
+    ISPIN: 2
+    ISTART: 1
+    LDAU: true
+    LDAUJ:
+    - 0
+    - 0
+    - 0
+    LDAUL:
+    - 0
+    - 2
+    - 0
+    LDAUTYPE: 2
+    LDAUU:
+    - 0
+    - 3.32
+    - 0
+    LORBIT: 11
+    LREAL: Auto
+    LWAVE: false
+    MAGMOM:
+    - 0.6
+    - 5
+    - 5
+    - 5
+    - 5
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    NELM: 100
+    NGY: 44
+    NPAR: 2
+    NSW: 99
+    PREC: Accurate
+    SIGMA: 0.2
+  kpoints:
+    '@class': Kpoints
+    '@module': pymatgen.io.vasp.inputs
+    comment: Automatic kpoint scheme
+    coord_type: null
+    generation_style: Gamma
+    kpoints:
+    - - 4
+      - 4
+      - 4
+    kpts_weights: null
+    labels: null
+    nkpoints: 0
+    tet_connections: null
+    tet_number: 0
+    tet_weight: 0
+    usershift:
+    - 0
+    - 0
+    - 0
+  poscar:
+    '@class': Poscar
+    '@module': pymatgen.io.vasp.inputs
+    comment: Li1 Co4 O8
+    predictor_corrector: null
+    selective_dynamics: null
+    structure:
+      '@class': Structure
+      '@module': pymatgen.core.structure
+      lattice:
+        a: 5.628663443743979
+        alpha: 59.999994034091955
+        b: 5.705601823111953
+        beta: 120.45320421834928
+        c: 5.7056022089645895
+        gamma: 120.45321430506608
+        matrix:
+        - - -2.775597529081498
+          - -1.6024926288593495
+          - 4.627086328776238
+        - - -2.8528005994593193
+          - 1.6470649798060482
+          - -4.65860471127563
+        - - -2.943066e-10
+          - -3.294130951924523
+          - -4.658604709407575
+        volume: 128.67197552151615
+      sites:
+      - abc:
+        - 0.5
+        - 0.0
+        - 0.5
+        label: Li
+        properties:
+          velocities:
+          - 0.0
+          - 0.0
+          - 0.0
+        species:
+        - element: Li
+          occu: 1
+        xyz:
+        - -1.3877987646879024
+        - -2.4483117903919362
+        - -0.015759190315668636
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.5
+        label: Co
+        properties:
+          velocities:
+          - 0.0
+          - 0.0
+          - 0.0
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -2.8141990644175623
+        - -1.6247793004889122
+        - -2.3450615459534836
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.0
+        label: Co
+        properties:
+          velocities:
+          - 0.0
+          - 0.0
+          - 0.0
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -2.814199064270409
+        - 0.022286175473349323
+        - -0.01575919124969616
+      - abc:
+        - 0.0
+        - 0.5
+        - 0.0
+        label: Co
+        properties:
+          velocities:
+          - 0.0
+          - 0.0
+          - 0.0
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -1.4264002997296596
+        - 0.8235324899030241
+        - -2.329302355637815
+      - abc:
+        - 0.5
+        - 0.0
+        - 0.0
+        label: Co
+        properties:
+          velocities:
+          - 0.0
+          - 0.0
+          - 0.0
+        species:
+        - element: Co
+          occu: 1
+        xyz:
+        - -1.387798764540749
+        - -0.8012463144296748
+        - 2.313543164388119
+      - abc:
+        - 0.7333470761850812
+        - 0.7071864914716263
+        - 0.763080292356885
+        label: O
+        properties:
+          velocities:
+          - 0.0
+          - 0.0
+          - 0.0
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -4.0529383796428196
+        - -2.5240875895437536
+        - -3.4561315340860794
+      - abc:
+        - 0.7045281956910712
+        - 0.7348430652304645
+        - 0.2348430652302317
+        label: O
+        properties:
+          velocities:
+          - 0.0
+          - 0.0
+          - 0.0
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -4.0518474561954925
+        - -0.6922707720438254
+        - -1.2574715928645896
+      - abc:
+        - 0.2666529238151156
+        - 0.7369197076434002
+        - 0.7928135085279965
+        label: O
+        properties:
+          velocities:
+          - 0.0
+          - 0.0
+          - 0.0
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.8424061804154004
+        - -1.8251862190351105
+        - -5.892596268056738
+      - abc:
+        - 0.7333470761850073
+        - 0.2630802923564524
+        - 0.7630802923564558
+        label: O
+        properties:
+          velocities:
+          - 0.0
+          - 0.0
+          - 0.0
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.785991948583247
+        - -3.2555593574195956
+        - -1.3872163025797604
+      - abc:
+        - 0.2666529238149927
+        - 0.7369197076435476
+        - 0.2369197076435442
+        label: O
+        properties:
+          velocities:
+          - 0.0
+          - 0.0
+          - 0.0
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.8424061802518765
+        - 0.006000756441771116
+        - -3.3029067893272073
+      - abc:
+        - 0.7333470761848844
+        - 0.2630802923565998
+        - 0.2071864914720035
+        label: O
+        properties:
+          velocities:
+          - 0.0
+          - 0.0
+          - 0.0
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -2.7859919484197238
+        - -1.4243723819427139
+        - 1.2024731761497707
+      - abc:
+        - 0.2954718043089288
+        - 0.2651569347695355
+        - 0.7651569347697683
+        label: O
+        properties:
+          velocities:
+          - 0.0
+          - 0.0
+          - 0.0
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -1.576550672639632
+        - -2.557287828933999
+        - -3.432651499042378
+      - abc:
+        - 0.2666529238149188
+        - 0.2928135085283738
+        - 0.236919707643115
+        label: O
+        properties:
+          velocities:
+          - 0.0
+          - 0.0
+          - 0.0
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -1.575459749192304
+        - -0.7254710114340712
+        - -1.2339915578208882
+    true_names: true
+    velocities:
+    - - 0.0
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.0
+  potcar:
+    '@class': Potcar
+    '@module': pymatgen.io.vasp.inputs
+    functional: PBE
+    symbols:
+    - Li_sv
+    - Co
+    - O
+output:
+  bandgap: 0.8769999999999998
+  cbm: 2.4107
+  density: 4.76400758728272
+  energy: -73.91728207
+  energy_per_atom: -5.685944774615384
+  is_gap_direct: false
+  is_metal: false
+  spacegroup:
+    crystal_system: trigonal
+    hall: -R 3 2"
+    number: 166
+    point_group: -3m
+    source: spglib
+    symbol: R-3m
+  structure:
+    '@class': Structure
+    '@module': pymatgen.core.structure
+    lattice:
+      a: 5.63594306426955
+      alpha: 59.99999398978655
+      b: 5.713825761284814
+      beta: 120.4581857560946
+      c: 5.713826138783394
+      gamma: 120.4581957769372
+      matrix:
+      - - -2.77875898
+        - -1.60431789
+        - 4.63341309
+      - - -2.85691257
+        - 1.64943902
+        - -4.66531953
+      - - 0.0
+        - -3.29887904
+        - -4.66531952
+      volume: 129.2001116560043
+    sites:
+    - abc:
+      - 0.5
+      - 0.0
+      - 0.5
+      label: Li
+      properties:
+        magmom: -0.002
+      species:
+      - element: Li
+        occu: 1
+      xyz:
+      - -1.38937949
+      - -2.451598465
+      - -0.015953214999999688
+    - abc:
+      - 0.5
+      - 0.5
+      - 0.5
+      label: Co
+      properties:
+        magmom: -1.191
+      species:
+      - element: Co
+        occu: 1
+      xyz:
+      - -2.817835775
+      - -1.626878955
+      - -2.3486129799999995
+    - abc:
+      - 0.5
+      - 0.5
+      - 0.0
+      label: Co
+      properties:
+        magmom: -1.189
+      species:
+      - element: Co
+        occu: 1
+      xyz:
+      - -2.817835775
+      - 0.022560565000000032
+      - -0.015953219999999657
+    - abc:
+      - 0.0
+      - 0.5
+      - 0.0
+      label: Co
+      properties:
+        magmom: 0.014
+      species:
+      - element: Co
+        occu: 1
+      xyz:
+      - -1.428456285
+      - 0.82471951
+      - -2.332659765
+    - abc:
+      - 0.5
+      - 0.0
+      - 0.0
+      label: Co
+      properties:
+        magmom: -1.181
+      species:
+      - element: Co
+        occu: 1
+      xyz:
+      - -1.38937949
+      - -0.802158945
+      - 2.316706545
+    - abc:
+      - 0.73073581
+      - 0.71065636
+      - 0.76003972
+      label: O
+      properties:
+        magmom: 0.066
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -4.060821781879519
+      - -2.5074273047269426
+      - -3.475466269732291
+    - abc:
+      - 0.70449427
+      - 0.73483176
+      - 0.23483176
+      label: O
+      properties:
+        magmom: 0.071
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -4.056969871100268
+      - -0.6928541536745255
+      - -1.2595771825882331
+    - abc:
+      - 0.26926419
+      - 0.73996028
+      - 0.78934364
+      label: O
+      properties:
+        magmom: 0.054
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -2.862222111187646
+      - -1.815415187424539
+      - -5.887079214773873
+    - abc:
+      - 0.73073581
+      - 0.26003972
+      - 0.76003972
+      label: O
+      properties:
+        magmom: 0.057
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -2.7734494388123543
+      - -3.2506919738042352
+      - -1.3731956585973122
+    - abc:
+      - 0.26926419
+      - 0.73996028
+      - 0.23996028
+      label: O
+      properties:
+        magmom: 0.057
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -2.862222111187646
+      - -0.0030659361957646736
+      - -3.3240303014026864
+    - abc:
+      - 0.73073581
+      - 0.26003972
+      - 0.21065636
+      label: O
+      properties:
+        magmom: 0.054
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -2.7734494388123543
+      - -1.4383427225754608
+      - 1.1898532547738747
+    - abc:
+      - 0.29550573
+      - 0.26516824
+      - 0.76516824
+      label: O
+      properties:
+        magmom: 0.071
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -1.5787016788997323
+      - -2.560903756325475
+      - -3.4376487774117663
+    - abc:
+      - 0.26926419
+      - 0.28934364
+      - 0.23996028
+      label: O
+      properties:
+        magmom: 0.066
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -1.5748497681204812
+      - -0.7463306052730575
+      - -1.2217596902677075
+  vbm: 1.5337
+run_stats:
+  overall:
+    Elapsed time (sec): 1005.7090000000001
+    System time (sec): 26.814
+    Total CPU time used (sec): 998.7860000000001
+    User time (sec): 971.971
+  relax1:
+    Average memory used (kb): 0.0
+    Elapsed time (sec): 400.973
+    Maximum memory used (kb): 91112.0
+    System time (sec): 9.594
+    Total CPU time used (sec): 397.576
+    User time (sec): 387.982
+    cores: '32'
+  relax2:
+    Average memory used (kb): 0.0
+    Elapsed time (sec): 604.736
+    Maximum memory used (kb): 91624.0
+    System time (sec): 17.22
+    Total CPU time used (sec): 601.21
+    User time (sec): 583.989
+    cores: '32'
+schema:
+  code: atomate
+  version: 0.2
+state: successful
+task_id: mp-765047
+task_type: GGA+U Structure Optimization
+transformations: {}

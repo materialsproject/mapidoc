@@ -1,0 +1,2547 @@
+_id:
+  $oid: 59e823ec380a4f7a902c35e0
+analysis:
+  delta_volume: 0.0
+  delta_volume_percent: 0.0
+  errors: []
+  max_force: null
+  warnings: []
+calcs_reversed:
+- bandstructure_compression: zlib
+  bandstructure_fs_id:
+    $oid: 59e823aaa60cbe63fb00bd67
+  completed_at: '2013-09-21 17:40:49'
+  composition_reduced:
+    Ge: 1.0
+    O: 4.0
+    Zr: 1.0
+  composition_unit_cell:
+    Ge: 2.0
+    O: 8.0
+    Zr: 2.0
+  dir_name: /global/projecta/projectdirs/matgen/garden/block_2013-09-21-04-31-24-238403/launcher_2013-09-21-23-53-26-343997
+  dos_compression: zlib
+  dos_fs_id:
+    $oid: 59e823aaa60cbe63fb00bd64
+  elements:
+  - Ge
+  - O
+  - Zr
+  formula_anonymous: ABC4
+  formula_pretty: ZrGeO4
+  formula_reduced_abc: Ge1 O4 Zr1
+  has_vasp_completed: true
+  input:
+    incar:
+      ALGO: Fast
+      EDIFF: 2.0e-06
+      EFIELD_PEAD:
+      - 0.0
+      - 0.0
+      - 0.0
+      ENCUT: 520.0
+      IBRION: -1
+      ICHARG: 0
+      ISIF: 3
+      ISMEAR: -5
+      ISPIN: 2
+      LAECHG: true
+      LCALCEPS: false
+      LCALCPOL: false
+      LCHARG: true
+      LEFG: false
+      LORBIT: false
+      LPEAD: false
+      LREAL: Auto
+      LWAVE: false
+      MAGMOM:
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      NELM: 100
+      NELMIN: 3
+      NSW: 0
+      PREC: accurate
+      SIGMA: 0.05
+      SYSTEM: 'Rubyvaspy :: o ge zr'
+    kpoints:
+      '@class': Kpoints
+      '@module': pymatgen.io.vasp.inputs
+      actual_points:
+      - abc:
+        - 0.0
+        - 0.0
+        - 0.0
+        weight: 0.00462963
+      - abc:
+        - 0.16666667
+        - 0.0
+        - 0.0
+        weight: 0.03703704
+      - abc:
+        - 0.33333333
+        - 0.0
+        - 0.0
+        weight: 0.03703704
+      - abc:
+        - 0.5
+        - 0.0
+        - 0.0
+        weight: 0.01851852
+      - abc:
+        - 0.16666667
+        - 0.16666667
+        - 0.0
+        weight: 0.03703704
+      - abc:
+        - 0.33333333
+        - 0.16666667
+        - 0.0
+        weight: 0.03703704
+      - abc:
+        - 0.5
+        - 0.16666667
+        - 0.0
+        weight: 0.03703704
+      - abc:
+        - -0.33333333
+        - 0.16666667
+        - 0.0
+        weight: 0.03703704
+      - abc:
+        - -0.16666667
+        - 0.16666667
+        - 0.0
+        weight: 0.01851852
+      - abc:
+        - 0.16666667
+        - 0.33333333
+        - 0.0
+        weight: 0.03703704
+      - abc:
+        - 0.33333333
+        - 0.33333333
+        - 0.0
+        weight: 0.03703704
+      - abc:
+        - 0.5
+        - 0.33333333
+        - 0.0
+        weight: 0.03703704
+      - abc:
+        - -0.33333333
+        - 0.33333333
+        - 0.0
+        weight: 0.01851852
+      - abc:
+        - -0.16666667
+        - 0.33333333
+        - 0.0
+        weight: 0.03703704
+      - abc:
+        - 0.16666667
+        - 0.5
+        - 0.0
+        weight: 0.03703704
+      - abc:
+        - 0.33333333
+        - 0.5
+        - 0.0
+        weight: 0.03703704
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.0
+        weight: 0.00925926
+      - abc:
+        - 0.16666667
+        - 0.16666667
+        - 0.16666667
+        weight: 0.03703704
+      - abc:
+        - 0.33333333
+        - 0.16666667
+        - 0.16666667
+        weight: 0.03703704
+      - abc:
+        - -0.16666667
+        - 0.16666667
+        - 0.16666667
+        weight: 0.01851852
+      - abc:
+        - 0.33333333
+        - 0.33333333
+        - 0.16666667
+        weight: 0.01851852
+      - abc:
+        - -0.33333333
+        - 0.33333333
+        - 0.16666667
+        weight: 0.01851852
+      - abc:
+        - -0.16666667
+        - 0.33333333
+        - 0.16666667
+        weight: 0.03703704
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.16666667
+        weight: 0.01851852
+      - abc:
+        - -0.33333333
+        - 0.5
+        - 0.16666667
+        weight: 0.03703704
+      - abc:
+        - -0.16666667
+        - 0.5
+        - 0.16666667
+        weight: 0.03703704
+      - abc:
+        - 0.33333333
+        - -0.33333333
+        - 0.16666667
+        weight: 0.01851852
+      - abc:
+        - 0.5
+        - -0.33333333
+        - 0.16666667
+        weight: 0.03703704
+      - abc:
+        - -0.33333333
+        - -0.33333333
+        - 0.16666667
+        weight: 0.03703704
+      - abc:
+        - -0.16666667
+        - -0.33333333
+        - 0.16666667
+        weight: 0.03703704
+      - abc:
+        - -0.16666667
+        - -0.16666667
+        - 0.16666667
+        weight: 0.00925926
+      - abc:
+        - -0.33333333
+        - 0.33333333
+        - 0.33333333
+        weight: 0.01851852
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.33333333
+        weight: 0.01851852
+      - abc:
+        - -0.33333333
+        - 0.5
+        - 0.33333333
+        weight: 0.03703704
+      - abc:
+        - -0.33333333
+        - -0.33333333
+        - 0.33333333
+        weight: 0.00925926
+      - abc:
+        - 0.5
+        - 0.5
+        - 0.5
+        weight: 0.00462963
+      comment: Kpoints from vasprun.xml
+      coord_type: null
+      generation_style: Gamma
+      genvec1:
+      - 0.16666667
+      - 0.0
+      - 0.0
+      genvec2:
+      - 0.0
+      - 0.16666667
+      - 0.0
+      genvec3:
+      - 0.0
+      - 0.0
+      - 0.16666667
+      kpoints:
+      - - 6
+        - 6
+        - 6
+      kpts_weights: null
+      labels: null
+      nkpoints: 0
+      shift:
+      - 0.0
+      - 0.0
+      - 0.0
+      tet_connections: null
+      tet_number: 0
+      tet_weight: 0
+      usershift:
+      - 0.0
+      - 0.0
+      - 0.0
+    lattice_rec:
+      '@class': Lattice
+      '@module': pymatgen.core.lattice
+      matrix:
+      - - -0.0
+        - 1.2754561620152194
+        - 0.5854449890983152
+      - - 1.2754561620152194
+        - 0.0
+        - 0.5854449890983152
+      - - 1.2754561620152194
+        - 1.2754561620152194
+        - 0.0
+    parameters:
+      ADDGRID: false
+      AEXX: 0.0
+      AGGAC: 1.0
+      AGGAX: 1.0
+      ALDAC: 1.0
+      ALDAX: 1.0
+      AMIN: 0.1
+      AMIX: 0.4
+      AMIX_MAG: 1.6
+      ANTIRES: 0
+      APACO: 16.0
+      AVECCONST:
+      - 0.0
+      - 0.0
+      - 0.0
+      BMIX: 1.0
+      BMIX_MAG: 1.0
+      CSHIFT: 0.1
+      DEPER: 0.3
+      DIM: 3
+      DIPOL:
+      - -100.0
+      - -100.0
+      - -100.0
+      EBREAK: 1.0e-08
+      EDIFF: 2.0e-06
+      EDIFFG: 2.0e-05
+      EFERMI: 0.0
+      EFIELD: 0.0
+      EMAX: -10.0
+      EMIN: 10.0
+      ENAUG: 605.392
+      ENCUT4O: -1.0
+      ENCUTFOCK: 0.0
+      ENCUTGW: 346.66666667
+      ENCUTGWSOFT: -2.0
+      ENCUTLF: -1.0
+      ENINI: 520.0
+      ENMAX: 520.0
+      EPSILON: 1.0
+      EVENONLY: false
+      EVENONLYGW: false
+      EXXOEP: 0
+      FOURORBIT: 0
+      GGA: --
+      GGA_COMPAT: true
+      HFALPHA: 0.0
+      HFSCREEN: 0.0
+      HFSCREENC: 0.0
+      IALGO: 68
+      IBRION: -1
+      ICHARG: 0
+      ICORELEVEL: 0
+      IDIOT: 3
+      IDIPOL: 0
+      IMIX: 4
+      INIMIX: 1
+      INIWAV: 1
+      ISIF: 3
+      ISMEAR: -5
+      ISPIN: 2
+      ISTART: 0
+      ISYM: 2
+      IWAVPR: 10
+      I_CONSTRAINED_M: 0
+      KBLOCK: 1
+      KINTER: 0
+      L2ORDER: false
+      LASPH: false
+      LASYNC: false
+      LBERRY: false
+      LCHARG: true
+      LCHIMAG: false
+      LCOMPAT: false
+      LCORR: true
+      LDAU: false
+      LDIAG: true
+      LDIPOL: false
+      LELF: false
+      LEPSILON: false
+      LGAUGE: true
+      LGWLF: false
+      LHFCALC: false
+      LHFONE: false
+      LMAGBLOCH: false
+      LMAXFOCK: 0
+      LMAXMIX: 2
+      LMAXMP2: -1
+      LMAXPAW: -100
+      LMETAGGA: false
+      LMODELHF: false
+      LMONO: false
+      LMUSIC: false
+      LNABLA: false
+      LNONCOLLINEAR: false
+      LOPTICS: false
+      LORBIT: true
+      LPARD: false
+      LPLANE: true
+      LREAL: true
+      LREAL_COMPAT: false
+      LRHFCALC: false
+      LRPA: false
+      LSCAAWARE: false
+      LSCALAPACK: false
+      LSCALU: false
+      LSORBIT: false
+      LSPECTRAL: false
+      LSPIRAL: false
+      LTCTE: false
+      LTETE: false
+      LTHOMAS: false
+      LUSEW: false
+      LVEL: false
+      LVTOT: false
+      LWAVE: false
+      LZEROZ: false
+      MAGATOM: 0
+      MAGDIPOL:
+      - 0.0
+      - 0.0
+      - 0.0
+      MAGMOM:
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      - 0.6
+      MAXMEM: 1024
+      MAXMIX: -45
+      MIXPRE: 1
+      MODEL_ALPHA: 1.0
+      MODEL_EPS0: 6.51122118
+      MODEL_GW: 0
+      MREMOVE: 5
+      NBANDS: 64
+      NBANDSGW: -1
+      NBANDSLF: -1
+      NBLK: 32
+      NBLOCK: 1
+      NEDOS: 301
+      NELECT: 100.0
+      NELM: 100
+      NELMDL: -5
+      NELMIN: 3
+      NFREE: 0
+      NGX: 48
+      NGXF: 96
+      NGY: 48
+      NGYF: 96
+      NGZ: 48
+      NGZF: 96
+      NKREDLFX: 1
+      NKREDLFY: 1
+      NKREDLFZ: 1
+      NKREDX: 1
+      NKREDY: 1
+      NKREDZ: 1
+      NMAXFOCKAE: 0
+      NOMEGA: 0
+      NOMEGAR: 0
+      NPACO: 256
+      NPAR: 2
+      NRMM: 4
+      NSIM: 4
+      NSW: 0
+      NUPDOWN: -1.0
+      NWRITE: 2
+      ODDONLY: false
+      ODDONLYGW: false
+      OMEGAGRID: 0
+      OMEGAMAX: -1.0
+      OMEGATL: -200.0
+      ORBITALMAG: false
+      POMASS:
+      - 91.224
+      - 72.61
+      - 16.0
+      POTIM: 0.5
+      PREC: accura
+      PSTRESS: 0.0
+      QSPIRAL:
+      - 0.0
+      - 0.0
+      - 0.0
+      ROPT:
+      - -0.00025
+      - -0.00025
+      - -0.00025
+      RWIGS:
+      - -1.0
+      - -1.0
+      - -1.0
+      SAXIS:
+      - 0.0
+      - 0.0
+      - 1.0
+      SCISSOR: 0.0
+      SELFENERGY: false
+      SHIFTRED: false
+      SIGMA: 0.05
+      SMASS: -3.0
+      STM:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      SYMPREC: 1.0e-05
+      SYSTEM: 'Rubyvaspy :: o ge zr'
+      TEBEG: 0.0001
+      TEEND: 0.0001
+      TELESCOPE: 0
+      TIME: 0.4
+      VOSKOWN: 0
+      WC: 100.0
+      WEIMIN: 0.0
+    potcar:
+    - Zr_sv
+    - Ge_d
+    - O
+    potcar_spec:
+    - hash: 82a385450ff5e8ee48d715cb73e01170
+      titel: PAW_PBE Zr_sv 07Sep2000
+    - hash: 648336e7599c2dd05b1ddacace0213eb
+      titel: PAW_PBE Ge_d 06Sep2000
+    - hash: 7a25bc5b9a5393f46600a4939d357982
+      titel: PAW_PBE O 08Apr2002
+    potcar_type:
+    - PAW_PBE
+    - PAW_PBE
+    - PAW_PBE
+    structure:
+      '@class': Structure
+      '@module': pymatgen.core.structure
+      lattice:
+        a: 6.397620331950154
+        alpha: 134.7119533114198
+        b: 6.397620331950154
+        beta: 134.7119533114198
+        c: 6.397620331950154
+        gamma: 65.97808993946536
+        matrix:
+        - - -2.463113
+          - 2.463113
+          - 5.366162
+        - - 2.463113
+          - -2.463113
+          - 5.366162
+        - - 2.463113
+          - 2.463113
+          - -5.366162
+        volume: 130.22442353592749
+      sites:
+      - abc:
+        - 0.375
+        - 0.125
+        - 0.25
+        label: Zr
+        species:
+        - element: Zr
+          occu: 1
+        xyz:
+        - 0.0
+        - 1.2315565
+        - 1.3415405
+      - abc:
+        - 0.625
+        - 0.875
+        - 0.75
+        label: Zr
+        species:
+        - element: Zr
+          occu: 1
+        xyz:
+        - 2.463113
+        - 1.2315565
+        - 4.0246215
+      - abc:
+        - 0.875
+        - 0.625
+        - 0.25
+        label: Ge
+        species:
+        - element: Ge
+          occu: 1
+        xyz:
+        - 0.0
+        - 1.2315565
+        - 6.707702500000001
+      - abc:
+        - 0.125
+        - 0.375
+        - 0.75
+        label: Ge
+        species:
+        - element: Ge
+          occu: 1
+        xyz:
+        - 2.463113
+        - 1.2315565
+        - -1.3415405000000002
+      - abc:
+        - 0.690114
+        - 0.533888
+        - 0.810734
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 1.612127163404
+        - 2.38173174648
+        - 2.217663037416
+      - abc:
+        - 0.37938
+        - 0.190114
+        - 0.656225
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 1.1501727833669997
+        - 2.082539873483
+        - -0.4654125964219995
+      - abc:
+        - 0.033888
+        - 0.723155
+        - 0.843775
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 3.776055679746
+        - 0.38057066340400025
+        - -0.4654179625839996
+      - abc:
+        - 0.223155
+        - 0.87938
+        - 0.689266
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 3.3140963734830002
+        - 0.08138371663299981
+        - 2.217668403577999
+      - abc:
+        - 0.776845
+        - 0.12062
+        - 0.310734
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -0.850983373483
+        - 2.381729283367
+        - 3.1484935964220004
+      - abc:
+        - 0.966112
+        - 0.276845
+        - 0.156225
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -1.3129426797459998
+        - 2.0825423365959996
+        - 5.831579962584
+      - abc:
+        - 0.62062
+        - 0.809886
+        - 0.343775
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 1.3129402166330002
+        - 0.3805731265169999
+        - 5.831574596422
+      - abc:
+        - 0.309886
+        - 0.466112
+        - 0.189266
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 0.8509858365960001
+        - 0.08138125351999981
+        - 3.148498962584
+  nelements: 3
+  nsites: 12
+  output:
+    bandgap: 3.7594999999999996
+    cbm: 6.7475
+    efermi: 3.0606989
+    energy: -95.99142906
+    energy_per_atom: -7.999285755
+    epsilon_ionic: []
+    epsilon_static: []
+    epsilon_static_wolfe: []
+    ionic_steps:
+    - e_0_energy: 0.0
+      e_fr_energy: -95.99142906
+      e_wo_entrp: -95.99142906
+      electronic_steps:
+      - XCdc: 347.97418738
+        alphaZ: 708.49198249
+        atom: 11218.49214901
+        bandstr: -3882.41011255
+        e_0_energy: -59.38821876
+        e_fr_energy: -59.38821876
+        e_wo_entrp: -59.38821876
+        eentropy: 0.0
+        ewald: -7990.11458802
+        hartreedc: -228.13567148
+        pawaedc: -1962.88610187
+        pawpsdc: 1729.19993628
+      - e_0_energy: -2215.89551209
+        e_fr_energy: -2215.89551209
+        e_wo_entrp: -2215.89551209
+      - e_0_energy: -2454.45886533
+        e_fr_energy: -2454.45886533
+        e_wo_entrp: -2454.45886533
+      - e_0_energy: -2472.54990311
+        e_fr_energy: -2472.54990311
+        e_wo_entrp: -2472.54990311
+      - e_0_energy: -2474.91530945
+        e_fr_energy: -2474.91530945
+        e_wo_entrp: -2474.91530945
+      - e_0_energy: -648.66570395
+        e_fr_energy: -648.66570395
+        e_wo_entrp: -648.66570395
+      - e_0_energy: -147.0279151
+        e_fr_energy: -147.0279151
+        e_wo_entrp: -147.0279151
+      - e_0_energy: -99.30778058
+        e_fr_energy: -99.30778058
+        e_wo_entrp: -99.30778058
+      - e_0_energy: -99.97773877
+        e_fr_energy: -99.97773877
+        e_wo_entrp: -99.97773877
+      - e_0_energy: -98.48361999
+        e_fr_energy: -98.48361999
+        e_wo_entrp: -98.48361999
+      - e_0_energy: -96.79270455
+        e_fr_energy: -96.79270455
+        e_wo_entrp: -96.79270455
+      - e_0_energy: -96.34629156
+        e_fr_energy: -96.34629156
+        e_wo_entrp: -96.34629156
+      - e_0_energy: -96.08262692
+        e_fr_energy: -96.08262692
+        e_wo_entrp: -96.08262692
+      - e_0_energy: -95.99875514
+        e_fr_energy: -95.99875514
+        e_wo_entrp: -95.99875514
+      - e_0_energy: -95.97820632
+        e_fr_energy: -95.97820632
+        e_wo_entrp: -95.97820632
+      - e_0_energy: -95.98593765
+        e_fr_energy: -95.98593765
+        e_wo_entrp: -95.98593765
+      - e_0_energy: -95.98765817
+        e_fr_energy: -95.98765817
+        e_wo_entrp: -95.98765817
+      - e_0_energy: -95.99031786
+        e_fr_energy: -95.99031786
+        e_wo_entrp: -95.99031786
+      - e_0_energy: -95.99100845
+        e_fr_energy: -95.99100845
+        e_wo_entrp: -95.99100845
+      - e_0_energy: -95.99148856
+        e_fr_energy: -95.99148856
+        e_wo_entrp: -95.99148856
+      - e_0_energy: -95.99188283
+        e_fr_energy: -95.99188283
+        e_wo_entrp: -95.99188283
+      - e_0_energy: -95.99213715
+        e_fr_energy: -95.99213715
+        e_wo_entrp: -95.99213715
+      - e_0_energy: -95.99208344
+        e_fr_energy: -95.99208344
+        e_wo_entrp: -95.99208344
+      - e_0_energy: -95.99193007
+        e_fr_energy: -95.99193007
+        e_wo_entrp: -95.99193007
+      - e_0_energy: -95.99177194
+        e_fr_energy: -95.99177194
+        e_wo_entrp: -95.99177194
+      - e_0_energy: -95.9915666
+        e_fr_energy: -95.9915666
+        e_wo_entrp: -95.9915666
+      - e_0_energy: -95.99145809
+        e_fr_energy: -95.99145809
+        e_wo_entrp: -95.99145809
+      - e_0_energy: -95.99143928
+        e_fr_energy: -95.99143928
+        e_wo_entrp: -95.99143928
+      - e_0_energy: -95.99143461
+        e_fr_energy: -95.99143461
+        e_wo_entrp: -95.99143461
+      - e_0_energy: -95.99143236
+        e_fr_energy: -95.99143236
+        e_wo_entrp: -95.99143236
+      - e_0_energy: -95.99143016
+        e_fr_energy: -95.99143016
+        e_wo_entrp: -95.99143016
+      - XCdc: 476.8032223
+        alphaZ: 708.49198249
+        atom: 11218.49214901
+        bandstr: -1082.28193245
+        e_0_energy: -95.99142906
+        e_fr_energy: -95.99142906
+        e_wo_entrp: -95.99142906
+        eentropy: 0.0
+        ewald: -7990.11458802
+        hartreedc: -2576.01873883
+        pawaedc: -8288.21755264
+        pawpsdc: 7436.85402908
+      forces:
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.0
+      - - -0.00626845
+        - -0.01623806
+        - 0.00454197
+      - - -0.01623806
+        - 0.00626845
+        - 0.00454197
+      - - 0.01623806
+        - -0.00626845
+        - 0.00454197
+      - - 0.00626845
+        - 0.01623806
+        - 0.00454197
+      - - -0.00626845
+        - -0.01623806
+        - -0.00454197
+      - - -0.01623806
+        - 0.00626845
+        - -0.00454197
+      - - 0.01623806
+        - -0.00626845
+        - -0.00454197
+      - - 0.00626845
+        - 0.01623806
+        - -0.00454197
+      stress:
+      - - 0.24046752
+        - 7.85e-06
+        - 0.0
+      - - -7.85e-06
+        - 0.24046752
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.36031559
+      structure:
+        '@class': Structure
+        '@module': pymatgen.core.structure
+        lattice:
+          a: 6.397620331950154
+          alpha: 134.7119533114198
+          b: 6.397620331950154
+          beta: 134.7119533114198
+          c: 6.397620331950154
+          gamma: 65.97808993946536
+          matrix:
+          - - -2.463113
+            - 2.463113
+            - 5.366162
+          - - 2.463113
+            - -2.463113
+            - 5.366162
+          - - 2.463113
+            - 2.463113
+            - -5.366162
+          volume: 130.22442353592749
+        sites:
+        - abc:
+          - 0.375
+          - 0.125
+          - 0.25
+          label: Zr
+          species:
+          - element: Zr
+            occu: 1
+          xyz:
+          - 0.0
+          - 1.2315565
+          - 1.3415405
+        - abc:
+          - 0.625
+          - 0.875
+          - 0.75
+          label: Zr
+          species:
+          - element: Zr
+            occu: 1
+          xyz:
+          - 2.463113
+          - 1.2315565
+          - 4.0246215
+        - abc:
+          - 0.875
+          - 0.625
+          - 0.25
+          label: Ge
+          species:
+          - element: Ge
+            occu: 1
+          xyz:
+          - 0.0
+          - 1.2315565
+          - 6.707702500000001
+        - abc:
+          - 0.125
+          - 0.375
+          - 0.75
+          label: Ge
+          species:
+          - element: Ge
+            occu: 1
+          xyz:
+          - 2.463113
+          - 1.2315565
+          - -1.3415405000000002
+        - abc:
+          - 0.690114
+          - 0.533888
+          - 0.810734
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - 1.612127163404
+          - 2.38173174648
+          - 2.217663037416
+        - abc:
+          - 0.37938
+          - 0.190114
+          - 0.656225
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - 1.1501727833669997
+          - 2.082539873483
+          - -0.4654125964219995
+        - abc:
+          - 0.033888
+          - 0.723155
+          - 0.843775
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - 3.776055679746
+          - 0.38057066340400025
+          - -0.4654179625839996
+        - abc:
+          - 0.223155
+          - 0.87938
+          - 0.689266
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - 3.3140963734830002
+          - 0.08138371663299981
+          - 2.217668403577999
+        - abc:
+          - 0.776845
+          - 0.12062
+          - 0.310734
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -0.850983373483
+          - 2.381729283367
+          - 3.1484935964220004
+        - abc:
+          - 0.966112
+          - 0.276845
+          - 0.156225
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - -1.3129426797459998
+          - 2.0825423365959996
+          - 5.831579962584
+        - abc:
+          - 0.62062
+          - 0.809886
+          - 0.343775
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - 1.3129402166330002
+          - 0.3805731265169999
+          - 5.831574596422
+        - abc:
+          - 0.309886
+          - 0.466112
+          - 0.189266
+          label: O
+          species:
+          - element: O
+            occu: 1
+          xyz:
+          - 0.8509858365960001
+          - 0.08138125351999981
+          - 3.148498962584
+    is_gap_direct: false
+    is_metal: false
+    outcar:
+      '@class': Outcar
+      '@module': pymatgen.io.vasp.outputs
+      charge:
+      - d: 1.312
+        p: 6.278
+        s: 2.156
+        tot: 9.746
+      - d: 1.312
+        p: 6.278
+        s: 2.156
+        tot: 9.746
+      - d: 10.35
+        p: 1.213
+        s: 0.956
+        tot: 12.519
+      - d: 10.35
+        p: 1.213
+        s: 0.956
+        tot: 12.519
+      - d: 0.0
+        p: 3.52
+        s: 1.561
+        tot: 5.081
+      - d: 0.0
+        p: 3.518
+        s: 1.561
+        tot: 5.079
+      - d: 0.0
+        p: 3.521
+        s: 1.561
+        tot: 5.083
+      - d: 0.0
+        p: 3.525
+        s: 1.56
+        tot: 5.085
+      - d: 0.0
+        p: 3.525
+        s: 1.56
+        tot: 5.085
+      - d: 0.0
+        p: 3.521
+        s: 1.561
+        tot: 5.083
+      - d: 0.0
+        p: 3.518
+        s: 1.561
+        tot: 5.079
+      - d: 0.0
+        p: 3.52
+        s: 1.561
+        tot: 5.081
+      efermi: 3.0607
+      is_stopped: false
+      magnetization:
+      - d: 0.0
+        p: 0.0
+        s: 0.0
+        tot: 0.0
+      - d: 0.0
+        p: 0.0
+        s: 0.0
+        tot: 0.0
+      - d: 0.0
+        p: 0.0
+        s: 0.0
+        tot: 0.0
+      - d: 0.0
+        p: 0.0
+        s: 0.0
+        tot: 0.0
+      - d: 0.0
+        p: 0.0
+        s: 0.0
+        tot: 0.0
+      - d: 0.0
+        p: 0.0
+        s: 0.0
+        tot: 0.0
+      - d: 0.0
+        p: 0.0
+        s: 0.0
+        tot: 0.0
+      - d: 0.0
+        p: 0.0
+        s: 0.0
+        tot: 0.0
+      - d: 0.0
+        p: 0.0
+        s: 0.0
+        tot: 0.0
+      - d: 0.0
+        p: 0.0
+        s: 0.0
+        tot: 0.0
+      - d: 0.0
+        p: 0.0
+        s: 0.0
+        tot: 0.0
+      - d: 0.0
+        p: 0.0
+        s: 0.0
+        tot: 0.0
+      nelect: 100.0000005
+      total_magnetization: -4.5e-06
+    structure:
+      '@class': Structure
+      '@module': pymatgen.core.structure
+      lattice:
+        a: 6.397620331950154
+        alpha: 134.7119533114198
+        b: 6.397620331950154
+        beta: 134.7119533114198
+        c: 6.397620331950154
+        gamma: 65.97808993946536
+        matrix:
+        - - -2.463113
+          - 2.463113
+          - 5.366162
+        - - 2.463113
+          - -2.463113
+          - 5.366162
+        - - 2.463113
+          - 2.463113
+          - -5.366162
+        volume: 130.22442353592749
+      sites:
+      - abc:
+        - 0.375
+        - 0.125
+        - 0.25
+        label: Zr
+        species:
+        - element: Zr
+          occu: 1
+        xyz:
+        - 0.0
+        - 1.2315565
+        - 1.3415405
+      - abc:
+        - 0.625
+        - 0.875
+        - 0.75
+        label: Zr
+        species:
+        - element: Zr
+          occu: 1
+        xyz:
+        - 2.463113
+        - 1.2315565
+        - 4.0246215
+      - abc:
+        - 0.875
+        - 0.625
+        - 0.25
+        label: Ge
+        species:
+        - element: Ge
+          occu: 1
+        xyz:
+        - 0.0
+        - 1.2315565
+        - 6.707702500000001
+      - abc:
+        - 0.125
+        - 0.375
+        - 0.75
+        label: Ge
+        species:
+        - element: Ge
+          occu: 1
+        xyz:
+        - 2.463113
+        - 1.2315565
+        - -1.3415405000000002
+      - abc:
+        - 0.690114
+        - 0.533888
+        - 0.810734
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 1.612127163404
+        - 2.38173174648
+        - 2.217663037416
+      - abc:
+        - 0.37938
+        - 0.190114
+        - 0.656225
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 1.1501727833669997
+        - 2.082539873483
+        - -0.4654125964219995
+      - abc:
+        - 0.033888
+        - 0.723155
+        - 0.843775
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 3.776055679746
+        - 0.38057066340400025
+        - -0.4654179625839996
+      - abc:
+        - 0.223155
+        - 0.87938
+        - 0.689266
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 3.3140963734830002
+        - 0.08138371663299981
+        - 2.217668403577999
+      - abc:
+        - 0.776845
+        - 0.12062
+        - 0.310734
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -0.850983373483
+        - 2.381729283367
+        - 3.1484935964220004
+      - abc:
+        - 0.966112
+        - 0.276845
+        - 0.156225
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -1.3129426797459998
+        - 2.0825423365959996
+        - 5.831579962584
+      - abc:
+        - 0.62062
+        - 0.809886
+        - 0.343775
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 1.3129402166330002
+        - 0.3805731265169999
+        - 5.831574596422
+      - abc:
+        - 0.309886
+        - 0.466112
+        - 0.189266
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 0.8509858365960001
+        - 0.08138125351999981
+        - 3.148498962584
+    vbm: 2.988
+  output_file_paths:
+    aeccar0: AECCAR0
+    aeccar1: AECCAR1
+    aeccar2: AECCAR2
+    chgcar: CHGCAR
+    procar: PROCAR
+    wavecar: WAVECAR
+  run_type: GGA
+  task:
+    name: standard
+    type: standard
+  vasp_version: 5.2.2
+chemsys: Ge-O-Zr
+completed_at: '2013-09-21 17:40:49'
+composition_reduced:
+  Ge: 1.0
+  O: 4.0
+  Zr: 1.0
+composition_unit_cell:
+  Ge: 2.0
+  O: 8.0
+  Zr: 2.0
+custodian:
+- corrections: []
+  job:
+    '@class': VaspJob
+    '@module': custodian.vasp.jobs
+    auto_gamma: true
+    auto_npar: false
+    backup: true
+    default_vasp_input_set:
+      '@class': DictVaspInputSet
+      '@module': pymatgen.io.vaspio_set
+      config_dict:
+        INCAR:
+          ALGO: FAST
+          EDIFF: 5.0e-05
+          ENCUT: 520
+          IBRION: 2
+          ICHARG: 1
+          ISIF: 3
+          ISMEAR: -5
+          ISPIN: 2
+          LDAU: true
+          LDAUJ:
+            F:
+              Ag: 0
+              Co: 0
+              Cr: 0
+              Cu: 0
+              Fe: 0
+              Mn: 0
+              Mo: 0
+              Nb: 0
+              Ni: 0
+              Re: 0
+              Ta: 0
+              V: 0
+              W: 0
+            O:
+              Ag: 0
+              Co: 0
+              Cr: 0
+              Cu: 0
+              Fe: 0
+              Mn: 0
+              Mo: 0
+              Nb: 0
+              Ni: 0
+              Re: 0
+              Ta: 0
+              V: 0
+              W: 0
+            S:
+              Fe: 0
+              Mn: 0
+          LDAUL:
+            F:
+              Ag: 2
+              Co: 2
+              Cr: 2
+              Cu: 2
+              Fe: 2
+              Mn: 2
+              Mo: 2
+              Nb: 2
+              Ni: 2
+              Re: 2
+              Ta: 2
+              V: 2
+              W: 2
+            O:
+              Ag: 2
+              Co: 2
+              Cr: 2
+              Cu: 2
+              Fe: 2
+              Mn: 2
+              Mo: 2
+              Nb: 2
+              Ni: 2
+              Re: 2
+              Ta: 2
+              V: 2
+              W: 2
+            S:
+              Fe: 2
+              Mn: 2.5
+          LDAUTYPE: 2
+          LDAUU:
+            F:
+              Ag: 1.5
+              Co: 3.4
+              Cr: 3.5
+              Cu: 4
+              Fe: 4.0
+              Mn: 3.9
+              Mo: 4.38
+              Nb: 1.5
+              Ni: 6
+              Re: 2
+              Ta: 2
+              V: 3.1
+              W: 4.0
+            O:
+              Ag: 1.5
+              Co: 3.4
+              Cr: 3.5
+              Cu: 4
+              Fe: 4.0
+              Mn: 3.9
+              Mo: 4.38
+              Nb: 1.5
+              Ni: 6
+              Re: 2
+              Ta: 2
+              V: 3.1
+              W: 4.0
+            S:
+              Fe: 1.9
+              Mn: 2.5
+          LORBIT: '11'
+          LREAL: AUTO
+          LWAVE: false
+          MAGMOM:
+            Co: 5
+            Co3+: 0.6
+            Co4+: 1
+            Cr: 5
+            Fe: 5
+            Fe2+: 4
+            Fe3+: 5
+            Fe4+: 4
+            Mn: 5
+            Mn2+: 5
+            Mn3+: 4
+            Mn4+: 3
+            Mo: 5
+            Ni: 2
+            Ni3+: 1
+            Ni4+: 0.6
+            Ta: 5
+            V: 5
+            W: 5
+          NELM: 100
+          NELMIN: 6
+          NPAR: 1
+          NSW: 99
+          PREC: Accurate
+          SIGMA: 0.05
+        KPOINTS:
+          grid_density: 1000
+        POTCAR:
+          Ac: Ac
+          Ag: Ag
+          Al: Al
+          Ar: Ar
+          As: As
+          Au: Au
+          B: B
+          Ba: Ba_sv
+          Be: Be
+          Bi: Bi
+          Br: Br
+          C: C
+          Ca: Ca_sv
+          Cd: Cd
+          Ce: Ce
+          Cl: Cl
+          Co: Co
+          Cr: Cr
+          Cs: Cs_sv
+          Cu: Cu
+          Dy: Dy_3
+          Er: Er_3
+          Eu: Eu
+          F: F
+          Fe: Fe
+          Ga: Ga
+          Gd: Gd
+          Ge: Ge
+          H: H
+          He: He
+          Hf: Hf
+          Hg: Hg
+          Ho: Ho_3
+          I: I
+          In: In
+          Ir: Ir
+          K: K_sv
+          Kr: Kr
+          La: La
+          Li: Li
+          Lu: Lu_3
+          Mg: Mg
+          Mn: Mn
+          Mo: Mo_pv
+          N: N
+          Na: Na
+          Nb: Nb_pv
+          Nd: Nd
+          Ne: Ne
+          Ni: Ni
+          Np: Np
+          O: O
+          Os: Os
+          P: P
+          Pa: Pa
+          Pb: Pb
+          Pd: Pd
+          Pm: Pm
+          Pr: Pr
+          Pt: Pt
+          Pu: Pu
+          Rb: Rb_pv
+          Re: Re
+          Rh: Rh
+          Ru: Ru_pv
+          S: S
+          Sb: Sb
+          Sc: Sc_sv
+          Se: Se
+          Si: Si
+          Sm: Sm_3
+          Sn: Sn_d
+          Sr: Sr_sv
+          Ta: Ta
+          Tb: Tb_3
+          Tc: Tc
+          Te: Te
+          Th: Th
+          Ti: Ti
+          Tl: Tl
+          Tm: Tm_3
+          U: U
+          V: V_pv
+          W: W_pv
+          Xe: Xe
+          Y: Y_sv
+          Yb: Yb
+          Zn: Zn
+          Zr: Zr
+      constrain_total_magmom: false
+      hubbard_off: false
+      name: MIT
+      sort_structure: true
+    final: true
+    gamma_vasp_cmd:
+    - mpirun
+    - -n
+    - '32'
+    - gvasp
+    gzipped: false
+    output_file: vasp.out
+    settings_override: null
+    suffix: ''
+    vasp_cmd:
+    - mpirun
+    - -n
+    - '32'
+    - vasp
+dir_name: mc0662.nersc.gov:/global/projecta/projectdirs/matgen/garden/block_2013-09-21-04-31-24-238403/launcher_2013-09-21-23-53-26-343997
+elements:
+- Ge
+- O
+- Zr
+formula_anonymous: ABC4
+formula_pretty: ZrGeO4
+formula_reduced_abc: Ge1 O4 Zr1
+input:
+  hubbards: {}
+  incar:
+    ALGO: Fast
+    EDIFF: 2.0e-06
+    EFIELD_PEAD:
+    - 0.0
+    - 0.0
+    - 0.0
+    ENCUT: 520.0
+    IBRION: -1
+    ICHARG: 0
+    ISIF: 3
+    ISMEAR: -5
+    ISPIN: 2
+    LAECHG: true
+    LCALCEPS: false
+    LCALCPOL: false
+    LCHARG: true
+    LEFG: false
+    LORBIT: false
+    LPEAD: false
+    LREAL: Auto
+    LWAVE: false
+    MAGMOM:
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    NELM: 100
+    NELMIN: 3
+    NSW: 0
+    PREC: accurate
+    SIGMA: 0.05
+    SYSTEM: 'Rubyvaspy :: o ge zr'
+  is_hubbard: false
+  is_lasph: false
+  parameters:
+    ADDGRID: false
+    AEXX: 0.0
+    AGGAC: 1.0
+    AGGAX: 1.0
+    ALDAC: 1.0
+    ALDAX: 1.0
+    AMIN: 0.1
+    AMIX: 0.4
+    AMIX_MAG: 1.6
+    ANTIRES: 0
+    APACO: 16.0
+    AVECCONST:
+    - 0.0
+    - 0.0
+    - 0.0
+    BMIX: 1.0
+    BMIX_MAG: 1.0
+    CSHIFT: 0.1
+    DEPER: 0.3
+    DIM: 3
+    DIPOL:
+    - -100.0
+    - -100.0
+    - -100.0
+    EBREAK: 1.0e-08
+    EDIFF: 2.0e-06
+    EDIFFG: 2.0e-05
+    EFERMI: 0.0
+    EFIELD: 0.0
+    EMAX: -10.0
+    EMIN: 10.0
+    ENAUG: 605.392
+    ENCUT4O: -1.0
+    ENCUTFOCK: 0.0
+    ENCUTGW: 346.66666667
+    ENCUTGWSOFT: -2.0
+    ENCUTLF: -1.0
+    ENINI: 520.0
+    ENMAX: 520.0
+    EPSILON: 1.0
+    EVENONLY: false
+    EVENONLYGW: false
+    EXXOEP: 0
+    FOURORBIT: 0
+    GGA: --
+    GGA_COMPAT: true
+    HFALPHA: 0.0
+    HFSCREEN: 0.0
+    HFSCREENC: 0.0
+    IALGO: 68
+    IBRION: -1
+    ICHARG: 0
+    ICORELEVEL: 0
+    IDIOT: 3
+    IDIPOL: 0
+    IMIX: 4
+    INIMIX: 1
+    INIWAV: 1
+    ISIF: 3
+    ISMEAR: -5
+    ISPIN: 2
+    ISTART: 0
+    ISYM: 2
+    IWAVPR: 10
+    I_CONSTRAINED_M: 0
+    KBLOCK: 1
+    KINTER: 0
+    L2ORDER: false
+    LASPH: false
+    LASYNC: false
+    LBERRY: false
+    LCHARG: true
+    LCHIMAG: false
+    LCOMPAT: false
+    LCORR: true
+    LDAU: false
+    LDIAG: true
+    LDIPOL: false
+    LELF: false
+    LEPSILON: false
+    LGAUGE: true
+    LGWLF: false
+    LHFCALC: false
+    LHFONE: false
+    LMAGBLOCH: false
+    LMAXFOCK: 0
+    LMAXMIX: 2
+    LMAXMP2: -1
+    LMAXPAW: -100
+    LMETAGGA: false
+    LMODELHF: false
+    LMONO: false
+    LMUSIC: false
+    LNABLA: false
+    LNONCOLLINEAR: false
+    LOPTICS: false
+    LORBIT: true
+    LPARD: false
+    LPLANE: true
+    LREAL: true
+    LREAL_COMPAT: false
+    LRHFCALC: false
+    LRPA: false
+    LSCAAWARE: false
+    LSCALAPACK: false
+    LSCALU: false
+    LSORBIT: false
+    LSPECTRAL: false
+    LSPIRAL: false
+    LTCTE: false
+    LTETE: false
+    LTHOMAS: false
+    LUSEW: false
+    LVEL: false
+    LVTOT: false
+    LWAVE: false
+    LZEROZ: false
+    MAGATOM: 0
+    MAGDIPOL:
+    - 0.0
+    - 0.0
+    - 0.0
+    MAGMOM:
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    MAXMEM: 1024
+    MAXMIX: -45
+    MIXPRE: 1
+    MODEL_ALPHA: 1.0
+    MODEL_EPS0: 6.51122118
+    MODEL_GW: 0
+    MREMOVE: 5
+    NBANDS: 64
+    NBANDSGW: -1
+    NBANDSLF: -1
+    NBLK: 32
+    NBLOCK: 1
+    NEDOS: 301
+    NELECT: 100.0
+    NELM: 100
+    NELMDL: -5
+    NELMIN: 3
+    NFREE: 0
+    NGX: 48
+    NGXF: 96
+    NGY: 48
+    NGYF: 96
+    NGZ: 48
+    NGZF: 96
+    NKREDLFX: 1
+    NKREDLFY: 1
+    NKREDLFZ: 1
+    NKREDX: 1
+    NKREDY: 1
+    NKREDZ: 1
+    NMAXFOCKAE: 0
+    NOMEGA: 0
+    NOMEGAR: 0
+    NPACO: 256
+    NPAR: 2
+    NRMM: 4
+    NSIM: 4
+    NSW: 0
+    NUPDOWN: -1.0
+    NWRITE: 2
+    ODDONLY: false
+    ODDONLYGW: false
+    OMEGAGRID: 0
+    OMEGAMAX: -1.0
+    OMEGATL: -200.0
+    ORBITALMAG: false
+    POMASS:
+    - 91.224
+    - 72.61
+    - 16.0
+    POTIM: 0.5
+    PREC: accura
+    PSTRESS: 0.0
+    QSPIRAL:
+    - 0.0
+    - 0.0
+    - 0.0
+    ROPT:
+    - -0.00025
+    - -0.00025
+    - -0.00025
+    RWIGS:
+    - -1.0
+    - -1.0
+    - -1.0
+    SAXIS:
+    - 0.0
+    - 0.0
+    - 1.0
+    SCISSOR: 0.0
+    SELFENERGY: false
+    SHIFTRED: false
+    SIGMA: 0.05
+    SMASS: -3.0
+    STM:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    SYMPREC: 1.0e-05
+    SYSTEM: 'Rubyvaspy :: o ge zr'
+    TEBEG: 0.0001
+    TEEND: 0.0001
+    TELESCOPE: 0
+    TIME: 0.4
+    VOSKOWN: 0
+    WC: 100.0
+    WEIMIN: 0.0
+  potcar_spec:
+  - hash: 82a385450ff5e8ee48d715cb73e01170
+    titel: PAW_PBE Zr_sv 07Sep2000
+  - hash: 648336e7599c2dd05b1ddacace0213eb
+    titel: PAW_PBE Ge_d 06Sep2000
+  - hash: 7a25bc5b9a5393f46600a4939d357982
+    titel: PAW_PBE O 08Apr2002
+  pseudo_potential:
+    functional: pbe
+    labels:
+    - Zr_sv
+    - Ge_d
+    - O
+    pot_type: paw
+  structure:
+    '@class': Structure
+    '@module': pymatgen.core.structure
+    lattice:
+      a: 6.397620331950154
+      alpha: 134.7119533114198
+      b: 6.397620331950154
+      beta: 134.7119533114198
+      c: 6.397620331950154
+      gamma: 65.97808993946536
+      matrix:
+      - - -2.463113
+        - 2.463113
+        - 5.366162
+      - - 2.463113
+        - -2.463113
+        - 5.366162
+      - - 2.463113
+        - 2.463113
+        - -5.366162
+      volume: 130.22442353592749
+    sites:
+    - abc:
+      - 0.375
+      - 0.125
+      - 0.25
+      label: Zr
+      species:
+      - element: Zr
+        occu: 1
+      xyz:
+      - 0.0
+      - 1.2315565
+      - 1.3415405
+    - abc:
+      - 0.625
+      - 0.875
+      - 0.75
+      label: Zr
+      species:
+      - element: Zr
+        occu: 1
+      xyz:
+      - 2.463113
+      - 1.2315565
+      - 4.0246215
+    - abc:
+      - 0.875
+      - 0.625
+      - 0.25
+      label: Ge
+      species:
+      - element: Ge
+        occu: 1
+      xyz:
+      - 0.0
+      - 1.2315565
+      - 6.707702500000001
+    - abc:
+      - 0.125
+      - 0.375
+      - 0.75
+      label: Ge
+      species:
+      - element: Ge
+        occu: 1
+      xyz:
+      - 2.463113
+      - 1.2315565
+      - -1.3415405000000002
+    - abc:
+      - 0.690114
+      - 0.533888
+      - 0.810734
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - 1.612127163404
+      - 2.38173174648
+      - 2.217663037416
+    - abc:
+      - 0.37938
+      - 0.190114
+      - 0.656225
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - 1.1501727833669997
+      - 2.082539873483
+      - -0.4654125964219995
+    - abc:
+      - 0.033888
+      - 0.723155
+      - 0.843775
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - 3.776055679746
+      - 0.38057066340400025
+      - -0.4654179625839996
+    - abc:
+      - 0.223155
+      - 0.87938
+      - 0.689266
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - 3.3140963734830002
+      - 0.08138371663299981
+      - 2.217668403577999
+    - abc:
+      - 0.776845
+      - 0.12062
+      - 0.310734
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -0.850983373483
+      - 2.381729283367
+      - 3.1484935964220004
+    - abc:
+      - 0.966112
+      - 0.276845
+      - 0.156225
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -1.3129426797459998
+      - 2.0825423365959996
+      - 5.831579962584
+    - abc:
+      - 0.62062
+      - 0.809886
+      - 0.343775
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - 1.3129402166330002
+      - 0.3805731265169999
+      - 5.831574596422
+    - abc:
+      - 0.309886
+      - 0.466112
+      - 0.189266
+      label: O
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - 0.8509858365960001
+      - 0.08138125351999981
+      - 3.148498962584
+  xc_override: null
+last_updated:
+  $date: 1508360539137
+nelements: 3
+nsites: 12
+orig_inputs:
+  incar:
+    '@class': Incar
+    '@module': pymatgen.io.vasp.inputs
+    ALGO: Fast
+    EDIFF: 2.0e-06
+    EFIELD_PEAD: 0.0 0.0 0.0
+    ENCUT: 520
+    IBRION: -1
+    ICHARG: 0
+    ISIF: 3
+    ISMEAR: -5
+    ISPIN: 2
+    LAECHG: true
+    LCALCEPS: false
+    LCALCPOL: false
+    LCHARG: true
+    LEFG: false
+    LMAXTAU: 0
+    LORBIT: 11
+    LPEAD: false
+    LREAL: Auto
+    LRHFATM: false
+    LVHAR: true
+    LWAVE: false
+    MAGMOM:
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.6
+    METAGGA: --
+    NELM: 100
+    NELMIN: 3
+    NPAR: 2
+    NSW: 0
+    PREC: Accurate
+    SIGMA: 0.05
+    SYSTEM: 'Rubyvaspy :: o ge zr'
+  kpoints:
+    '@class': Kpoints
+    '@module': pymatgen.io.vasp.inputs
+    comment: Automatic kpoint scheme
+    coord_type: null
+    generation_style: Gamma
+    kpoints:
+    - - 6
+      - 6
+      - 6
+    kpts_weights: null
+    labels: null
+    nkpoints: 0
+    tet_connections: null
+    tet_number: 0
+    tet_weight: 0
+    usershift:
+    - 0
+    - 0
+    - 0
+  poscar:
+    '@class': Poscar
+    '@module': pymatgen.io.vasp.inputs
+    comment: Zr2 Ge2 O8
+    predictor_corrector: null
+    selective_dynamics: null
+    structure:
+      '@class': Structure
+      '@module': pymatgen.core.structure
+      lattice:
+        a: 6.397620331950154
+        alpha: 134.7119533114198
+        b: 6.397620331950154
+        beta: 134.7119533114198
+        c: 6.397620331950154
+        gamma: 65.97808993946536
+        matrix:
+        - - -2.463113
+          - 2.463113
+          - 5.366162
+        - - 2.463113
+          - -2.463113
+          - 5.366162
+        - - 2.463113
+          - 2.463113
+          - -5.366162
+        volume: 130.22442353592749
+      sites:
+      - abc:
+        - 0.375
+        - 0.125
+        - 0.25
+        label: Zr
+        species:
+        - element: Zr
+          occu: 1
+        xyz:
+        - 0.0
+        - 1.2315565
+        - 1.3415405
+      - abc:
+        - 0.625
+        - 0.875
+        - 0.75
+        label: Zr
+        species:
+        - element: Zr
+          occu: 1
+        xyz:
+        - 2.463113
+        - 1.2315565
+        - 4.0246215
+      - abc:
+        - 0.875
+        - 0.625
+        - 0.25
+        label: Ge
+        species:
+        - element: Ge
+          occu: 1
+        xyz:
+        - 0.0
+        - 1.2315565
+        - 6.707702500000001
+      - abc:
+        - 0.125
+        - 0.375
+        - 0.75
+        label: Ge
+        species:
+        - element: Ge
+          occu: 1
+        xyz:
+        - 2.463113
+        - 1.2315565
+        - -1.3415405000000002
+      - abc:
+        - 0.690114
+        - 0.533888
+        - 0.810734
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 1.612127163404
+        - 2.38173174648
+        - 2.217663037416
+      - abc:
+        - 0.37938
+        - 0.190114
+        - 0.656225
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 1.1501727833669997
+        - 2.082539873483
+        - -0.4654125964219995
+      - abc:
+        - 0.033888
+        - 0.723155
+        - 0.843775
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 3.776055679746
+        - 0.38057066340400025
+        - -0.4654179625839996
+      - abc:
+        - 0.223155
+        - 0.87938
+        - 0.689266
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 3.3140963734830002
+        - 0.08138371663299981
+        - 2.217668403577999
+      - abc:
+        - 0.776845
+        - 0.12062
+        - 0.310734
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -0.850983373483
+        - 2.381729283367
+        - 3.1484935964220004
+      - abc:
+        - 0.966112
+        - 0.276845
+        - 0.156225
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - -1.3129426797459998
+        - 2.0825423365959996
+        - 5.831579962584
+      - abc:
+        - 0.62062
+        - 0.809886
+        - 0.343775
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 1.3129402166330002
+        - 0.3805731265169999
+        - 5.831574596422
+      - abc:
+        - 0.309886
+        - 0.466112
+        - 0.189266
+        label: O
+        species:
+        - element: O
+          occu: 1
+        xyz:
+        - 0.8509858365960001
+        - 0.08138125351999981
+        - 3.148498962584
+    true_names: true
+    velocities: null
+  potcar:
+    '@class': Potcar
+    '@module': pymatgen.io.vasp.inputs
+    functional: PBE
+    symbols:
+    - Zr_sv
+    - Ge_d
+    - O
+output:
+  bandgap: 3.7594999999999996
+  cbm: 6.7475
+  density: 5.811092454749473
+  energy: -95.99142906
+  energy_per_atom: -7.999285755
+  is_gap_direct: false
+  is_metal: false
+  spacegroup:
+    crystal_system: tetragonal
+    hall: I 4bw -1bw
+    number: 88
+    point_group: 4/m
+    source: spglib
+    symbol: I4_1/a
+  structure:
+    '@class': Structure
+    '@module': pymatgen.core.structure
+    lattice:
+      a: 6.397620331950154
+      alpha: 134.7119533114198
+      b: 6.397620331950154
+      beta: 134.7119533114198
+      c: 6.397620331950154
+      gamma: 65.97808993946536
+      matrix:
+      - - -2.463113
+        - 2.463113
+        - 5.366162
+      - - 2.463113
+        - -2.463113
+        - 5.366162
+      - - 2.463113
+        - 2.463113
+        - -5.366162
+      volume: 130.22442353592749
+    sites:
+    - abc:
+      - 0.375
+      - 0.125
+      - 0.25
+      label: Zr
+      properties:
+        magmom: 0.0
+      species:
+      - element: Zr
+        occu: 1
+      xyz:
+      - 0.0
+      - 1.2315565
+      - 1.3415405
+    - abc:
+      - 0.625
+      - 0.875
+      - 0.75
+      label: Zr
+      properties:
+        magmom: 0.0
+      species:
+      - element: Zr
+        occu: 1
+      xyz:
+      - 2.463113
+      - 1.2315565
+      - 4.0246215
+    - abc:
+      - 0.875
+      - 0.625
+      - 0.25
+      label: Ge
+      properties:
+        magmom: 0.0
+      species:
+      - element: Ge
+        occu: 1
+      xyz:
+      - 0.0
+      - 1.2315565
+      - 6.707702500000001
+    - abc:
+      - 0.125
+      - 0.375
+      - 0.75
+      label: Ge
+      properties:
+        magmom: 0.0
+      species:
+      - element: Ge
+        occu: 1
+      xyz:
+      - 2.463113
+      - 1.2315565
+      - -1.3415405000000002
+    - abc:
+      - 0.690114
+      - 0.533888
+      - 0.810734
+      label: O
+      properties:
+        magmom: 0.0
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - 1.612127163404
+      - 2.38173174648
+      - 2.217663037416
+    - abc:
+      - 0.37938
+      - 0.190114
+      - 0.656225
+      label: O
+      properties:
+        magmom: 0.0
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - 1.1501727833669997
+      - 2.082539873483
+      - -0.4654125964219995
+    - abc:
+      - 0.033888
+      - 0.723155
+      - 0.843775
+      label: O
+      properties:
+        magmom: 0.0
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - 3.776055679746
+      - 0.38057066340400025
+      - -0.4654179625839996
+    - abc:
+      - 0.223155
+      - 0.87938
+      - 0.689266
+      label: O
+      properties:
+        magmom: 0.0
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - 3.3140963734830002
+      - 0.08138371663299981
+      - 2.217668403577999
+    - abc:
+      - 0.776845
+      - 0.12062
+      - 0.310734
+      label: O
+      properties:
+        magmom: 0.0
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -0.850983373483
+      - 2.381729283367
+      - 3.1484935964220004
+    - abc:
+      - 0.966112
+      - 0.276845
+      - 0.156225
+      label: O
+      properties:
+        magmom: 0.0
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - -1.3129426797459998
+      - 2.0825423365959996
+      - 5.831579962584
+    - abc:
+      - 0.62062
+      - 0.809886
+      - 0.343775
+      label: O
+      properties:
+        magmom: 0.0
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - 1.3129402166330002
+      - 0.3805731265169999
+      - 5.831574596422
+    - abc:
+      - 0.309886
+      - 0.466112
+      - 0.189266
+      label: O
+      properties:
+        magmom: 0.0
+      species:
+      - element: O
+        occu: 1
+      xyz:
+      - 0.8509858365960001
+      - 0.08138125351999981
+      - 3.148498962584
+  vbm: 2.988
+run_stats:
+  overall:
+    Elapsed time (sec): 570.458
+    System time (sec): 17.517
+    Total CPU time used (sec): 566.334
+    User time (sec): 548.817
+  standard:
+    Average memory used (kb): 0.0
+    Elapsed time (sec): 570.458
+    Maximum memory used (kb): 93468.0
+    System time (sec): 17.517
+    Total CPU time used (sec): 566.334
+    User time (sec): 548.817
+    cores: '32'
+schema:
+  code: atomate
+  version: 0.2
+state: successful
+task_id: mp-656655
+task_type: GGA Static
+transformations: {}
