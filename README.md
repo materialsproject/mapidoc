@@ -124,6 +124,8 @@ r = requests.post('https://materialsproject.org/rest/v2/query',
 response_content = r.json() # a dict
 ```
 
+Using another language, e.g. MATLAB? See [this MP discussion forum thread](https://discuss.materialsproject.org/t/http400-when-making-post-query-via-matlab/2431) for more guidance. In particular, you need to treat "criteria" and "properties" as fields whose data are JSON-serialized strings.
+
 ## Tips for efficient querying
 
 Try to minimize the scope of the properties you are requesting. For example,
