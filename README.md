@@ -41,7 +41,7 @@ and pymatgen already provides useful high-level functions for them.
     from pymatgen import MPRester
     m = MPRester()
     data = m.query(criteria={"task_id": "mp-1234"}, properties=["final_energy"])
-    print data
+    print(data)
     ```
 
    The data obtained is then `[{u'final_energy': -26.94736193}]`. Note that the
@@ -88,8 +88,8 @@ be possible using the other simpler REST forms. For example, a POST to query
 with parameters
 
 ```javascript
-criteria='{"elements":{"$in":["Li", "Na", "K"], "$all": ["O"]}, "nelements":2}'
-properties='["formula", "formation_energy_per_atom"]'
+criteria = '{"elements":{"$in":["Li", "Na", "K"], "$all": ["O"]}, "nelements":2}'
+properties ='["formula", "formation_energy_per_atom"]'
 ```
 
 will return the formula and formation energy per atom of all Li, Na and K
