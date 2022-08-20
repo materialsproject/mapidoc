@@ -1,4 +1,15 @@
-# Introduction
+# Important Notice
+
+**The Materials Project API is changing.** For the latest information, consult the Materials
+Project documentation at https://docs.materialsproject.org and
+[this page](https://docs.materialsproject.org/downloading-data/differences-between-new-and-legacy-api)
+specifically to read more about the differences between the new and legacy APIs.
+
+This repository is archived and is no longer being updated.
+
+---
+
+## Introduction
 
 This is the public repo for the documentation of the Materials API. The 
 Materials API is a simple, flexible and efficient interface to programmatically
@@ -9,7 +20,7 @@ Project’s de facto platform for data access, supporting not only the Materials
 Project’s many collaborative efforts but also enabling new applications and
 analyses.
 
-# Example notebooks
+## Example notebooks
 
 We have added a few example ipython notebooks demonstrating the features of 
 the  Materials API. The NB Viewer version is at this
@@ -17,7 +28,7 @@ the  Materials API. The NB Viewer version is at this
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/materialsproject/mapidoc)
 
-# Using this repo
+## Using this repo
 
 The usage of this repo follows a REST format. The primary use of this repo is
 to  explore the Materials Project's document format and use that info for much 
@@ -126,7 +137,7 @@ response_content = r.json() # a dict
 
 Using another language, e.g. MATLAB? See [this MP discussion forum thread](https://discuss.materialsproject.org/t/http400-when-making-post-query-via-matlab/2431) for more guidance. In particular, you need to treat "criteria" and "properties" as fields whose data are JSON-serialized strings.
 
-## Tips for efficient querying
+### Tips for efficient querying
 
 Try to minimize the scope of the properties you are requesting. For example,
 if you are only interested in the XRD pattern for Cu K<sub>&#945;</sub>,
@@ -134,7 +145,7 @@ do not just use `properties=["xrd"]` which will fetch the computed XRD
 patterns for all wavelengths. This results in a larger data transfer and slow
 queries. Instead, use `properties=["xrd.Cu"]`.
 
-# Searching for properties
+## Searching for properties
 
 You can use Github's built-in search box at the top to search this repository
 for text that matches your query. For example, you can try searching for the
@@ -146,7 +157,7 @@ structure, you can also use the
 [quick finder](https://github.com/materialsproject/mapidoc/find/master)
 (keyboard shortcut: <kbd>t</kbd>) to interactively explore the structure.
 
-# Contributing
+## Contributing
 
 The initial version of this documentation is brought to you by the Materials
 Project development team. But it is our hope that others can contribute as well,
@@ -154,7 +165,7 @@ either by cloning and editing this documentation (and sending pull requests)
 or just by informing us of any errors or omissions in the doc (e.g., by using
 the "Issues" tab).
 
-# Citing the Materials API
+## Citing the Materials API
 
 If you use the Materials API extensively, you may wish to cite the following 
 [publication](http://dx.doi.org/10.1016/j.commatsci.2014.10.037).
